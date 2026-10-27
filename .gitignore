@@ -3,4 +3,11 @@ __pycache__/
 *.py[cod]
 .DS_Store
 Thumbs.db
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+.ipynb_checkpoints/
+.pytest_cache/
 # Preserve the supplied open data; remove this rule only if instructor asks you not to commit it.
