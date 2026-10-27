@@ -1,0 +1,38 @@
+SOSYAL AG ANALIZI — TESLIM ON KONTROLU
+Bu rapor otomatik dosya/mevcut yöntem kontrolüdür; öğretim elemanı onayı yerine geçmez.
+
+DOSYA KONTROLLERİ
+[OK] Rapor PDF (6-10 sayfa): outputs/rapor_TASLAK.pdf
+[OK] A3 poster PDF: outputs/ag_posteri_A3_TASLAK.pdf
+[OK] Sunum PowerPoint (8-10 slayt): outputs/sunum_TASLAK.pptx
+[OK] Sunum PDF (yönergede isteniyor): outputs/sunum_TASLAK.pdf
+[OK] GraphML ağ: outputs/istanbul_rail_2025.graphml
+[OK] Düğüm CSV: outputs/nodes.csv
+[OK] Kenar CSV: outputs/edges.csv
+[OK] Merkeziyet CSV: outputs/centrality_and_communities.csv
+[OK] Null model sonuçları: outputs/null_model_results.csv
+[OK] Analiz özeti: outputs/analysis_summary.json
+[OK] Etkileşimli ağ HTML: web/interactive_network.html
+[OK] Jupyter defteri: notebooks/01_network_analysis.ipynb
+[OK] Veri sözlüğü: docs/data_dictionary.csv
+[OK] Topoloji doğrulama listesi: docs/topology_validation.csv
+[OK] Açık aktarma kenarları: topology/transfer_edges.csv
+
+ANALIZ DURUMU
+Düğüm sayısı: 269
+Kenar sayısı: 289
+Kaynak kayıt eşleşme oranı (%): 98.92
+Louvain: 20 topluluk; modülerlik=0.813081576007777
+Leiden durumu: not calculated: ModuleNotFoundError: No module named 'igraph'
+Power-law durumu: not calculated
+Sunum PDF güncelliği: dosya mevcut ve PPTX ile güncellik açısından çelişki tespit edilmedi
+
+TESLIM ONCESI INSAN / HOCAYA BAGLI KONTROLLER
+[!] Yönergedeki en az 500 düğüm şartı için öğretim elemanından kapsam açıklaması alınmalı. Fiziksel istasyon olmayan düğümler uydurulmamalı.
+[!] Kaynak istasyon adları, aliaslar ve aktarma kenarları docs/topology_validation.csv, topology/transfer_edges.csv, data/processed/station_alias_review.csv üzerinden insan tarafından gözden geçirilmeli.
+[!] Bu veri setinde başlangıç-varış (OD) matrisi yoktur. Kenar ağırlığı yolcu aktivitesi vekilidir; gerçek yolcu akışının kaydığı iddia edilmemeli.
+[!] Veri setinin resmî lisans/atıf metaverisi portal kaydından doğrulanmalı.
+[!] HTML etkileşimi tarayıcıda test edilmeli; CDN kullanıyorsa internet bağlantısı gerekir.
+[!] Slaytlar 8–10 adet olmalı ve öğrenci tüm ölçüleri kendi cümleleriyle açıklayabilmeli.
+
+SONUC: Dosyalar mevcutsa bile bu çalışma otomatik olarak “teslime hazır / %100” demez.

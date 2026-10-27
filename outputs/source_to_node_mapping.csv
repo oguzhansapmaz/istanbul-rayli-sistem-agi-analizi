@@ -1,0 +1,289 @@
+﻿line,station_canonical,node_key,records
+F1-TAKSIM-KABATAS FUNIKILER HATTI,Kabataş,X:Kabataş,361
+F1-TAKSIM-KABATAS FUNIKILER HATTI,Taksim,X:Taksim,361
+F4 RUMELI HISARUSTU -ASIYAN,Aşiyan,F4:aşiyan,365
+F4 RUMELI HISARUSTU -ASIYAN,Boğaziçi Üniversitesi/Hisarüstü,X:Hisarüstü,365
+IETT TUNEL,Beyoğlu,X:Şişhane-Tünel,351
+IETT TUNEL,Karaköy,X:Karaköy,351
+M1-YENIKAPI-HAVALIMANI,Aksaray,X:Aksaray,730
+M1-YENIKAPI-HAVALIMANI,Ataköy,M1:ataköy-şirinevler (m1),365
+M1-YENIKAPI-HAVALIMANI,Atatürk Havalimanı,M1:atatürk havalimanı,365
+M1-YENIKAPI-HAVALIMANI,Bahçelievler,M1:bahçelievler,365
+M1-YENIKAPI-HAVALIMANI,Bakırköy,X:İncirli,365
+M1-YENIKAPI-HAVALIMANI,Bayrampaşa-Maltepe,M1:bayrampaşa-maltepe,365
+M1-YENIKAPI-HAVALIMANI,Bağcılar Meydan,X:Bağcılar,365
+M1-YENIKAPI-HAVALIMANI,DTM-İstanbul Fuar Merkezi,M1:dtm-istanbul fuar merkezi,365
+M1-YENIKAPI-HAVALIMANI,Davutpaşa-YTÜ,M1:davutpaşa-ytü,365
+M1-YENIKAPI-HAVALIMANI,Emniyet-Fatih,M1:emniyet-fatih,361
+M1-YENIKAPI-HAVALIMANI,Esenler,M1:esenler,365
+M1-YENIKAPI-HAVALIMANI,Kartaltepe-Kocatepe,M1:kartaltepe-kocatepe,365
+M1-YENIKAPI-HAVALIMANI,Kirazlı,X:Kirazlı,365
+M1-YENIKAPI-HAVALIMANI,Menderes,M1:menderes,365
+M1-YENIKAPI-HAVALIMANI,Merter,M1:merter,365
+M1-YENIKAPI-HAVALIMANI,Otogar,M1:otogar,730
+M1-YENIKAPI-HAVALIMANI,Sağmalcılar,M1:sağmalcılar,365
+M1-YENIKAPI-HAVALIMANI,Terazidere,M1:terazidere,365
+M1-YENIKAPI-HAVALIMANI,Topkapı-Ulubatlı,X:Vatan-M1,365
+M1-YENIKAPI-HAVALIMANI,Yenibosna,X:Yenibosna,730
+M1-YENIKAPI-HAVALIMANI,Yenikapı,X:Yenikapı,365
+M1-YENIKAPI-HAVALIMANI,Zeytinburnu,X:Zeytinburnu,365
+M1-YENIKAPI-HAVALIMANI,Üçyüzlü,M1:üçyüzlü,365
+M2-YENIKAPI-HACIOSMAN,4. Levent,M2:4. levent,730
+M2-YENIKAPI-HACIOSMAN,Atatürk Oto Sanayi,M2:atatürk oto sanayi,730
+M2-YENIKAPI-HACIOSMAN,Darüşşafaka,M2:darüşşafaka,365
+M2-YENIKAPI-HACIOSMAN,Gayrettepe,X:Gayrettepe,519
+M2-YENIKAPI-HACIOSMAN,Hacıosman,M2:hacıosman,365
+M2-YENIKAPI-HACIOSMAN,Haliç,M2:haliç,730
+M2-YENIKAPI-HACIOSMAN,Levent,X:Levent,730
+M2-YENIKAPI-HACIOSMAN,Osmanbey,M2:osmanbey,730
+M2-YENIKAPI-HACIOSMAN,Sanayi Mahallesi,M2:sanayi mahallesi,730
+M2-YENIKAPI-HACIOSMAN,Seyrantepe,X:Seyrantepe,1095
+M2-YENIKAPI-HACIOSMAN,Taksim,X:Taksim,362
+M2-YENIKAPI-HACIOSMAN,Vezneciler-İstanbul Üniversitesi,M2:vezneciler-istanbul üniversitesi,729
+M2-YENIKAPI-HACIOSMAN,Yenikapı,X:Yenikapı,730
+M2-YENIKAPI-HACIOSMAN,İTÜ-Ayazağa,M2:itü-ayazağa,730
+M2-YENIKAPI-HACIOSMAN,Şişhane,X:Şişhane-Tünel,730
+M2-YENIKAPI-HACIOSMAN,Şişli-Mecidiyeköy,X:Mecidiyeköy,730
+M3-BASAKSEHIR-OLIMPIYATKOY,Bakırköy İdo,M3:bakırköy sahil,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Başak Konutları,M3:başak konutları,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Haznedar,M3:haznedar,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Kayaşehir Merkez,M3:kayaşehir merkez,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Kirazlı,X:Kirazlı,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Mahmutbey,X:Mahmutbey,2190
+M3-BASAKSEHIR-OLIMPIYATKOY,Metrokent,M3:başakşehir-metrokent,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Molla Gürani,M3:molla gürani,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Onurkent,M3:onurkent,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Siteler,M3:siteler,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Toplu Konutlar,M3:toplu konutlar,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Turgut Özal,M3:turgut özal,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Yenimahalle,M3:yenimahalle,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Yıldıztepe,M3:yıldıztepe,87
+M3-BASAKSEHIR-OLIMPIYATKOY,Özgürlük Meydanı,M3:özgürlük meydanı,492
+M3-BASAKSEHIR-OLIMPIYATKOY,İkitelli Sanayi,X:İkitelli Sanayi,365
+M3-BASAKSEHIR-OLIMPIYATKOY,İlkyuva,M3:ilkyuva,365
+M3-BASAKSEHIR-OLIMPIYATKOY,İncirli,X:İncirli,365
+M3-BASAKSEHIR-OLIMPIYATKOY,İstoç,M3:istoç,365
+M3-BASAKSEHIR-OLIMPIYATKOY,Şehir Hastanesi,M3:şehir hastanesi,365
+M4-KADIKOY-TAVSANTEPE,Acıbadem,M4:acıbadem,730
+M4-KADIKOY-TAVSANTEPE,Ayrılık Çeşmesi,X:Ayrılık Çeşmesi,365
+M4-KADIKOY-TAVSANTEPE,Bostancı,X:Bostancı,1095
+M4-KADIKOY-TAVSANTEPE,Esenkent,M4:esenkent,365
+M4-KADIKOY-TAVSANTEPE,Fevzi Çakmak,M4:fevzi çakmak,365
+M4-KADIKOY-TAVSANTEPE,Göztepe,M4:göztepe,365
+M4-KADIKOY-TAVSANTEPE,Gülsuyu,M4:gülsuyu,365
+M4-KADIKOY-TAVSANTEPE,Hastane-Adliye,M4:hastane-adliye,730
+M4-KADIKOY-TAVSANTEPE,Huzurevi,M4:huzurevi,365
+M4-KADIKOY-TAVSANTEPE,Kadıköy,X:Kadıköy,730
+M4-KADIKOY-TAVSANTEPE,Kartal,M4:kartal,730
+M4-KADIKOY-TAVSANTEPE,Kozyatağı,X:Kozyatağı,365
+M4-KADIKOY-TAVSANTEPE,Kurtköy,M4:kurtköy,365
+M4-KADIKOY-TAVSANTEPE,Küçükyalı,M4:küçükyalı,365
+M4-KADIKOY-TAVSANTEPE,Maltepe,M4:maltepe,365
+M4-KADIKOY-TAVSANTEPE,Pendik,M4:pendik,730
+M4-KADIKOY-TAVSANTEPE,Sabiha Gökçen Havalimanı,M4:sabiha gökçen havalimanı,365
+M4-KADIKOY-TAVSANTEPE,Soğanlık,M4:soğanlık,365
+M4-KADIKOY-TAVSANTEPE,Tavşantepe,M4:tavşantepe,730
+M4-KADIKOY-TAVSANTEPE,Yakacık-Adnan Kahveci,M4:yakacık-adnan kahveci,730
+M4-KADIKOY-TAVSANTEPE,Yayalar,M4:yayalar,365
+M4-KADIKOY-TAVSANTEPE,Yenisahra,M4:yenisahra,365
+M4-KADIKOY-TAVSANTEPE,Ünalan,M4:ünalan,365
+M5-USKUDAR CEKMEKOY METROSU,Altunizade,M5:altunizade,730
+M5-USKUDAR CEKMEKOY METROSU,Altınşehir,M5:altınşehir,365
+M5-USKUDAR CEKMEKOY METROSU,Bağlarbaşı,M5:bağlarbaşı,365
+M5-USKUDAR CEKMEKOY METROSU,Bulgurlu,M5:bulgurlu,365
+M5-USKUDAR CEKMEKOY METROSU,Dudullu,X:Dudullu,365
+M5-USKUDAR CEKMEKOY METROSU,Fıstıkağacı,M5:fıstıkağacı,365
+M5-USKUDAR CEKMEKOY METROSU,Ihlamurkuyu,M5:ıhlamurkuyu,365
+M5-USKUDAR CEKMEKOY METROSU,Kısıklı,M5:kısıklı,365
+M5-USKUDAR CEKMEKOY METROSU,Meclis,M5:meclis,365
+M5-USKUDAR CEKMEKOY METROSU,Necip Fazıl,M5:necip fazıl,365
+M5-USKUDAR CEKMEKOY METROSU,Samandıra Merkez,M5:samandıra merkez,437
+M5-USKUDAR CEKMEKOY METROSU,Sancaktepe,M5:sancaktepe,365
+M5-USKUDAR CEKMEKOY METROSU,Sarıgazi,M5:sarıgazi,365
+M5-USKUDAR CEKMEKOY METROSU,Yamanevler,M5:yamanevler,365
+M5-USKUDAR CEKMEKOY METROSU,Çakmak,M5:çakmak,365
+M5-USKUDAR CEKMEKOY METROSU,Çarşı,M5:çarşı,365
+M5-USKUDAR CEKMEKOY METROSU,Çekmeköy,M5:çekmeköy,730
+M5-USKUDAR CEKMEKOY METROSU,Ümraniye,M5:ümraniye,365
+M5-USKUDAR CEKMEKOY METROSU,Üsküdar,X:Üsküdar,1096
+M5-USKUDAR CEKMEKOY METROSU,İmam Hatip Lisesi,M5:imam hatip lisesi,365
+M6-LEVENT - RUMELI HISARUSTU,Boğaziçi Üniversitesi/Hisarüstü,X:Hisarüstü,365
+M6-LEVENT - RUMELI HISARUSTU,Etiler,M6:etiler,365
+M6-LEVENT - RUMELI HISARUSTU,Levent,X:Levent,730
+M6-LEVENT - RUMELI HISARUSTU,Nispetiye,M6:nispetiye,365
+M7-KABATAS-MAHMUTBEY,Alibeyköy Metro,X:Alibeyköy,1095
+M7-KABATAS-MAHMUTBEY,Fulya,M7:fulya,365
+M7-KABATAS-MAHMUTBEY,Göztepe (M7),M7:göztepe (m7),730
+M7-KABATAS-MAHMUTBEY,Karadeniz Mahallesi,X:Kiptaş-Venezia,730
+M7-KABATAS-MAHMUTBEY,Kazım Karabekir,M7:kazım karabekir,416
+M7-KABATAS-MAHMUTBEY,Kağıthane,X:Kağıthane,730
+M7-KABATAS-MAHMUTBEY,Mahmutbey,X:Mahmutbey,2555
+M7-KABATAS-MAHMUTBEY,Nurtepe,M7:nurtepe,730
+M7-KABATAS-MAHMUTBEY,Oruç Reis,M7:oruç reis,730
+M7-KABATAS-MAHMUTBEY,Tekstilkent-Giyimkent,M7:tekstilkent-giyimkent,365
+M7-KABATAS-MAHMUTBEY,Veysel Karani-Akşemsettin,M7:veysel karani-akşemsettin,730
+M7-KABATAS-MAHMUTBEY,YENİMAHALLE,M7:yenimahalle,365
+M7-KABATAS-MAHMUTBEY,YEŞİLPINAR,M7:yeşilpınar,365
+M7-KABATAS-MAHMUTBEY,Yıldız,M7:yıldız,729
+M7-KABATAS-MAHMUTBEY,Çağlayan,M7:çağlayan,726
+M7-KABATAS-MAHMUTBEY,Çırçır,M7:çırçır,1095
+M7-KABATAS-MAHMUTBEY,Şişli-Mecidiyeköy,X:Mecidiyeköy,729
+M8 DUDULLU - BOSTANCI,Ayşekadın,M8:ayşekadın,365
+M8 DUDULLU - BOSTANCI,BOSTANCI,X:Bostancı,365
+M8 DUDULLU - BOSTANCI,DUDULLU,X:Dudullu,730
+M8 DUDULLU - BOSTANCI,EMİN ALİ PAŞA,M8:emin ali paşa,365
+M8 DUDULLU - BOSTANCI,HUZUR,M8:huzur (m8),365
+M8 DUDULLU - BOSTANCI,KAYIŞDAĞI,M8:kayışdağı,365
+M8 DUDULLU - BOSTANCI,KOZYATAĞI,X:Kozyatağı,365
+M8 DUDULLU - BOSTANCI,KÜÇÜKBAKKALKÖY,M8:küçükbakkalköy,365
+M8 DUDULLU - BOSTANCI,MEVLANA,M8:mevlana,365
+M8 DUDULLU - BOSTANCI,MODOKO-KEYAP,M8:modoko-keyap,365
+M8 DUDULLU - BOSTANCI,PARSELLER,M8:parseller,365
+M8 DUDULLU - BOSTANCI,İMES,M8:imes,365
+M8 DUDULLU - BOSTANCI,İÇERENKÖY,M8:içerenköy,365
+M9 ATAKOY-IKITELLI METRO,15 Temmuz,M9:15 temmuz,365
+M9 ATAKOY-IKITELLI METRO,29 Ekim Cumhuriyet,M9:29 ekim cumhuriyet,365
+M9 ATAKOY-IKITELLI METRO,ATAKÖY,M9:ataköy (m9),365
+M9 ATAKOY-IKITELLI METRO,Atatürk Mahallesi,M9:atatürk mahallesi,365
+M9 ATAKOY-IKITELLI METRO,BAHARİYE,M9:bahariye,365
+M9 ATAKOY-IKITELLI METRO,DOĞU SANAYİ,M9:doğu sanayi,365
+M9 ATAKOY-IKITELLI METRO,Halkalı (M9),M9:halkalı caddesi,730
+M9 ATAKOY-IKITELLI METRO,MASKO,M9:masko,365
+M9 ATAKOY-IKITELLI METRO,MİMAR SİNAN,M9:mimar sinan,365
+M9 ATAKOY-IKITELLI METRO,Olimpiyat,M9:olimpiyat,378
+M9 ATAKOY-IKITELLI METRO,YENİBOSNA,X:Yenibosna,365
+M9 ATAKOY-IKITELLI METRO,Ziya Gökalp Mahallesi,M9:ziya gökalp mahallesi,365
+M9 ATAKOY-IKITELLI METRO,ÇOBANÇEŞME,M9:çobançeşme,365
+M9 ATAKOY-IKITELLI METRO,İkitelli Sanayi,X:İkitelli Sanayi,365
+T1-KABATAS-BAGCILAR,Aksaray,X:Aksaray,365
+T1-KABATAS-BAGCILAR,Akıncılar,T1:akıncılar,365
+T1-KABATAS-BAGCILAR,Akşemsettin,T1:seyitnizam-akşemsettin,365
+T1-KABATAS-BAGCILAR,Atatürk Öğrenci Yurdu,T1:cevizlibağ-aöy,365
+T1-KABATAS-BAGCILAR,Bağcılar,X:Bağcılar,365
+T1-KABATAS-BAGCILAR,Beyazıt,T1:beyazıt-kapalıçarşı,365
+T1-KABATAS-BAGCILAR,Eminönü,X:Eminönü,365
+T1-KABATAS-BAGCILAR,Fındıklı,T1:fındıklı-mimar sinan ü.,365
+T1-KABATAS-BAGCILAR,Fındıkzade,T1:fındıkzade,365
+T1-KABATAS-BAGCILAR,Gülhane,T1:gülhane,365
+T1-KABATAS-BAGCILAR,Güneştepe,T1:güneştepe,365
+T1-KABATAS-BAGCILAR,Güngören,T1:güngören,365
+T1-KABATAS-BAGCILAR,Haseki,T1:haseki,365
+T1-KABATAS-BAGCILAR,Kabataş,X:Kabataş,725
+T1-KABATAS-BAGCILAR,Karaköy,X:Karaköy,365
+T1-KABATAS-BAGCILAR,Laleli,T1:laleli-istanbul ü.,365
+T1-KABATAS-BAGCILAR,Mehmet Akif,T1:mehmet akif,365
+T1-KABATAS-BAGCILAR,Merkezefendi,T1:merkezefendi,365
+T1-KABATAS-BAGCILAR,Mithatpaşa,T1:mithatpaşa,730
+T1-KABATAS-BAGCILAR,Pazartekke,T1:pazartekke,365
+T1-KABATAS-BAGCILAR,Sirkeci,X:Sirkeci,365
+T1-KABATAS-BAGCILAR,Soğanlı,T1:soğanlı,365
+T1-KABATAS-BAGCILAR,Sultanahmet,T1:sultanahmet,365
+T1-KABATAS-BAGCILAR,Tophane,T1:tophane,365
+T1-KABATAS-BAGCILAR,Topkapı,X:Topkapı,365
+T1-KABATAS-BAGCILAR,Yusufpaşa,T1:yusufpaşa,365
+T1-KABATAS-BAGCILAR,Zeytinburnu,X:Zeytinburnu,730
+T1-KABATAS-BAGCILAR,Çapa,T1:çapa-şehremini,365
+T1-KABATAS-BAGCILAR,Çemberlitaş,T1:çemberlitaş,365
+T4-TOPKAPI-MESCID-I SELAM,Ali Fuat Başgil,T4:ali fuat başgil,365
+T4-TOPKAPI-MESCID-I SELAM,Baştabya,T4:baştabya,365
+T4-TOPKAPI-MESCID-I SELAM,Bereç,T4:bereç,365
+T4-TOPKAPI-MESCID-I SELAM,Cebeci,T4:cebeci,365
+T4-TOPKAPI-MESCID-I SELAM,Cumhuriyet,T4:cumhuriyet,365
+T4-TOPKAPI-MESCID-I SELAM,Demirkapı,T4:demirkapı,365
+T4-TOPKAPI-MESCID-I SELAM,Edirnekapı,T4:edirnekapı,365
+T4-TOPKAPI-MESCID-I SELAM,Fetihkapı,T4:fetihkapı,365
+T4-TOPKAPI-MESCID-I SELAM,Hacı Şükrü,T4:hacı şükrü,365
+T4-TOPKAPI-MESCID-I SELAM,Karadeniz Mahallesi,T4:karadeniz mahallesi,365
+T4-TOPKAPI-MESCID-I SELAM,Kiptaş Venezia,X:Kiptaş-Venezia,730
+T4-TOPKAPI-MESCID-I SELAM,Mescidi Selam,T4:mescidi selam,365
+T4-TOPKAPI-MESCID-I SELAM,Rami,T4:rami,365
+T4-TOPKAPI-MESCID-I SELAM,Sağmalcılar,T4:sağmalcılar,365
+T4-TOPKAPI-MESCID-I SELAM,Sultançiftliği,T4:sultançiftliği,365
+T4-TOPKAPI-MESCID-I SELAM,Taşköprü,T4:taşköprü,365
+T4-TOPKAPI-MESCID-I SELAM,Topkapı,X:Topkapı,365
+T4-TOPKAPI-MESCID-I SELAM,Topçular,T4:topçular,365
+T4-TOPKAPI-MESCID-I SELAM,Vatan,X:Vatan-M1,365
+T4-TOPKAPI-MESCID-I SELAM,Yenimahalle,T4:yenimahalle,730
+T4-TOPKAPI-MESCID-I SELAM,Çukurçeşme,T4:çukurçeşme,365
+T4-TOPKAPI-MESCID-I SELAM,Şehitlik,T4:şehitlik,365
+T5 EMINONU-ALIBEYKOY,Alibeyköy,T5:alibeyköy,365
+T5 EMINONU-ALIBEYKOY,Alibeyköy Metro,X:Alibeyköy,365
+T5 EMINONU-ALIBEYKOY,Ayvansaray,T5:ayvansaray,365
+T5 EMINONU-ALIBEYKOY,Balat,T5:balat,365
+T5 EMINONU-ALIBEYKOY,Cep Otogar,T5:cep otogar,365
+T5 EMINONU-ALIBEYKOY,Cibali,T5:cibali,365
+T5 EMINONU-ALIBEYKOY,Eminönü,X:Eminönü,365
+T5 EMINONU-ALIBEYKOY,Eyüp Devlet Hastanesi,T5:eyüp devlet hastanesi,365
+T5 EMINONU-ALIBEYKOY,Eyüp Teleferik,X:Eyüp Teleferik,365
+T5 EMINONU-ALIBEYKOY,Fener,T5:fener,365
+T5 EMINONU-ALIBEYKOY,Feshane,T5:feshane,365
+T5 EMINONU-ALIBEYKOY,Küçükpazar,T5:küçükpazar,365
+T5 EMINONU-ALIBEYKOY,Silahtarağa,T5:silahtarağa,365
+T5 EMINONU-ALIBEYKOY,Üniversite,T5:üniversite,365
+TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI,Arnavutköy,M11:arnavutköy,730
+TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI,GAYRETTEPE,X:Gayrettepe,365
+TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI,GÖKTÜRK,M11:göktürk,365
+TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI,HASDAL,M11:hasdal,365
+TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI,KAĞITHANE,X:Kağıthane,365
+TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI,KEMERBURGAZ,M11:kemerburgaz,677
+TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI,Kargo Terminali,M11:kargo terminali,365
+TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI,Taşoluk,M11:taşoluk,730
+TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI,İHSANİYE,M11:ihsaniye,365
+TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI,İstanbul Havalimanı,M11:istanbul havalimanı,365
+TCDD - HALKALI-BASAKSEHIR,Bahçeşehir,HB:bahçeşehir,364
+TCDD - HALKALI-BASAKSEHIR,Halkalı,X:Halkalı,365
+TCDD - HALKALI-BASAKSEHIR,Ispartakule,HB:ıspartakule,364
+TCDD SIRKECI-KAZLICESME,Cankurtaran,SIRKECI:cankurtaran,364
+TCDD SIRKECI-KAZLICESME,Cerrahpaşa,SIRKECI:cerrahpaşa,364
+TCDD SIRKECI-KAZLICESME,KUMKAPI,SIRKECI:kumkapı,365
+TCDD SIRKECI-KAZLICESME,Kazlıçeşme,SIRKECI:kazlıçeşme,365
+TCDD SIRKECI-KAZLICESME,Kocamustafapaşa,SIRKECI:kocamustafapaşa,365
+TCDD SIRKECI-KAZLICESME,Sirkeci,X:Sirkeci,364
+TCDD SIRKECI-KAZLICESME,YENİKAPI,X:Yenikapı,365
+TCDD SIRKECI-KAZLICESME,Yedikule,SIRKECI:yedikule,363
+TCDD TASIMACILIK A.S.,Ataköy,MAR:ataköy,365
+TCDD TASIMACILIK A.S.,Atalar,MAR:atalar,365
+TCDD TASIMACILIK A.S.,Aydıntepe,MAR:aydıntepe,365
+TCDD TASIMACILIK A.S.,Ayrılık Çeşmesi,X:Ayrılık Çeşmesi,365
+TCDD TASIMACILIK A.S.,Bakırköy (Marmaray),MAR:bakırköy (marmaray),1010
+TCDD TASIMACILIK A.S.,Başak,MAR:başak,365
+TCDD TASIMACILIK A.S.,Bostancı (Marmaray),X:Bostancı,730
+TCDD TASIMACILIK A.S.,Cevizli (Marmaray),MAR:cevizli (marmaray),730
+TCDD TASIMACILIK A.S.,Darıca,MAR:darıca,365
+TCDD TASIMACILIK A.S.,Erenköy,MAR:erenköy,365
+TCDD TASIMACILIK A.S.,Fatih,MAR:fatih,365
+TCDD TASIMACILIK A.S.,Feneryolu,MAR:feneryolu,365
+TCDD TASIMACILIK A.S.,Florya,MAR:florya,365
+TCDD TASIMACILIK A.S.,Florya Akvaryum,MAR:florya akvaryum,365
+TCDD TASIMACILIK A.S.,Gebze,MAR:gebze,730
+TCDD TASIMACILIK A.S.,Göztepe,MAR:göztepe (marmaray),365
+TCDD TASIMACILIK A.S.,Güzelyalı,MAR:güzelyalı,365
+TCDD TASIMACILIK A.S.,Halkalı,X:Halkalı,365
+TCDD TASIMACILIK A.S.,Kartal,MAR:kartal (marmaray),365
+TCDD TASIMACILIK A.S.,Kaynarca,MAR:kaynarca,365
+TCDD TASIMACILIK A.S.,Kazlıçeşme,MAR:kazlıçeşme,365
+TCDD TASIMACILIK A.S.,Küçükyalı (Marmaray),MAR:küçükyalı (marmaray),730
+TCDD TASIMACILIK A.S.,Küçükçekmece,MAR:küçükçekmece,365
+TCDD TASIMACILIK A.S.,Maltepe,MAR:maltepe,365
+TCDD TASIMACILIK A.S.,Mustafa Kemal,MAR:mustafa kemal,365
+TCDD TASIMACILIK A.S.,Osmangazi,MAR:osmangazi,365
+TCDD TASIMACILIK A.S.,Pendik,MAR:pendik (marmaray),365
+TCDD TASIMACILIK A.S.,Sirkeci,X:Sirkeci,1716
+TCDD TASIMACILIK A.S.,Suadiye,MAR:suadiye,365
+TCDD TASIMACILIK A.S.,Söğütlüçeşme,MAR:söğütlüçeşme,730
+TCDD TASIMACILIK A.S.,Süreyya plajı,MAR:süreyya plajı,365
+TCDD TASIMACILIK A.S.,Tersane,MAR:tersane,730
+TCDD TASIMACILIK A.S.,Tuzla,MAR:tuzla,365
+TCDD TASIMACILIK A.S.,Yenikapı,X:Yenikapı,1190
+TCDD TASIMACILIK A.S.,Yenimahalle,MAR:yenimahalle (marmaray),365
+TCDD TASIMACILIK A.S.,Yeşilköy,MAR:yeşilköy,365
+TCDD TASIMACILIK A.S.,Yeşilyurt,MAR:yeşilyurt,365
+TCDD TASIMACILIK A.S.,Yunus,MAR:yunus,365
+TCDD TASIMACILIK A.S.,Zeytinburnu,X:Zeytinburnu,365
+TCDD TASIMACILIK A.S.,Çayırova,MAR:çayırova,365
+TCDD TASIMACILIK A.S.,Üsküdar,X:Üsküdar,1182
+TCDD TASIMACILIK A.S.,İdealtepe,MAR:idealtepe,365
+TCDD TASIMACILIK A.S.,İçmeler,MAR:içmeler,365
+TF1-TELEFERIK MACKA - TASKISLA,Maçka,TF1:maçka,361
+TF2-TELEFERIK EYUP PIYERLOTI,Eyüp Teleferik,X:Eyüp Teleferik,362
+TF2-TELEFERIK EYUP PIYERLOTI,Pierloti,TF2:pierloti,362

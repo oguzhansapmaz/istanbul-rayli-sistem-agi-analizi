@@ -1,0 +1,54 @@
+{
+  "source_file": "2025-yl-rayl-sistemler-istasyon-bazl-yolcu-ve-yolculuk-saylar.csv",
+  "rows": 135783,
+  "columns": 11,
+  "source_columns": [
+    "transaction_year",
+    "transaction_month",
+    "transaction_day",
+    "line",
+    "station_name",
+    "station_number",
+    "town",
+    "longitude",
+    "latitude",
+    "passage_cnt",
+    "passanger_cnt"
+  ],
+  "years": [
+    "2025"
+  ],
+  "months_covered": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "distinct_lines": 23,
+  "distinct_source_station_names_including_blank": 345,
+  "distinct_station_numbers": 358,
+  "missing_station_name_records": 728,
+  "missing_longitude_source_records": 23858,
+  "missing_latitude_source_records": 23858,
+  "normalized_valid_coordinate_records": 111560,
+  "coordinate_min_max": {
+    "longitude_min": 28.699323,
+    "longitude_max": 29.4115555555556,
+    "latitude_min": 40.7838055555556,
+    "latitude_max": 41.255878
+  },
+  "passenger_numeric_invalid": 0,
+  "passage_numeric_invalid": 0,
+  "duplicate_full_source_rows": 0,
+  "station_day_rows_after_canonicalization": 93492,
+  "canonical_station_labels": 257,
+  "method_note": "station-level sums aggregate source rows after manually curated alias canonicalization; possible double counting across entrances/directions/interchanges must be checked against source metadata."
+}

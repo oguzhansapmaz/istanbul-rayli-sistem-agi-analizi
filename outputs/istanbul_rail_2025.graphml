@@ -1,0 +1,5566 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d17" for="edge" attr.name="transfer_source" attr.type="string"/>
+<key id="d16" for="edge" attr.name="transfer_reason" attr.type="string"/>
+<key id="d15" for="edge" attr.name="distance" attr.type="double"/>
+<key id="d14" for="edge" attr.name="strength" attr.type="double"/>
+<key id="d13" for="edge" attr.name="edge_type" attr.type="string"/>
+<key id="d12" for="edge" attr.name="station_v" attr.type="string"/>
+<key id="d11" for="edge" attr.name="station_u" attr.type="string"/>
+<key id="d10" for="edge" attr.name="routes" attr.type="string"/>
+<key id="d9" for="node" attr.name="observed_days" attr.type="long"/>
+<key id="d8" for="node" attr.name="passenger_max_daily" attr.type="double"/>
+<key id="d7" for="node" attr.name="passenger_total_source_sum" attr.type="double"/>
+<key id="d6" for="node" attr.name="passenger_median_daily" attr.type="double"/>
+<key id="d5" for="node" attr.name="passenger_mean_daily" attr.type="double"/>
+<key id="d4" for="node" attr.name="has_passenger_data" attr.type="boolean"/>
+<key id="d3" for="node" attr.name="source_lines" attr.type="string"/>
+<key id="d2" for="node" attr.name="lines" attr.type="string"/>
+<key id="d1" for="node" attr.name="station_name" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="X:Yenikapı">
+  <data key="d0">Yenikapı</data>
+  <data key="d1">Yenikapı</data>
+  <data key="d2">M1, M2, MAR, SIRKECI</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI | M2-YENIKAPI-HACIOSMAN | TCDD TASIMACILIK A.S. | TCDD SIRKECI-KAZLICESME</data>
+  <data key="d4">True</data>
+  <data key="d5">186373.14520547946</data>
+  <data key="d6">187432.0</data>
+  <data key="d7">68026198.0</data>
+  <data key="d8">242355.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Aksaray">
+  <data key="d0">Aksaray</data>
+  <data key="d1">Aksaray</data>
+  <data key="d2">M1, T1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI | T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">32306.93698630137</data>
+  <data key="d6">33625.0</data>
+  <data key="d7">11792032.0</data>
+  <data key="d8">60033.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:emniyet-fatih">
+  <data key="d0">Emniyet-Fatih</data>
+  <data key="d1">Emniyet-Fatih</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">14113.7783933518</data>
+  <data key="d6">15519.0</data>
+  <data key="d7">5095074.0</data>
+  <data key="d8">19650.0</data>
+  <data key="d9">361</data>
+</node>
+<node id="X:Vatan-M1">
+  <data key="d0">Topkapı-Ulubatlı / Vatan</data>
+  <data key="d1">Topkapı-Ulubatlı</data>
+  <data key="d2">M1, T4</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI | T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">18162.956164383562</data>
+  <data key="d6">18676.0</data>
+  <data key="d7">6629479.0</data>
+  <data key="d8">30058.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:bayrampaşa-maltepe">
+  <data key="d0">Bayrampaşa-Maltepe</data>
+  <data key="d1">Bayrampaşa-Maltepe</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">8536.534246575342</data>
+  <data key="d6">9002.0</data>
+  <data key="d7">3115835.0</data>
+  <data key="d8">11609.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:sağmalcılar">
+  <data key="d0">Sağmalcılar</data>
+  <data key="d1">Sağmalcılar</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">13205.635616438356</data>
+  <data key="d6">13960.0</data>
+  <data key="d7">4820057.0</data>
+  <data key="d8">16388.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:kartaltepe-kocatepe">
+  <data key="d0">Kartaltepe-Kocatepe</data>
+  <data key="d1">Kartaltepe-Kocatepe</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">22867.49315068493</data>
+  <data key="d6">23236.0</data>
+  <data key="d7">8346635.0</data>
+  <data key="d8">30195.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:otogar">
+  <data key="d0">Otogar</data>
+  <data key="d1">Otogar</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">11253.169863013698</data>
+  <data key="d6">11151.0</data>
+  <data key="d7">4107407.0</data>
+  <data key="d8">23255.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:terazidere">
+  <data key="d0">Terazidere</data>
+  <data key="d1">Terazidere</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">9232.805479452054</data>
+  <data key="d6">9774.0</data>
+  <data key="d7">3369974.0</data>
+  <data key="d8">11942.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:davutpaşa-ytü">
+  <data key="d0">Davutpaşa-YTÜ</data>
+  <data key="d1">Davutpaşa-YTÜ</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">8770.835616438357</data>
+  <data key="d6">7317.0</data>
+  <data key="d7">3201355.0</data>
+  <data key="d8">16584.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:merter">
+  <data key="d0">Merter</data>
+  <data key="d1">Merter</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">7596.986301369863</data>
+  <data key="d6">7735.0</data>
+  <data key="d7">2772900.0</data>
+  <data key="d8">10639.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Zeytinburnu">
+  <data key="d0">Zeytinburnu</data>
+  <data key="d1">Zeytinburnu</data>
+  <data key="d2">M1, T1, MAR</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI | T1-KABATAS-BAGCILAR | TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">51708.38082191781</data>
+  <data key="d6">54291.0</data>
+  <data key="d7">18873559.0</data>
+  <data key="d8">63420.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:İncirli">
+  <data key="d0">Bakırköy-İncirli / İncirli</data>
+  <data key="d1">Bakırköy-İncirli</data>
+  <data key="d2">M1, M3</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI | M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">20560.564383561643</data>
+  <data key="d6">20985.0</data>
+  <data key="d7">7504606.0</data>
+  <data key="d8">30580.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:bahçelievler">
+  <data key="d0">Bahçelievler</data>
+  <data key="d1">Bahçelievler</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">5889.550684931507</data>
+  <data key="d6">6514.0</data>
+  <data key="d7">2149686.0</data>
+  <data key="d8">8395.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:ataköy-şirinevler (m1)">
+  <data key="d0">Ataköy-Şirinevler (M1)</data>
+  <data key="d1">Ataköy-Şirinevler (M1)</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">15728.208219178083</data>
+  <data key="d6">16291.0</data>
+  <data key="d7">5740796.0</data>
+  <data key="d8">25869.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Yenibosna">
+  <data key="d0">Yenibosna</data>
+  <data key="d1">Yenibosna</data>
+  <data key="d2">M1, M9</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI | M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">18941.008219178082</data>
+  <data key="d6">20474.0</data>
+  <data key="d7">6913468.0</data>
+  <data key="d8">26089.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:dtm-istanbul fuar merkezi">
+  <data key="d0">DTM-İstanbul Fuar Merkezi</data>
+  <data key="d1">DTM-İstanbul Fuar Merkezi</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">3029.6931506849314</data>
+  <data key="d6">2936.0</data>
+  <data key="d7">1105838.0</data>
+  <data key="d8">10449.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:atatürk havalimanı">
+  <data key="d0">Atatürk Havalimanı</data>
+  <data key="d1">Atatürk Havalimanı</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">1288.0657534246575</data>
+  <data key="d6">1036.0</data>
+  <data key="d7">470144.0</data>
+  <data key="d8">33919.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:esenler">
+  <data key="d0">Esenler</data>
+  <data key="d1">Esenler</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">10780.421917808218</data>
+  <data key="d6">11158.0</data>
+  <data key="d7">3934854.0</data>
+  <data key="d8">13472.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:menderes">
+  <data key="d0">Menderes</data>
+  <data key="d1">Menderes</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">12639.857534246576</data>
+  <data key="d6">13133.0</data>
+  <data key="d7">4613548.0</data>
+  <data key="d8">15162.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M1:üçyüzlü">
+  <data key="d0">Üçyüzlü</data>
+  <data key="d1">Üçyüzlü</data>
+  <data key="d2">M1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">11991.90410958904</data>
+  <data key="d6">12624.0</data>
+  <data key="d7">4377045.0</data>
+  <data key="d8">14713.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Bağcılar">
+  <data key="d0">Bağcılar Meydan / Bağcılar</data>
+  <data key="d1">Bağcılar Meydan</data>
+  <data key="d2">M1, T1</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI | T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">22056.84931506849</data>
+  <data key="d6">22833.0</data>
+  <data key="d7">8050750.0</data>
+  <data key="d8">27442.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Kirazlı">
+  <data key="d0">Kirazlı / Kirazlı-Bağcılar</data>
+  <data key="d1">Kirazlı</data>
+  <data key="d2">M1, M3</data>
+  <data key="d3">M1-YENIKAPI-HAVALIMANI | M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">19915.389041095892</data>
+  <data key="d6">21131.0</data>
+  <data key="d7">7269117.0</data>
+  <data key="d8">24705.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M2:vezneciler-istanbul üniversitesi">
+  <data key="d0">Vezneciler-İstanbul Üniversitesi</data>
+  <data key="d1">Vezneciler-İstanbul Üniversitesi</data>
+  <data key="d2">M2</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN</data>
+  <data key="d4">True</data>
+  <data key="d5">15743.120547945206</data>
+  <data key="d6">14928.0</data>
+  <data key="d7">5746239.0</data>
+  <data key="d8">38553.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M2:haliç">
+  <data key="d0">Haliç</data>
+  <data key="d1">Haliç</data>
+  <data key="d2">M2</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN</data>
+  <data key="d4">True</data>
+  <data key="d5">11913.37808219178</data>
+  <data key="d6">12028.0</data>
+  <data key="d7">4348383.0</data>
+  <data key="d8">21046.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Şişhane-Tünel">
+  <data key="d0">Şişhane / Beyoğlu Tünel / Beyoğlu</data>
+  <data key="d1">Şişhane</data>
+  <data key="d2">M2, T2, TUNEL</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN | IETT NOSTALJIK TRAMVAY | IETT TUNEL</data>
+  <data key="d4">True</data>
+  <data key="d5">21966.424657534248</data>
+  <data key="d6">22812.0</data>
+  <data key="d7">8017745.0</data>
+  <data key="d8">33231.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Taksim">
+  <data key="d0">Taksim / Taksim Meydan</data>
+  <data key="d1">Taksim</data>
+  <data key="d2">M2, T2, F1</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN | IETT NOSTALJIK TRAMVAY | F1-TAKSIM-KABATAS FUNIKILER HATTI</data>
+  <data key="d4">True</data>
+  <data key="d5">32108.50276243094</data>
+  <data key="d6">33049.5</data>
+  <data key="d7">11623278.0</data>
+  <data key="d8">46101.0</data>
+  <data key="d9">362</data>
+</node>
+<node id="M2:osmanbey">
+  <data key="d0">Osmanbey</data>
+  <data key="d1">Osmanbey</data>
+  <data key="d2">M2</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN</data>
+  <data key="d4">True</data>
+  <data key="d5">39574.67123287671</data>
+  <data key="d6">42577.0</data>
+  <data key="d7">14444755.0</data>
+  <data key="d8">57575.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Mecidiyeköy">
+  <data key="d0">Şişli-Mecidiyeköy</data>
+  <data key="d1">Şişli-Mecidiyeköy</data>
+  <data key="d2">M2, M7</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN | M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">103855.4301369863</data>
+  <data key="d6">107371.0</data>
+  <data key="d7">37907232.0</data>
+  <data key="d8">141221.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Gayrettepe">
+  <data key="d0">Gayrettepe</data>
+  <data key="d1">Gayrettepe</data>
+  <data key="d2">M2, M11</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN | TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">37518.17534246575</data>
+  <data key="d6">39638.0</data>
+  <data key="d7">13694134.0</data>
+  <data key="d8">55815.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Levent">
+  <data key="d0">Levent</data>
+  <data key="d1">Levent</data>
+  <data key="d2">M2, M6</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN | M6-LEVENT - RUMELI HISARUSTU</data>
+  <data key="d4">True</data>
+  <data key="d5">42262.797260273976</data>
+  <data key="d6">43929.0</data>
+  <data key="d7">15425921.0</data>
+  <data key="d8">69321.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M2:4. levent">
+  <data key="d0">4. Levent</data>
+  <data key="d1">4. Levent</data>
+  <data key="d2">M2</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN</data>
+  <data key="d4">True</data>
+  <data key="d5">22499.298630136986</data>
+  <data key="d6">23657.0</data>
+  <data key="d7">8212244.0</data>
+  <data key="d8">31260.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M2:sanayi mahallesi">
+  <data key="d0">Sanayi Mahallesi</data>
+  <data key="d1">Sanayi Mahallesi</data>
+  <data key="d2">M2</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN</data>
+  <data key="d4">True</data>
+  <data key="d5">9074.169863013698</data>
+  <data key="d6">10466.0</data>
+  <data key="d7">3312072.0</data>
+  <data key="d8">14218.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M2:itü-ayazağa">
+  <data key="d0">İTÜ-Ayazağa</data>
+  <data key="d1">İTÜ-Ayazağa</data>
+  <data key="d2">M2</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN</data>
+  <data key="d4">True</data>
+  <data key="d5">25017.254794520548</data>
+  <data key="d6">24922.0</data>
+  <data key="d7">9131298.0</data>
+  <data key="d8">44966.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M2:atatürk oto sanayi">
+  <data key="d0">Atatürk Oto Sanayi</data>
+  <data key="d1">Atatürk Oto Sanayi</data>
+  <data key="d2">M2</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN</data>
+  <data key="d4">True</data>
+  <data key="d5">8039.676712328767</data>
+  <data key="d6">8643.0</data>
+  <data key="d7">2934482.0</data>
+  <data key="d8">14612.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M2:darüşşafaka">
+  <data key="d0">Darüşşafaka</data>
+  <data key="d1">Darüşşafaka</data>
+  <data key="d2">M2</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN</data>
+  <data key="d4">True</data>
+  <data key="d5">4267.698630136986</data>
+  <data key="d6">4552.0</data>
+  <data key="d7">1557710.0</data>
+  <data key="d8">7312.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M2:hacıosman">
+  <data key="d0">Hacıosman</data>
+  <data key="d1">Hacıosman</data>
+  <data key="d2">M2</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN</data>
+  <data key="d4">True</data>
+  <data key="d5">15220.690410958905</data>
+  <data key="d6">15915.0</data>
+  <data key="d7">5555552.0</data>
+  <data key="d8">20352.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Seyrantepe">
+  <data key="d0">Seyrantepe</data>
+  <data key="d1">Seyrantepe</data>
+  <data key="d2">M2, F3</data>
+  <data key="d3">M2-YENIKAPI-HACIOSMAN | F3 SEYRANTEPE-VADISTANBUL FUNIKILER HATTI</data>
+  <data key="d4">True</data>
+  <data key="d5">9125.517808219178</data>
+  <data key="d6">9345.0</data>
+  <data key="d7">3330814.0</data>
+  <data key="d8">26733.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:bakırköy sahil">
+  <data key="d0">Bakırköy Sahil</data>
+  <data key="d1">Bakırköy Sahil</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">1491.627397260274</data>
+  <data key="d6">1427.0</data>
+  <data key="d7">544444.0</data>
+  <data key="d8">3861.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:özgürlük meydanı">
+  <data key="d0">Özgürlük Meydanı</data>
+  <data key="d1">Özgürlük Meydanı</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">18757.501369863014</data>
+  <data key="d6">18960.0</data>
+  <data key="d7">6846488.0</data>
+  <data key="d8">24529.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:haznedar">
+  <data key="d0">Haznedar</data>
+  <data key="d1">Haznedar</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">3051.221917808219</data>
+  <data key="d6">3146.0</data>
+  <data key="d7">1113696.0</data>
+  <data key="d8">4290.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:ilkyuva">
+  <data key="d0">İlkyuva</data>
+  <data key="d1">İlkyuva</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">7384.6547945205475</data>
+  <data key="d6">7403.0</data>
+  <data key="d7">2695399.0</data>
+  <data key="d8">9378.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:yıldıztepe">
+  <data key="d0">Yıldıztepe</data>
+  <data key="d1">Yıldıztepe</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">4574.206896551724</data>
+  <data key="d6">4839.0</data>
+  <data key="d7">397956.0</data>
+  <data key="d8">5573.0</data>
+  <data key="d9">87</data>
+</node>
+<node id="M3:molla gürani">
+  <data key="d0">Molla Gürani</data>
+  <data key="d1">Molla Gürani</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">8142.682191780822</data>
+  <data key="d6">8324.0</data>
+  <data key="d7">2972079.0</data>
+  <data key="d8">10491.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:yenimahalle">
+  <data key="d0">Yenimahalle</data>
+  <data key="d1">Yenimahalle</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">7212.043835616439</data>
+  <data key="d6">7282.0</data>
+  <data key="d7">2632396.0</data>
+  <data key="d8">9501.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Mahmutbey">
+  <data key="d0">Mahmutbey</data>
+  <data key="d1">Mahmutbey</data>
+  <data key="d2">M3, M7</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY | M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">45576.54520547945</data>
+  <data key="d6">48400.0</data>
+  <data key="d7">16635439.0</data>
+  <data key="d8">63284.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:istoç">
+  <data key="d0">İSTOÇ</data>
+  <data key="d1">İSTOÇ</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">3214.5972602739726</data>
+  <data key="d6">3892.0</data>
+  <data key="d7">1173328.0</data>
+  <data key="d8">4621.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:İkitelli Sanayi">
+  <data key="d0">İkitelli Sanayi</data>
+  <data key="d1">İkitelli Sanayi</data>
+  <data key="d2">M3, M9</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY | M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">7292.367123287671</data>
+  <data key="d6">8830.0</data>
+  <data key="d7">2661714.0</data>
+  <data key="d8">11195.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:turgut özal">
+  <data key="d0">Turgut Özal</data>
+  <data key="d1">Turgut Özal</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">3763.4904109589042</data>
+  <data key="d6">4410.0</data>
+  <data key="d7">1373674.0</data>
+  <data key="d8">6179.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:siteler">
+  <data key="d0">Siteler</data>
+  <data key="d1">Siteler</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">2919.3698630136987</data>
+  <data key="d6">3551.0</data>
+  <data key="d7">1065570.0</data>
+  <data key="d8">4773.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:başak konutları">
+  <data key="d0">Başak Konutları</data>
+  <data key="d1">Başak Konutları</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">5911.767123287671</data>
+  <data key="d6">6530.0</data>
+  <data key="d7">2157795.0</data>
+  <data key="d8">9562.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:başakşehir-metrokent">
+  <data key="d0">Başakşehir-Metrokent</data>
+  <data key="d1">Başakşehir-Metrokent</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">5763.819178082192</data>
+  <data key="d6">5833.0</data>
+  <data key="d7">2103794.0</data>
+  <data key="d8">7834.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:onurkent">
+  <data key="d0">Onurkent</data>
+  <data key="d1">Onurkent</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">2454.043835616438</data>
+  <data key="d6">2454.0</data>
+  <data key="d7">895726.0</data>
+  <data key="d8">3907.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:şehir hastanesi">
+  <data key="d0">Şehir Hastanesi</data>
+  <data key="d1">Şehir Hastanesi</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">7598.73698630137</data>
+  <data key="d6">9327.0</data>
+  <data key="d7">2773539.0</data>
+  <data key="d8">11352.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:toplu konutlar">
+  <data key="d0">Toplu Konutlar</data>
+  <data key="d1">Toplu Konutlar</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">4089.3753424657534</data>
+  <data key="d6">4048.0</data>
+  <data key="d7">1492622.0</data>
+  <data key="d8">5856.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M3:kayaşehir merkez">
+  <data key="d0">Kayaşehir Merkez</data>
+  <data key="d1">Kayaşehir Merkez</data>
+  <data key="d2">M3</data>
+  <data key="d3">M3-BASAKSEHIR-OLIMPIYATKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">5749.687671232877</data>
+  <data key="d6">5698.0</data>
+  <data key="d7">2098636.0</data>
+  <data key="d8">7966.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Kadıköy">
+  <data key="d0">Kadıköy / Kadıköy İDO</data>
+  <data key="d1">Kadıköy</data>
+  <data key="d2">M4, T3</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE | T3-KADIKOY-MODA</data>
+  <data key="d4">True</data>
+  <data key="d5">30067.156164383563</data>
+  <data key="d6">30414.0</data>
+  <data key="d7">10974512.0</data>
+  <data key="d8">43857.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Ayrılık Çeşmesi">
+  <data key="d0">Ayrılık Çeşmesi</data>
+  <data key="d1">Ayrılık Çeşmesi</data>
+  <data key="d2">M4, MAR</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE | TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">62484.2301369863</data>
+  <data key="d6">63801.0</data>
+  <data key="d7">22806744.0</data>
+  <data key="d8">82604.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:acıbadem">
+  <data key="d0">Acıbadem</data>
+  <data key="d1">Acıbadem</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">5773.027397260274</data>
+  <data key="d6">5911.0</data>
+  <data key="d7">2107155.0</data>
+  <data key="d8">8182.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:ünalan">
+  <data key="d0">Ünalan</data>
+  <data key="d1">Ünalan</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">22288.109589041094</data>
+  <data key="d6">23148.0</data>
+  <data key="d7">8135160.0</data>
+  <data key="d8">30718.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:göztepe">
+  <data key="d0">Göztepe</data>
+  <data key="d1">Göztepe</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">11701.183561643835</data>
+  <data key="d6">11862.0</data>
+  <data key="d7">4270932.0</data>
+  <data key="d8">18237.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:yenisahra">
+  <data key="d0">Yenisahra</data>
+  <data key="d1">Yenisahra</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">8722.624657534247</data>
+  <data key="d6">9515.0</data>
+  <data key="d7">3183758.0</data>
+  <data key="d8">12482.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Kozyatağı">
+  <data key="d0">Kozyatağı</data>
+  <data key="d1">Kozyatağı</data>
+  <data key="d2">M4, M8</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE | M8 DUDULLU - BOSTANCI</data>
+  <data key="d4">True</data>
+  <data key="d5">34919.17260273972</data>
+  <data key="d6">36930.0</data>
+  <data key="d7">12745498.0</data>
+  <data key="d8">50741.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Bostancı">
+  <data key="d0">Bostancı / Bostancı (Marmaray)</data>
+  <data key="d1">Bostancı</data>
+  <data key="d2">M4, M8, MAR</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE | M8 DUDULLU - BOSTANCI | TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">41638.364383561646</data>
+  <data key="d6">42453.0</data>
+  <data key="d7">15198003.0</data>
+  <data key="d8">53008.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:küçükyalı">
+  <data key="d0">Küçükyalı</data>
+  <data key="d1">Küçükyalı</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">13365.88493150685</data>
+  <data key="d6">12931.0</data>
+  <data key="d7">4878548.0</data>
+  <data key="d8">21522.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:maltepe">
+  <data key="d0">Maltepe</data>
+  <data key="d1">Maltepe</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">14355.824657534247</data>
+  <data key="d6">15244.0</data>
+  <data key="d7">5239876.0</data>
+  <data key="d8">19785.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:huzurevi">
+  <data key="d0">Huzurevi</data>
+  <data key="d1">Huzurevi</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">8397.728767123288</data>
+  <data key="d6">9002.0</data>
+  <data key="d7">3065171.0</data>
+  <data key="d8">10827.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:gülsuyu">
+  <data key="d0">Gülsuyu</data>
+  <data key="d1">Gülsuyu</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">5191.77808219178</data>
+  <data key="d6">5669.0</data>
+  <data key="d7">1894999.0</data>
+  <data key="d8">7185.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:esenkent">
+  <data key="d0">Esenkent</data>
+  <data key="d1">Esenkent</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">9811.693150684932</data>
+  <data key="d6">10037.0</data>
+  <data key="d7">3581268.0</data>
+  <data key="d8">14434.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:hastane-adliye">
+  <data key="d0">Hastane-Adliye</data>
+  <data key="d1">Hastane-Adliye</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">10484.983561643836</data>
+  <data key="d6">12875.0</data>
+  <data key="d7">3827019.0</data>
+  <data key="d8">16269.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:soğanlık">
+  <data key="d0">Soğanlık</data>
+  <data key="d1">Soğanlık</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">8859.101369863014</data>
+  <data key="d6">9461.0</data>
+  <data key="d7">3233572.0</data>
+  <data key="d8">11840.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:kartal">
+  <data key="d0">Kartal</data>
+  <data key="d1">Kartal</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">9145.350684931507</data>
+  <data key="d6">9818.0</data>
+  <data key="d7">3338053.0</data>
+  <data key="d8">12425.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:yakacık-adnan kahveci">
+  <data key="d0">Yakacık-Adnan Kahveci</data>
+  <data key="d1">Yakacık-Adnan Kahveci</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">6551.441095890411</data>
+  <data key="d6">7171.0</data>
+  <data key="d7">2391276.0</data>
+  <data key="d8">8518.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:pendik">
+  <data key="d0">Pendik</data>
+  <data key="d1">Pendik</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">8284.517808219178</data>
+  <data key="d6">8850.0</data>
+  <data key="d7">3023849.0</data>
+  <data key="d8">10996.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:tavşantepe">
+  <data key="d0">Tavşantepe</data>
+  <data key="d1">Tavşantepe</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">10477.471232876713</data>
+  <data key="d6">11439.0</data>
+  <data key="d7">3824277.0</data>
+  <data key="d8">13786.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:fevzi çakmak">
+  <data key="d0">Fevzi Çakmak</data>
+  <data key="d1">Fevzi Çakmak</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">7235.443835616438</data>
+  <data key="d6">7951.0</data>
+  <data key="d7">2640937.0</data>
+  <data key="d8">9702.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:yayalar">
+  <data key="d0">Yayalar</data>
+  <data key="d1">Yayalar</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">5336.67397260274</data>
+  <data key="d6">5264.0</data>
+  <data key="d7">1947886.0</data>
+  <data key="d8">7855.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:kurtköy">
+  <data key="d0">Kurtköy</data>
+  <data key="d1">Kurtköy</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">9472.523287671233</data>
+  <data key="d6">9556.0</data>
+  <data key="d7">3457471.0</data>
+  <data key="d8">13358.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M4:sabiha gökçen havalimanı">
+  <data key="d0">Sabiha Gökçen Havalimanı</data>
+  <data key="d1">Sabiha Gökçen Havalimanı</data>
+  <data key="d2">M4</data>
+  <data key="d3">M4-KADIKOY-TAVSANTEPE</data>
+  <data key="d4">True</data>
+  <data key="d5">12218.65205479452</data>
+  <data key="d6">12097.0</data>
+  <data key="d7">4459808.0</data>
+  <data key="d8">19957.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Üsküdar">
+  <data key="d0">Üsküdar</data>
+  <data key="d1">Üsküdar</data>
+  <data key="d2">M5, MAR</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU | TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">114264.38904109588</data>
+  <data key="d6">116602.0</data>
+  <data key="d7">41706502.0</data>
+  <data key="d8">153980.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:fıstıkağacı">
+  <data key="d0">Fıstıkağacı</data>
+  <data key="d1">Fıstıkağacı</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">3517.2876712328766</data>
+  <data key="d6">3179.0</data>
+  <data key="d7">1283810.0</data>
+  <data key="d8">5072.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:bağlarbaşı">
+  <data key="d0">Bağlarbaşı</data>
+  <data key="d1">Bağlarbaşı</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">10852.5698630137</data>
+  <data key="d6">11076.0</data>
+  <data key="d7">3961188.0</data>
+  <data key="d8">16992.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:altunizade">
+  <data key="d0">Altunizade</data>
+  <data key="d1">Altunizade</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">29621.142465753426</data>
+  <data key="d6">31712.0</data>
+  <data key="d7">10811717.0</data>
+  <data key="d8">42601.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:kısıklı">
+  <data key="d0">Kısıklı</data>
+  <data key="d1">Kısıklı</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">3311.4219178082194</data>
+  <data key="d6">3326.0</data>
+  <data key="d7">1208669.0</data>
+  <data key="d8">5760.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:bulgurlu">
+  <data key="d0">Bulgurlu</data>
+  <data key="d1">Bulgurlu</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">15518.86301369863</data>
+  <data key="d6">15929.0</data>
+  <data key="d7">5664385.0</data>
+  <data key="d8">21591.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:ümraniye">
+  <data key="d0">Ümraniye</data>
+  <data key="d1">Ümraniye</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">18185.753424657534</data>
+  <data key="d6">19192.0</data>
+  <data key="d7">6637800.0</data>
+  <data key="d8">24772.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:çarşı">
+  <data key="d0">Çarşı</data>
+  <data key="d1">Çarşı</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">18694.47397260274</data>
+  <data key="d6">19460.0</data>
+  <data key="d7">6823483.0</data>
+  <data key="d8">25392.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:yamanevler">
+  <data key="d0">Yamanevler</data>
+  <data key="d1">Yamanevler</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">10373.005479452055</data>
+  <data key="d6">10767.0</data>
+  <data key="d7">3786147.0</data>
+  <data key="d8">14075.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:çakmak">
+  <data key="d0">Çakmak</data>
+  <data key="d1">Çakmak</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">15188.517808219178</data>
+  <data key="d6">16065.0</data>
+  <data key="d7">5543809.0</data>
+  <data key="d8">21102.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:ıhlamurkuyu">
+  <data key="d0">Ihlamurkuyu</data>
+  <data key="d1">Ihlamurkuyu</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">8127.172602739726</data>
+  <data key="d6">8430.0</data>
+  <data key="d7">2966418.0</data>
+  <data key="d8">11696.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:altınşehir">
+  <data key="d0">Altınşehir</data>
+  <data key="d1">Altınşehir</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">7859.1205479452055</data>
+  <data key="d6">8189.0</data>
+  <data key="d7">2868579.0</data>
+  <data key="d8">10586.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:imam hatip lisesi">
+  <data key="d0">İmam Hatip Lisesi</data>
+  <data key="d1">İmam Hatip Lisesi</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">6809.528767123287</data>
+  <data key="d6">7160.0</data>
+  <data key="d7">2485478.0</data>
+  <data key="d8">8763.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Dudullu">
+  <data key="d0">Dudullu</data>
+  <data key="d1">Dudullu</data>
+  <data key="d2">M5, M8</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU | M8 DUDULLU - BOSTANCI</data>
+  <data key="d4">True</data>
+  <data key="d5">37171.51506849315</data>
+  <data key="d6">39160.0</data>
+  <data key="d7">13567603.0</data>
+  <data key="d8">53870.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:necip fazıl">
+  <data key="d0">Necip Fazıl</data>
+  <data key="d1">Necip Fazıl</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">9384.405479452054</data>
+  <data key="d6">9671.0</data>
+  <data key="d7">3425308.0</data>
+  <data key="d8">12526.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:çekmeköy">
+  <data key="d0">Çekmeköy</data>
+  <data key="d1">Çekmeköy</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">19471.70684931507</data>
+  <data key="d6">20325.0</data>
+  <data key="d7">7107173.0</data>
+  <data key="d8">25253.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:meclis">
+  <data key="d0">Meclis</data>
+  <data key="d1">Meclis</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">6318.156164383561</data>
+  <data key="d6">6282.0</data>
+  <data key="d7">2306127.0</data>
+  <data key="d8">8514.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:sarıgazi">
+  <data key="d0">Sarıgazi</data>
+  <data key="d1">Sarıgazi</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">13968.739726027397</data>
+  <data key="d6">14442.0</data>
+  <data key="d7">5098590.0</data>
+  <data key="d8">18251.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:sancaktepe">
+  <data key="d0">Sancaktepe</data>
+  <data key="d1">Sancaktepe</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">5742.5315068493155</data>
+  <data key="d6">5812.0</data>
+  <data key="d7">2096024.0</data>
+  <data key="d8">8747.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M5:samandıra merkez">
+  <data key="d0">Samandıra Merkez</data>
+  <data key="d1">Samandıra Merkez</data>
+  <data key="d2">M5</data>
+  <data key="d3">M5-USKUDAR CEKMEKOY METROSU</data>
+  <data key="d4">True</data>
+  <data key="d5">15577.219178082192</data>
+  <data key="d6">15914.0</data>
+  <data key="d7">5685685.0</data>
+  <data key="d8">21178.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M6:nispetiye">
+  <data key="d0">Nispetiye</data>
+  <data key="d1">Nispetiye</data>
+  <data key="d2">M6</data>
+  <data key="d3">M6-LEVENT - RUMELI HISARUSTU</data>
+  <data key="d4">True</data>
+  <data key="d5">1468.8164383561643</data>
+  <data key="d6">1329.0</data>
+  <data key="d7">536118.0</data>
+  <data key="d8">5483.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M6:etiler">
+  <data key="d0">Etiler</data>
+  <data key="d1">Etiler</data>
+  <data key="d2">M6</data>
+  <data key="d3">M6-LEVENT - RUMELI HISARUSTU</data>
+  <data key="d4">True</data>
+  <data key="d5">1665.9150684931508</data>
+  <data key="d6">1652.0</data>
+  <data key="d7">608059.0</data>
+  <data key="d8">3267.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Hisarüstü">
+  <data key="d0">Boğaziçi Üniversitesi/Hisarüstü</data>
+  <data key="d1">Boğaziçi Üniversitesi/Hisarüstü</data>
+  <data key="d2">M6, F4</data>
+  <data key="d3">M6-LEVENT - RUMELI HISARUSTU | F4 RUMELI HISARUSTU -ASIYAN</data>
+  <data key="d4">True</data>
+  <data key="d5">5068.550684931507</data>
+  <data key="d6">4799.0</data>
+  <data key="d7">1850021.0</data>
+  <data key="d8">8228.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M7:yıldız">
+  <data key="d0">Yıldız</data>
+  <data key="d1">Yıldız</data>
+  <data key="d2">M7</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">4536.208219178082</data>
+  <data key="d6">4510.0</data>
+  <data key="d7">1655716.0</data>
+  <data key="d8">8362.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M7:fulya">
+  <data key="d0">Fulya</data>
+  <data key="d1">Fulya</data>
+  <data key="d2">M7</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">1320.0301369863014</data>
+  <data key="d6">1398.0</data>
+  <data key="d7">481811.0</data>
+  <data key="d8">2020.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M7:çağlayan">
+  <data key="d0">Çağlayan</data>
+  <data key="d1">Çağlayan</data>
+  <data key="d2">M7</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">9548.96978021978</data>
+  <data key="d6">10929.0</data>
+  <data key="d7">3475825.0</data>
+  <data key="d8">15842.0</data>
+  <data key="d9">364</data>
+</node>
+<node id="X:Kağıthane">
+  <data key="d0">Kağıthane</data>
+  <data key="d1">Kağıthane</data>
+  <data key="d2">M7, M11</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY | TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">22300.279452054794</data>
+  <data key="d6">22069.0</data>
+  <data key="d7">8139602.0</data>
+  <data key="d8">34227.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M7:nurtepe">
+  <data key="d0">Nurtepe</data>
+  <data key="d1">Nurtepe</data>
+  <data key="d2">M7</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">6484.660273972603</data>
+  <data key="d6">6874.0</data>
+  <data key="d7">2366901.0</data>
+  <data key="d8">8693.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Alibeyköy">
+  <data key="d0">Alibeyköy Metro</data>
+  <data key="d1">Alibeyköy Metro</data>
+  <data key="d2">M7, T5</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY | T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">24899.1397260274</data>
+  <data key="d6">24923.0</data>
+  <data key="d7">9088186.0</data>
+  <data key="d8">37689.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M7:çırçır">
+  <data key="d0">Çırçır</data>
+  <data key="d1">Çırçır</data>
+  <data key="d2">M7</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">5963.260273972603</data>
+  <data key="d6">6458.0</data>
+  <data key="d7">2176590.0</data>
+  <data key="d8">7818.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M7:veysel karani-akşemsettin">
+  <data key="d0">Veysel Karani-Akşemsettin</data>
+  <data key="d1">Veysel Karani-Akşemsettin</data>
+  <data key="d2">M7</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">10378.635616438356</data>
+  <data key="d6">11019.0</data>
+  <data key="d7">3788202.0</data>
+  <data key="d8">13288.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M7:yeşilpınar">
+  <data key="d0">Yeşilpınar</data>
+  <data key="d1">Yeşilpınar</data>
+  <data key="d2">M7</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">8162.465753424657</data>
+  <data key="d6">8702.0</data>
+  <data key="d7">2979300.0</data>
+  <data key="d8">10479.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M7:kazım karabekir">
+  <data key="d0">Kazım Karabekir</data>
+  <data key="d1">Kazım Karabekir</data>
+  <data key="d2">M7</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">13047.254794520548</data>
+  <data key="d6">13988.0</data>
+  <data key="d7">4762248.0</data>
+  <data key="d8">17514.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M7:yenimahalle">
+  <data key="d0">Yenimahalle</data>
+  <data key="d1">Yenimahalle</data>
+  <data key="d2">M7</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">9479.049315068492</data>
+  <data key="d6">9780.0</data>
+  <data key="d7">3459853.0</data>
+  <data key="d8">12480.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Kiptaş-Venezia">
+  <data key="d0">Karadeniz Mahallesi / Kiptaş Venezia</data>
+  <data key="d1">Karadeniz Mahallesi</data>
+  <data key="d2">M7, T4</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY | T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">34847.098630136985</data>
+  <data key="d6">36454.0</data>
+  <data key="d7">12719191.0</data>
+  <data key="d8">45843.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M7:tekstilkent-giyimkent">
+  <data key="d0">Tekstilkent-Giyimkent</data>
+  <data key="d1">Tekstilkent-Giyimkent</data>
+  <data key="d2">M7</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">3882.186301369863</data>
+  <data key="d6">4700.0</data>
+  <data key="d7">1416998.0</data>
+  <data key="d8">6025.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M7:oruç reis">
+  <data key="d0">Oruç Reis</data>
+  <data key="d1">Oruç Reis</data>
+  <data key="d2">M7</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">7007.3835616438355</data>
+  <data key="d6">7184.0</data>
+  <data key="d7">2557695.0</data>
+  <data key="d8">8971.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M7:göztepe (m7)">
+  <data key="d0">Göztepe (M7)</data>
+  <data key="d1">Göztepe (M7)</data>
+  <data key="d2">M7</data>
+  <data key="d3">M7-KABATAS-MAHMUTBEY</data>
+  <data key="d4">True</data>
+  <data key="d5">8462.120547945206</data>
+  <data key="d6">8713.0</data>
+  <data key="d7">3088674.0</data>
+  <data key="d8">11652.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M8:emin ali paşa">
+  <data key="d0">Emin Ali Paşa</data>
+  <data key="d1">Emin Ali Paşa</data>
+  <data key="d2">M8</data>
+  <data key="d3">M8 DUDULLU - BOSTANCI</data>
+  <data key="d4">True</data>
+  <data key="d5">1393.835616438356</data>
+  <data key="d6">1412.0</data>
+  <data key="d7">508750.0</data>
+  <data key="d8">2009.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M8:ayşekadın">
+  <data key="d0">Ayşekadın</data>
+  <data key="d1">Ayşekadın</data>
+  <data key="d2">M8</data>
+  <data key="d3">M8 DUDULLU - BOSTANCI</data>
+  <data key="d4">True</data>
+  <data key="d5">3091.6054794520546</data>
+  <data key="d6">3199.0</data>
+  <data key="d7">1128436.0</data>
+  <data key="d8">4420.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M8:küçükbakkalköy">
+  <data key="d0">Küçükbakkalköy</data>
+  <data key="d1">Küçükbakkalköy</data>
+  <data key="d2">M8</data>
+  <data key="d3">M8 DUDULLU - BOSTANCI</data>
+  <data key="d4">True</data>
+  <data key="d5">3701.068493150685</data>
+  <data key="d6">3724.0</data>
+  <data key="d7">1350890.0</data>
+  <data key="d8">5991.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M8:içerenköy">
+  <data key="d0">İçerenköy</data>
+  <data key="d1">İçerenköy</data>
+  <data key="d2">M8</data>
+  <data key="d3">M8 DUDULLU - BOSTANCI</data>
+  <data key="d4">True</data>
+  <data key="d5">4781.45205479452</data>
+  <data key="d6">4682.0</data>
+  <data key="d7">1745230.0</data>
+  <data key="d8">7455.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M8:kayışdağı">
+  <data key="d0">Kayışdağı</data>
+  <data key="d1">Kayışdağı</data>
+  <data key="d2">M8</data>
+  <data key="d3">M8 DUDULLU - BOSTANCI</data>
+  <data key="d4">True</data>
+  <data key="d5">3061.539726027397</data>
+  <data key="d6">2951.0</data>
+  <data key="d7">1117462.0</data>
+  <data key="d8">4700.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M8:mevlana">
+  <data key="d0">Mevlana</data>
+  <data key="d1">Mevlana</data>
+  <data key="d2">M8</data>
+  <data key="d3">M8 DUDULLU - BOSTANCI</data>
+  <data key="d4">True</data>
+  <data key="d5">4008.4849315068495</data>
+  <data key="d6">4053.0</data>
+  <data key="d7">1463097.0</data>
+  <data key="d8">6298.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M8:imes">
+  <data key="d0">İMES</data>
+  <data key="d1">İMES</data>
+  <data key="d2">M8</data>
+  <data key="d3">M8 DUDULLU - BOSTANCI</data>
+  <data key="d4">True</data>
+  <data key="d5">3483.1534246575343</data>
+  <data key="d6">4094.0</data>
+  <data key="d7">1271351.0</data>
+  <data key="d8">5239.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M8:modoko-keyap">
+  <data key="d0">MODOKO-KEYAP</data>
+  <data key="d1">MODOKO-KEYAP</data>
+  <data key="d2">M8</data>
+  <data key="d3">M8 DUDULLU - BOSTANCI</data>
+  <data key="d4">True</data>
+  <data key="d5">2163.6027397260273</data>
+  <data key="d6">2313.0</data>
+  <data key="d7">789715.0</data>
+  <data key="d8">3261.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M8:huzur (m8)">
+  <data key="d0">Huzur (M8)</data>
+  <data key="d1">Huzur (M8)</data>
+  <data key="d2">M8</data>
+  <data key="d3">M8 DUDULLU - BOSTANCI</data>
+  <data key="d4">True</data>
+  <data key="d5">2448.427397260274</data>
+  <data key="d6">2535.0</data>
+  <data key="d7">893676.0</data>
+  <data key="d8">3356.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M8:parseller">
+  <data key="d0">Parseller</data>
+  <data key="d1">Parseller</data>
+  <data key="d2">M8</data>
+  <data key="d3">M8 DUDULLU - BOSTANCI</data>
+  <data key="d4">True</data>
+  <data key="d5">1902.372602739726</data>
+  <data key="d6">1985.0</data>
+  <data key="d7">694366.0</data>
+  <data key="d8">2597.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M9:ataköy (m9)">
+  <data key="d0">Ataköy (M9)</data>
+  <data key="d1">Ataköy (M9)</data>
+  <data key="d2">M9</data>
+  <data key="d3">M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">8924.353424657535</data>
+  <data key="d6">9273.0</data>
+  <data key="d7">3257389.0</data>
+  <data key="d8">12372.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M9:çobançeşme">
+  <data key="d0">Çobançeşme</data>
+  <data key="d1">Çobançeşme</data>
+  <data key="d2">M9</data>
+  <data key="d3">M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">1730.1890410958904</data>
+  <data key="d6">1973.0</data>
+  <data key="d7">631519.0</data>
+  <data key="d8">2465.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M9:29 ekim cumhuriyet">
+  <data key="d0">29 Ekim Cumhuriyet</data>
+  <data key="d1">29 Ekim Cumhuriyet</data>
+  <data key="d2">M9</data>
+  <data key="d3">M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">3833.608219178082</data>
+  <data key="d6">4558.0</data>
+  <data key="d7">1399267.0</data>
+  <data key="d8">5979.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M9:doğu sanayi">
+  <data key="d0">Doğu Sanayi</data>
+  <data key="d1">Doğu Sanayi</data>
+  <data key="d2">M9</data>
+  <data key="d3">M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">3226.8027397260275</data>
+  <data key="d6">3469.0</data>
+  <data key="d7">1177783.0</data>
+  <data key="d8">4814.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M9:mimar sinan">
+  <data key="d0">Mimar Sinan</data>
+  <data key="d1">Mimar Sinan</data>
+  <data key="d2">M9</data>
+  <data key="d3">M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">2146.205479452055</data>
+  <data key="d6">2341.0</data>
+  <data key="d7">783365.0</data>
+  <data key="d8">3343.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M9:15 temmuz">
+  <data key="d0">15 Temmuz</data>
+  <data key="d1">15 Temmuz</data>
+  <data key="d2">M9</data>
+  <data key="d3">M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">3616.4027397260274</data>
+  <data key="d6">3908.0</data>
+  <data key="d7">1319987.0</data>
+  <data key="d8">4805.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M9:halkalı caddesi">
+  <data key="d0">Halkalı Caddesi</data>
+  <data key="d1">Halkalı Caddesi</data>
+  <data key="d2">M9</data>
+  <data key="d3">M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">4269.821917808219</data>
+  <data key="d6">4414.0</data>
+  <data key="d7">1558485.0</data>
+  <data key="d8">6141.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M9:atatürk mahallesi">
+  <data key="d0">Atatürk Mahallesi</data>
+  <data key="d1">Atatürk Mahallesi</data>
+  <data key="d2">M9</data>
+  <data key="d3">M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">4383.742465753425</data>
+  <data key="d6">4561.0</data>
+  <data key="d7">1600066.0</data>
+  <data key="d8">5567.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M9:bahariye">
+  <data key="d0">Bahariye</data>
+  <data key="d1">Bahariye</data>
+  <data key="d2">M9</data>
+  <data key="d3">M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">5023.52602739726</data>
+  <data key="d6">5380.0</data>
+  <data key="d7">1833587.0</data>
+  <data key="d8">6314.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M9:masko">
+  <data key="d0">Masko</data>
+  <data key="d1">Masko</data>
+  <data key="d2">M9</data>
+  <data key="d3">M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">6200.77808219178</data>
+  <data key="d6">5984.0</data>
+  <data key="d7">2263284.0</data>
+  <data key="d8">9163.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M9:ziya gökalp mahallesi">
+  <data key="d0">Ziya Gökalp Mahallesi</data>
+  <data key="d1">Ziya Gökalp Mahallesi</data>
+  <data key="d2">M9</data>
+  <data key="d3">M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">3584.572602739726</data>
+  <data key="d6">3621.0</data>
+  <data key="d7">1308369.0</data>
+  <data key="d8">5259.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M9:olimpiyat">
+  <data key="d0">Olimpiyat</data>
+  <data key="d1">Olimpiyat</data>
+  <data key="d2">M9</data>
+  <data key="d3">M9 ATAKOY-IKITELLI METRO</data>
+  <data key="d4">True</data>
+  <data key="d5">7407.156164383561</data>
+  <data key="d6">7780.0</data>
+  <data key="d7">2703612.0</data>
+  <data key="d8">13573.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Kabataş">
+  <data key="d0">Kabataş</data>
+  <data key="d1">Kabataş</data>
+  <data key="d2">T1, F1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR | F1-TAKSIM-KABATAS FUNIKILER HATTI</data>
+  <data key="d4">True</data>
+  <data key="d5">17675.219178082192</data>
+  <data key="d6">18072.0</data>
+  <data key="d7">6451455.0</data>
+  <data key="d8">26051.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:fındıklı-mimar sinan ü.">
+  <data key="d0">Fındıklı-Mimar Sinan Ü.</data>
+  <data key="d1">Fındıklı-Mimar Sinan Ü.</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">2260.0520547945207</data>
+  <data key="d6">2263.0</data>
+  <data key="d7">824919.0</data>
+  <data key="d8">3422.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:tophane">
+  <data key="d0">Tophane</data>
+  <data key="d1">Tophane</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">8254.991780821918</data>
+  <data key="d6">8254.0</data>
+  <data key="d7">3013072.0</data>
+  <data key="d8">12370.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Karaköy">
+  <data key="d0">Karaköy</data>
+  <data key="d1">Karaköy</data>
+  <data key="d2">T1, TUNEL</data>
+  <data key="d3">T1-KABATAS-BAGCILAR | IETT TUNEL</data>
+  <data key="d4">True</data>
+  <data key="d5">18076.14794520548</data>
+  <data key="d6">18451.0</data>
+  <data key="d7">6597794.0</data>
+  <data key="d8">25517.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Eminönü">
+  <data key="d0">Eminönü</data>
+  <data key="d1">Eminönü</data>
+  <data key="d2">T1, T5</data>
+  <data key="d3">T1-KABATAS-BAGCILAR | T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">30511.21095890411</data>
+  <data key="d6">31022.0</data>
+  <data key="d7">11136592.0</data>
+  <data key="d8">53240.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Sirkeci">
+  <data key="d0">Sirkeci</data>
+  <data key="d1">Sirkeci</data>
+  <data key="d2">T1, MAR, SIRKECI</data>
+  <data key="d3">T1-KABATAS-BAGCILAR | TCDD TASIMACILIK A.S. | TCDD SIRKECI-KAZLICESME</data>
+  <data key="d4">True</data>
+  <data key="d5">57854.983561643836</data>
+  <data key="d6">62103.0</data>
+  <data key="d7">21117069.0</data>
+  <data key="d8">83373.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:gülhane">
+  <data key="d0">Gülhane</data>
+  <data key="d1">Gülhane</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">5917.961643835616</data>
+  <data key="d6">6000.0</data>
+  <data key="d7">2160056.0</data>
+  <data key="d8">9647.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:sultanahmet">
+  <data key="d0">Sultanahmet</data>
+  <data key="d1">Sultanahmet</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">12265.504109589041</data>
+  <data key="d6">12317.0</data>
+  <data key="d7">4476909.0</data>
+  <data key="d8">17603.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:çemberlitaş">
+  <data key="d0">Çemberlitaş</data>
+  <data key="d1">Çemberlitaş</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">10425.61095890411</data>
+  <data key="d6">11890.0</data>
+  <data key="d7">3805348.0</data>
+  <data key="d8">14288.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:beyazıt-kapalıçarşı">
+  <data key="d0">Beyazıt-Kapalıçarşı</data>
+  <data key="d1">Beyazıt-Kapalıçarşı</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">16355.991780821918</data>
+  <data key="d6">18362.0</data>
+  <data key="d7">5969937.0</data>
+  <data key="d8">23655.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:laleli-istanbul ü.">
+  <data key="d0">Laleli-İstanbul Ü.</data>
+  <data key="d1">Laleli-İstanbul Ü.</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">10506.498630136986</data>
+  <data key="d6">10829.0</data>
+  <data key="d7">3834872.0</data>
+  <data key="d8">17101.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:yusufpaşa">
+  <data key="d0">Yusufpaşa</data>
+  <data key="d1">Yusufpaşa</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">13200.282191780821</data>
+  <data key="d6">14238.0</data>
+  <data key="d7">4818103.0</data>
+  <data key="d8">18852.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:haseki">
+  <data key="d0">Haseki</data>
+  <data key="d1">Haseki</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">2998.3616438356166</data>
+  <data key="d6">3160.0</data>
+  <data key="d7">1094402.0</data>
+  <data key="d8">4104.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:fındıkzade">
+  <data key="d0">Fındıkzade</data>
+  <data key="d1">Fındıkzade</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">9603.024657534246</data>
+  <data key="d6">10166.0</data>
+  <data key="d7">3505104.0</data>
+  <data key="d8">14485.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:çapa-şehremini">
+  <data key="d0">Çapa-Şehremini</data>
+  <data key="d1">Çapa-Şehremini</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">11925.14794520548</data>
+  <data key="d6">12908.0</data>
+  <data key="d7">4352679.0</data>
+  <data key="d8">18350.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:pazartekke">
+  <data key="d0">Pazartekke</data>
+  <data key="d1">Pazartekke</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">4416.076712328767</data>
+  <data key="d6">4638.0</data>
+  <data key="d7">1611868.0</data>
+  <data key="d8">7408.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Topkapı">
+  <data key="d0">Topkapı</data>
+  <data key="d1">Topkapı</data>
+  <data key="d2">T1, T4</data>
+  <data key="d3">T1-KABATAS-BAGCILAR | T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">25908.591780821916</data>
+  <data key="d6">27477.0</data>
+  <data key="d7">9456636.0</data>
+  <data key="d8">36042.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:cevizlibağ-aöy">
+  <data key="d0">Cevizlibağ-AÖY</data>
+  <data key="d1">Cevizlibağ-AÖY</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">24154.84109589041</data>
+  <data key="d6">25087.0</data>
+  <data key="d7">8816517.0</data>
+  <data key="d8">37094.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:merkezefendi">
+  <data key="d0">Merkezefendi</data>
+  <data key="d1">Merkezefendi</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">3664.202739726027</data>
+  <data key="d6">3873.0</data>
+  <data key="d7">1337434.0</data>
+  <data key="d8">4799.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:seyitnizam-akşemsettin">
+  <data key="d0">Seyitnizam-Akşemsettin</data>
+  <data key="d1">Seyitnizam-Akşemsettin</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">9972.51506849315</data>
+  <data key="d6">10662.0</data>
+  <data key="d7">3639968.0</data>
+  <data key="d8">13182.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:mithatpaşa">
+  <data key="d0">Mithatpaşa</data>
+  <data key="d1">Mithatpaşa</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">4824.356164383562</data>
+  <data key="d6">5057.0</data>
+  <data key="d7">1760890.0</data>
+  <data key="d8">6510.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:mehmet akif">
+  <data key="d0">Mehmet Akif</data>
+  <data key="d1">Mehmet Akif</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">2534.0164383561646</data>
+  <data key="d6">2433.0</data>
+  <data key="d7">924916.0</data>
+  <data key="d8">3648.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:merter tekstil merkezi">
+  <data key="d0">Merter Tekstil Merkezi</data>
+  <data key="d1">Merter Tekstil Merkezi</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T1:güngören">
+  <data key="d0">Güngören</data>
+  <data key="d1">Güngören</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">9426.424657534246</data>
+  <data key="d6">9824.0</data>
+  <data key="d7">3440645.0</data>
+  <data key="d8">15405.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:akıncılar">
+  <data key="d0">Akıncılar</data>
+  <data key="d1">Akıncılar</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">3532.986301369863</data>
+  <data key="d6">3692.0</data>
+  <data key="d7">1289540.0</data>
+  <data key="d8">4410.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:soğanlı">
+  <data key="d0">Soğanlı</data>
+  <data key="d1">Soğanlı</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">6335.506849315068</data>
+  <data key="d6">6598.0</data>
+  <data key="d7">2312460.0</data>
+  <data key="d8">7844.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T1:yavuzselim">
+  <data key="d0">Yavuzselim</data>
+  <data key="d1">Yavuzselim</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T1:güneştepe">
+  <data key="d0">Güneştepe</data>
+  <data key="d1">Güneştepe</data>
+  <data key="d2">T1</data>
+  <data key="d3">T1-KABATAS-BAGCILAR</data>
+  <data key="d4">True</data>
+  <data key="d5">2635.2246575342465</data>
+  <data key="d6">2763.0</data>
+  <data key="d7">961857.0</data>
+  <data key="d8">3376.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T3:iskele camii">
+  <data key="d0">İskele Camii</data>
+  <data key="d1">İskele Camii</data>
+  <data key="d2">T3</data>
+  <data key="d3">T3-KADIKOY-MODA</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T3:çarşı">
+  <data key="d0">Çarşı</data>
+  <data key="d1">Çarşı</data>
+  <data key="d2">T3</data>
+  <data key="d3">T3-KADIKOY-MODA</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T3:altıyol">
+  <data key="d0">Altıyol</data>
+  <data key="d1">Altıyol</data>
+  <data key="d2">T3</data>
+  <data key="d3">T3-KADIKOY-MODA</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T3:bahariye">
+  <data key="d0">Bahariye</data>
+  <data key="d1">Bahariye</data>
+  <data key="d2">T3</data>
+  <data key="d3">T3-KADIKOY-MODA</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T3:kilise">
+  <data key="d0">Kilise</data>
+  <data key="d1">Kilise</data>
+  <data key="d2">T3</data>
+  <data key="d3">T3-KADIKOY-MODA</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T3:moda ilkokulu">
+  <data key="d0">Moda İlkokulu</data>
+  <data key="d1">Moda İlkokulu</data>
+  <data key="d2">T3</data>
+  <data key="d3">T3-KADIKOY-MODA</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T3:moda">
+  <data key="d0">Moda</data>
+  <data key="d1">Moda</data>
+  <data key="d2">T3</data>
+  <data key="d3">T3-KADIKOY-MODA</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T3:rızapaşa">
+  <data key="d0">Rızapaşa</data>
+  <data key="d1">Rızapaşa</data>
+  <data key="d2">T3</data>
+  <data key="d3">T3-KADIKOY-MODA</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T3:mühürdar">
+  <data key="d0">Mühürdar</data>
+  <data key="d1">Mühürdar</data>
+  <data key="d2">T3</data>
+  <data key="d3">T3-KADIKOY-MODA</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T3:damga sokak">
+  <data key="d0">Damga Sokak</data>
+  <data key="d1">Damga Sokak</data>
+  <data key="d2">T3</data>
+  <data key="d3">T3-KADIKOY-MODA</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T2:hüseyin ağa camii">
+  <data key="d0">Hüseyin Ağa Camii</data>
+  <data key="d1">Hüseyin Ağa Camii</data>
+  <data key="d2">T2</data>
+  <data key="d3">IETT NOSTALJIK TRAMVAY</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T2:galatasaray lisesi">
+  <data key="d0">Galatasaray Lisesi</data>
+  <data key="d1">Galatasaray Lisesi</data>
+  <data key="d2">T2</data>
+  <data key="d3">IETT NOSTALJIK TRAMVAY</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T2:odakule">
+  <data key="d0">Odakule</data>
+  <data key="d1">Odakule</data>
+  <data key="d2">T2</data>
+  <data key="d3">IETT NOSTALJIK TRAMVAY</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="F3:vadistanbul">
+  <data key="d0">Vadistanbul</data>
+  <data key="d1">Vadistanbul</data>
+  <data key="d2">F3</data>
+  <data key="d3">F3 SEYRANTEPE-VADISTANBUL FUNIKILER HATTI</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="T4:fetihkapı">
+  <data key="d0">Fetihkapı</data>
+  <data key="d1">Fetihkapı</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">2542.358904109589</data>
+  <data key="d6">2741.0</data>
+  <data key="d7">927961.0</data>
+  <data key="d8">4652.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:edirnekapı">
+  <data key="d0">Edirnekapı</data>
+  <data key="d1">Edirnekapı</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">2374.564383561644</data>
+  <data key="d6">2440.0</data>
+  <data key="d7">866716.0</data>
+  <data key="d8">5143.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:şehitlik">
+  <data key="d0">Şehitlik</data>
+  <data key="d1">Şehitlik</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">10537.82191780822</data>
+  <data key="d6">10887.0</data>
+  <data key="d7">3846305.0</data>
+  <data key="d8">15076.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:demirkapı">
+  <data key="d0">Demirkapı</data>
+  <data key="d1">Demirkapı</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">3761.0383561643835</data>
+  <data key="d6">4057.0</data>
+  <data key="d7">1372779.0</data>
+  <data key="d8">5971.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:topçular">
+  <data key="d0">Topçular</data>
+  <data key="d1">Topçular</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">2911.230136986301</data>
+  <data key="d6">3373.0</data>
+  <data key="d7">1062599.0</data>
+  <data key="d8">4969.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:rami">
+  <data key="d0">Rami</data>
+  <data key="d1">Rami</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">5630.438356164384</data>
+  <data key="d6">5594.0</data>
+  <data key="d7">2055110.0</data>
+  <data key="d8">14549.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:bereç">
+  <data key="d0">Bereç</data>
+  <data key="d1">Bereç</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">8873.739726027397</data>
+  <data key="d6">9391.0</data>
+  <data key="d7">3238915.0</data>
+  <data key="d8">11754.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:sağmalcılar">
+  <data key="d0">Sağmalcılar</data>
+  <data key="d1">Sağmalcılar</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">5383.53698630137</data>
+  <data key="d6">5759.0</data>
+  <data key="d7">1964991.0</data>
+  <data key="d8">8001.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:çukurçeşme">
+  <data key="d0">Çukurçeşme</data>
+  <data key="d1">Çukurçeşme</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">6262.334246575342</data>
+  <data key="d6">6655.0</data>
+  <data key="d7">2285752.0</data>
+  <data key="d8">8602.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:ali fuat başgil">
+  <data key="d0">Ali Fuat Başgil</data>
+  <data key="d1">Ali Fuat Başgil</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">10751.739726027397</data>
+  <data key="d6">11357.0</data>
+  <data key="d7">3924385.0</data>
+  <data key="d8">14394.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:taşköprü">
+  <data key="d0">Taşköprü</data>
+  <data key="d1">Taşköprü</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">7775.021917808219</data>
+  <data key="d6">8172.0</data>
+  <data key="d7">2837883.0</data>
+  <data key="d8">10392.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:karadeniz mahallesi">
+  <data key="d0">Karadeniz Mahallesi</data>
+  <data key="d1">Karadeniz Mahallesi</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">4457.73698630137</data>
+  <data key="d6">4653.0</data>
+  <data key="d7">1627074.0</data>
+  <data key="d8">5930.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:cumhuriyet">
+  <data key="d0">Cumhuriyet</data>
+  <data key="d1">Cumhuriyet</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">1729.6191780821919</data>
+  <data key="d6">1774.0</data>
+  <data key="d7">631311.0</data>
+  <data key="d8">2400.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:baştabya">
+  <data key="d0">Baştabya</data>
+  <data key="d1">Baştabya</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">4395.997260273973</data>
+  <data key="d6">4535.0</data>
+  <data key="d7">1604539.0</data>
+  <data key="d8">5986.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:hacı şükrü">
+  <data key="d0">Hacı Şükrü</data>
+  <data key="d1">Hacı Şükrü</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">6797.931506849315</data>
+  <data key="d6">7095.0</data>
+  <data key="d7">2481245.0</data>
+  <data key="d8">9491.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:yenimahalle">
+  <data key="d0">Yenimahalle</data>
+  <data key="d1">Yenimahalle</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">8485.394520547945</data>
+  <data key="d6">8734.0</data>
+  <data key="d7">3097169.0</data>
+  <data key="d8">11777.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:sultançiftliği">
+  <data key="d0">Sultançiftliği</data>
+  <data key="d1">Sultançiftliği</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">10279.356164383562</data>
+  <data key="d6">10651.0</data>
+  <data key="d7">3751965.0</data>
+  <data key="d8">14230.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:cebeci">
+  <data key="d0">Cebeci</data>
+  <data key="d1">Cebeci</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">4841.309589041096</data>
+  <data key="d6">5024.0</data>
+  <data key="d7">1767078.0</data>
+  <data key="d8">6466.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T4:mescidi selam">
+  <data key="d0">Mescidi Selam</data>
+  <data key="d1">Mescidi Selam</data>
+  <data key="d2">T4</data>
+  <data key="d3">T4-TOPKAPI-MESCID-I SELAM</data>
+  <data key="d4">True</data>
+  <data key="d5">8480.931506849314</data>
+  <data key="d6">8272.0</data>
+  <data key="d7">3095540.0</data>
+  <data key="d8">12185.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T5:küçükpazar">
+  <data key="d0">Küçükpazar</data>
+  <data key="d1">Küçükpazar</data>
+  <data key="d2">T5</data>
+  <data key="d3">T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">3884.7041095890413</data>
+  <data key="d6">3859.0</data>
+  <data key="d7">1417917.0</data>
+  <data key="d8">8849.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T5:cibali">
+  <data key="d0">Cibali</data>
+  <data key="d1">Cibali</data>
+  <data key="d2">T5</data>
+  <data key="d3">T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">2111.4931506849316</data>
+  <data key="d6">1805.0</data>
+  <data key="d7">770695.0</data>
+  <data key="d8">10084.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T5:fener">
+  <data key="d0">Fener</data>
+  <data key="d1">Fener</data>
+  <data key="d2">T5</data>
+  <data key="d3">T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">3037.5260273972603</data>
+  <data key="d6">2976.0</data>
+  <data key="d7">1108697.0</data>
+  <data key="d8">5774.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T5:balat">
+  <data key="d0">Balat</data>
+  <data key="d1">Balat</data>
+  <data key="d2">T5</data>
+  <data key="d3">T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">2910.895890410959</data>
+  <data key="d6">2857.0</data>
+  <data key="d7">1062477.0</data>
+  <data key="d8">5563.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T5:ayvansaray">
+  <data key="d0">Ayvansaray</data>
+  <data key="d1">Ayvansaray</data>
+  <data key="d2">T5</data>
+  <data key="d3">T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">1690.1342465753426</data>
+  <data key="d6">1665.0</data>
+  <data key="d7">616899.0</data>
+  <data key="d8">2750.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T5:feshane">
+  <data key="d0">Feshane</data>
+  <data key="d1">Feshane</data>
+  <data key="d2">T5</data>
+  <data key="d3">T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">3268.391780821918</data>
+  <data key="d6">3142.0</data>
+  <data key="d7">1192963.0</data>
+  <data key="d8">8555.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Eyüp Teleferik">
+  <data key="d0">Eyüp Teleferik</data>
+  <data key="d1">Eyüp Teleferik</data>
+  <data key="d2">T5, TF2</data>
+  <data key="d3">T5 EMINONU-ALIBEYKOY | TF2-TELEFERIK EYUP PIYERLOTI</data>
+  <data key="d4">True</data>
+  <data key="d5">4215.846575342466</data>
+  <data key="d6">4289.0</data>
+  <data key="d7">1538784.0</data>
+  <data key="d8">7331.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T5:eyüp devlet hastanesi">
+  <data key="d0">Eyüp Devlet Hastanesi</data>
+  <data key="d1">Eyüp Devlet Hastanesi</data>
+  <data key="d2">T5</data>
+  <data key="d3">T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">2677.0301369863014</data>
+  <data key="d6">2808.0</data>
+  <data key="d7">977116.0</data>
+  <data key="d8">3859.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T5:silahtarağa">
+  <data key="d0">Silahtarağa</data>
+  <data key="d1">Silahtarağa</data>
+  <data key="d2">T5</data>
+  <data key="d3">T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">2699.6</data>
+  <data key="d6">2764.0</data>
+  <data key="d7">985354.0</data>
+  <data key="d8">3834.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T5:üniversite">
+  <data key="d0">Üniversite</data>
+  <data key="d1">Üniversite</data>
+  <data key="d2">T5</data>
+  <data key="d3">T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">2660.0219178082193</data>
+  <data key="d6">2294.0</data>
+  <data key="d7">970908.0</data>
+  <data key="d8">4956.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T5:alibeyköy">
+  <data key="d0">Alibeyköy</data>
+  <data key="d1">Alibeyköy</data>
+  <data key="d2">T5</data>
+  <data key="d3">T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">2929.372602739726</data>
+  <data key="d6">2948.0</data>
+  <data key="d7">1069221.0</data>
+  <data key="d8">4764.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="T5:cep otogar">
+  <data key="d0">Cep Otogar</data>
+  <data key="d1">Cep Otogar</data>
+  <data key="d2">T5</data>
+  <data key="d3">T5 EMINONU-ALIBEYKOY</data>
+  <data key="d4">True</data>
+  <data key="d5">3721.487671232877</data>
+  <data key="d6">3793.0</data>
+  <data key="d7">1358343.0</data>
+  <data key="d8">5012.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M11:hasdal">
+  <data key="d0">Hasdal</data>
+  <data key="d1">Hasdal</data>
+  <data key="d2">M11</data>
+  <data key="d3">TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">166.7178082191781</data>
+  <data key="d6">171.0</data>
+  <data key="d7">60852.0</data>
+  <data key="d8">367.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M11:kemerburgaz">
+  <data key="d0">Kemerburgaz</data>
+  <data key="d1">Kemerburgaz</data>
+  <data key="d2">M11</data>
+  <data key="d3">TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">1739.0575342465754</data>
+  <data key="d6">1662.0</data>
+  <data key="d7">634756.0</data>
+  <data key="d8">2926.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M11:göktürk">
+  <data key="d0">Göktürk</data>
+  <data key="d1">Göktürk</data>
+  <data key="d2">M11</data>
+  <data key="d3">TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">3229.3479452054794</data>
+  <data key="d6">3264.0</data>
+  <data key="d7">1178712.0</data>
+  <data key="d8">4410.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M11:ihsaniye">
+  <data key="d0">İhsaniye</data>
+  <data key="d1">İhsaniye</data>
+  <data key="d2">M11</data>
+  <data key="d3">TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">739.9205479452055</data>
+  <data key="d6">745.0</data>
+  <data key="d7">270071.0</data>
+  <data key="d8">1066.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M11:istanbul havalimanı">
+  <data key="d0">İstanbul Havalimanı</data>
+  <data key="d1">İstanbul Havalimanı</data>
+  <data key="d2">M11</data>
+  <data key="d3">TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">5606.8328767123285</data>
+  <data key="d6">5535.0</data>
+  <data key="d7">2046494.0</data>
+  <data key="d8">10103.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M11:kargo terminali">
+  <data key="d0">Kargo Terminali</data>
+  <data key="d1">Kargo Terminali</data>
+  <data key="d2">M11</data>
+  <data key="d3">TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">897.6</data>
+  <data key="d6">1019.0</data>
+  <data key="d7">327624.0</data>
+  <data key="d8">1400.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M11:taşoluk">
+  <data key="d0">Taşoluk</data>
+  <data key="d1">Taşoluk</data>
+  <data key="d2">M11</data>
+  <data key="d3">TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">1173.3397260273973</data>
+  <data key="d6">1164.0</data>
+  <data key="d7">428269.0</data>
+  <data key="d8">1591.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="M11:arnavutköy">
+  <data key="d0">Arnavutköy</data>
+  <data key="d1">Arnavutköy</data>
+  <data key="d2">M11</data>
+  <data key="d3">TCDD - GAYRETTEPE-ISTANBUL YENI HAVALIMANI</data>
+  <data key="d4">True</data>
+  <data key="d5">3197.3698630136987</data>
+  <data key="d6">3187.0</data>
+  <data key="d7">1167040.0</data>
+  <data key="d8">4367.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:gebze">
+  <data key="d0">Gebze</data>
+  <data key="d1">Gebze</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">10333.783561643835</data>
+  <data key="d6">10206.0</data>
+  <data key="d7">3771831.0</data>
+  <data key="d8">16008.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:darıca">
+  <data key="d0">Darıca</data>
+  <data key="d1">Darıca</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">2151.6602739726027</data>
+  <data key="d6">2189.0</data>
+  <data key="d7">785356.0</data>
+  <data key="d8">2940.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:osmangazi">
+  <data key="d0">Osmangazi</data>
+  <data key="d1">Osmangazi</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">2988.857534246575</data>
+  <data key="d6">2995.0</data>
+  <data key="d7">1090933.0</data>
+  <data key="d8">4824.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:çayırova">
+  <data key="d0">Çayırova</data>
+  <data key="d1">Çayırova</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">1514.9397260273972</data>
+  <data key="d6">1481.0</data>
+  <data key="d7">552953.0</data>
+  <data key="d8">2971.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:fatih">
+  <data key="d0">Fatih</data>
+  <data key="d1">Fatih</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">5263.917808219178</data>
+  <data key="d6">4964.0</data>
+  <data key="d7">1921330.0</data>
+  <data key="d8">7399.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:tuzla">
+  <data key="d0">Tuzla</data>
+  <data key="d1">Tuzla</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">6067.572602739726</data>
+  <data key="d6">5922.0</data>
+  <data key="d7">2214664.0</data>
+  <data key="d8">9113.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:içmeler">
+  <data key="d0">İçmeler</data>
+  <data key="d1">İçmeler</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">6574.079452054794</data>
+  <data key="d6">6704.0</data>
+  <data key="d7">2399539.0</data>
+  <data key="d8">9098.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:aydıntepe">
+  <data key="d0">Aydıntepe</data>
+  <data key="d1">Aydıntepe</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">4116.4684931506845</data>
+  <data key="d6">4279.0</data>
+  <data key="d7">1502511.0</data>
+  <data key="d8">5100.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:güzelyalı">
+  <data key="d0">Güzelyalı</data>
+  <data key="d1">Güzelyalı</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">2205.594520547945</data>
+  <data key="d6">2228.0</data>
+  <data key="d7">805042.0</data>
+  <data key="d8">2903.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:tersane">
+  <data key="d0">Tersane</data>
+  <data key="d1">Tersane</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">4266.632876712329</data>
+  <data key="d6">4333.0</data>
+  <data key="d7">1557321.0</data>
+  <data key="d8">12609.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:kaynarca">
+  <data key="d0">Kaynarca</data>
+  <data key="d1">Kaynarca</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">3939.6602739726027</data>
+  <data key="d6">3999.0</data>
+  <data key="d7">1437976.0</data>
+  <data key="d8">5026.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:pendik (marmaray)">
+  <data key="d0">Pendik (Marmaray)</data>
+  <data key="d1">Pendik (Marmaray)</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">17776.53698630137</data>
+  <data key="d6">18133.0</data>
+  <data key="d7">6488436.0</data>
+  <data key="d8">24783.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:yunus">
+  <data key="d0">Yunus</data>
+  <data key="d1">Yunus</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">3774.9534246575345</data>
+  <data key="d6">3836.0</data>
+  <data key="d7">1377858.0</data>
+  <data key="d8">5288.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:kartal (marmaray)">
+  <data key="d0">Kartal (Marmaray)</data>
+  <data key="d1">Kartal (Marmaray)</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">11666.356164383562</data>
+  <data key="d6">11969.0</data>
+  <data key="d7">4258220.0</data>
+  <data key="d8">14107.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:atalar">
+  <data key="d0">Atalar</data>
+  <data key="d1">Atalar</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">7728.139726027397</data>
+  <data key="d6">7985.0</data>
+  <data key="d7">2820771.0</data>
+  <data key="d8">9886.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:başak">
+  <data key="d0">Başak</data>
+  <data key="d1">Başak</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">3973.5260273972603</data>
+  <data key="d6">4152.0</data>
+  <data key="d7">1450337.0</data>
+  <data key="d8">5168.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:cevizli (marmaray)">
+  <data key="d0">Cevizli (Marmaray)</data>
+  <data key="d1">Cevizli (Marmaray)</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">8512.830136986302</data>
+  <data key="d6">8558.0</data>
+  <data key="d7">3107183.0</data>
+  <data key="d8">11830.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:maltepe">
+  <data key="d0">Maltepe</data>
+  <data key="d1">Maltepe</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">11560.219178082192</data>
+  <data key="d6">11878.0</data>
+  <data key="d7">4219480.0</data>
+  <data key="d8">18430.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:idealtepe">
+  <data key="d0">İdealtepe</data>
+  <data key="d1">İdealtepe</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">5283.556164383562</data>
+  <data key="d6">5469.0</data>
+  <data key="d7">1928498.0</data>
+  <data key="d8">10600.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:süreyya plajı">
+  <data key="d0">Süreyya Plajı</data>
+  <data key="d1">Süreyya Plajı</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">7994.945205479452</data>
+  <data key="d6">8102.0</data>
+  <data key="d7">2918155.0</data>
+  <data key="d8">12169.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:küçükyalı (marmaray)">
+  <data key="d0">Küçükyalı (Marmaray)</data>
+  <data key="d1">Küçükyalı (Marmaray)</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">9222.91506849315</data>
+  <data key="d6">9471.0</data>
+  <data key="d7">3366364.0</data>
+  <data key="d8">13741.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:suadiye">
+  <data key="d0">Suadiye</data>
+  <data key="d1">Suadiye</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">13218.410958904109</data>
+  <data key="d6">13309.0</data>
+  <data key="d7">4824720.0</data>
+  <data key="d8">20939.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:erenköy">
+  <data key="d0">Erenköy</data>
+  <data key="d1">Erenköy</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">12361.238356164384</data>
+  <data key="d6">12882.0</data>
+  <data key="d7">4511852.0</data>
+  <data key="d8">18285.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:göztepe (marmaray)">
+  <data key="d0">Göztepe (Marmaray)</data>
+  <data key="d1">Göztepe (Marmaray)</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">9889.164383561643</data>
+  <data key="d6">10415.0</data>
+  <data key="d7">3609545.0</data>
+  <data key="d8">18959.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:feneryolu">
+  <data key="d0">Feneryolu</data>
+  <data key="d1">Feneryolu</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">10208.671232876712</data>
+  <data key="d6">10637.0</data>
+  <data key="d7">3726165.0</data>
+  <data key="d8">16666.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:söğütlüçeşme">
+  <data key="d0">Söğütlüçeşme</data>
+  <data key="d1">Söğütlüçeşme</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">27626.01095890411</data>
+  <data key="d6">27722.0</data>
+  <data key="d7">10083494.0</data>
+  <data key="d8">42505.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:kazlıçeşme">
+  <data key="d0">Kazlıçeşme</data>
+  <data key="d1">Kazlıçeşme</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">12520.183561643835</data>
+  <data key="d6">12659.0</data>
+  <data key="d7">4569867.0</data>
+  <data key="d8">17920.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:yenimahalle (marmaray)">
+  <data key="d0">Yenimahalle (Marmaray)</data>
+  <data key="d1">Yenimahalle (Marmaray)</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">6029.676712328767</data>
+  <data key="d6">6342.0</data>
+  <data key="d7">2200832.0</data>
+  <data key="d8">8671.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:ataköy">
+  <data key="d0">Ataköy</data>
+  <data key="d1">Ataköy</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">15181.8</data>
+  <data key="d6">15584.0</data>
+  <data key="d7">5541357.0</data>
+  <data key="d8">21346.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:bakırköy (marmaray)">
+  <data key="d0">Bakırköy (Marmaray)</data>
+  <data key="d1">Bakırköy (Marmaray)</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">31458.70684931507</data>
+  <data key="d6">32192.0</data>
+  <data key="d7">11482428.0</data>
+  <data key="d8">39450.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:yeşilyurt">
+  <data key="d0">Yeşilyurt</data>
+  <data key="d1">Yeşilyurt</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">3977.202739726027</data>
+  <data key="d6">4204.0</data>
+  <data key="d7">1451679.0</data>
+  <data key="d8">7972.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:yeşilköy">
+  <data key="d0">Yeşilköy</data>
+  <data key="d1">Yeşilköy</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">6151.465753424657</data>
+  <data key="d6">6268.0</data>
+  <data key="d7">2245285.0</data>
+  <data key="d8">8300.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:florya akvaryum">
+  <data key="d0">Florya Akvaryum</data>
+  <data key="d1">Florya Akvaryum</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">7792.567123287671</data>
+  <data key="d6">7531.0</data>
+  <data key="d7">2844287.0</data>
+  <data key="d8">16164.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:florya">
+  <data key="d0">Florya</data>
+  <data key="d1">Florya</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">2882.895890410959</data>
+  <data key="d6">2968.0</data>
+  <data key="d7">1052257.0</data>
+  <data key="d8">5724.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:küçükçekmece">
+  <data key="d0">Küçükçekmece</data>
+  <data key="d1">Küçükçekmece</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">15060.967123287672</data>
+  <data key="d6">15218.0</data>
+  <data key="d7">5497253.0</data>
+  <data key="d8">21734.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="MAR:mustafa kemal">
+  <data key="d0">Mustafa Kemal</data>
+  <data key="d1">Mustafa Kemal</data>
+  <data key="d2">MAR</data>
+  <data key="d3">TCDD TASIMACILIK A.S.</data>
+  <data key="d4">True</data>
+  <data key="d5">6585.824657534246</data>
+  <data key="d6">6662.0</data>
+  <data key="d7">2403826.0</data>
+  <data key="d8">9641.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="X:Halkalı">
+  <data key="d0">Halkalı (Marmaray) / Halkalı (Bahçeşehir treni)</data>
+  <data key="d1">Halkalı (Marmaray)</data>
+  <data key="d2">MAR, HB</data>
+  <data key="d3">TCDD TASIMACILIK A.S. | TCDD - HALKALI-BASAKSEHIR</data>
+  <data key="d4">True</data>
+  <data key="d5">11181.504109589041</data>
+  <data key="d6">11327.0</data>
+  <data key="d7">4081249.0</data>
+  <data key="d8">14820.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="SIRKECI:cankurtaran">
+  <data key="d0">Cankurtaran</data>
+  <data key="d1">Cankurtaran</data>
+  <data key="d2">SIRKECI</data>
+  <data key="d3">TCDD SIRKECI-KAZLICESME</data>
+  <data key="d4">True</data>
+  <data key="d5">810.521978021978</data>
+  <data key="d6">805.0</data>
+  <data key="d7">295030.0</data>
+  <data key="d8">1244.0</data>
+  <data key="d9">364</data>
+</node>
+<node id="SIRKECI:kumkapı">
+  <data key="d0">Kumkapı</data>
+  <data key="d1">Kumkapı</data>
+  <data key="d2">SIRKECI</data>
+  <data key="d3">TCDD SIRKECI-KAZLICESME</data>
+  <data key="d4">True</data>
+  <data key="d5">1355.0794520547945</data>
+  <data key="d6">1426.0</data>
+  <data key="d7">494604.0</data>
+  <data key="d8">1865.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="SIRKECI:cerrahpaşa">
+  <data key="d0">Cerrahpaşa</data>
+  <data key="d1">Cerrahpaşa</data>
+  <data key="d2">SIRKECI</data>
+  <data key="d3">TCDD SIRKECI-KAZLICESME</data>
+  <data key="d4">True</data>
+  <data key="d5">1552.4395604395604</data>
+  <data key="d6">1696.0</data>
+  <data key="d7">565088.0</data>
+  <data key="d8">2519.0</data>
+  <data key="d9">364</data>
+</node>
+<node id="SIRKECI:kocamustafapaşa">
+  <data key="d0">Kocamustafapaşa</data>
+  <data key="d1">Kocamustafapaşa</data>
+  <data key="d2">SIRKECI</data>
+  <data key="d3">TCDD SIRKECI-KAZLICESME</data>
+  <data key="d4">True</data>
+  <data key="d5">1590.3397260273973</data>
+  <data key="d6">1643.0</data>
+  <data key="d7">580474.0</data>
+  <data key="d8">2218.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="SIRKECI:yedikule">
+  <data key="d0">Yedikule</data>
+  <data key="d1">Yedikule</data>
+  <data key="d2">SIRKECI</data>
+  <data key="d3">TCDD SIRKECI-KAZLICESME</data>
+  <data key="d4">True</data>
+  <data key="d5">819.5068870523417</data>
+  <data key="d6">839.0</data>
+  <data key="d7">297481.0</data>
+  <data key="d8">1164.0</data>
+  <data key="d9">363</data>
+</node>
+<node id="SIRKECI:kazlıçeşme">
+  <data key="d0">Kazlıçeşme</data>
+  <data key="d1">Kazlıçeşme</data>
+  <data key="d2">SIRKECI</data>
+  <data key="d3">TCDD SIRKECI-KAZLICESME</data>
+  <data key="d4">True</data>
+  <data key="d5">1361.6328767123289</data>
+  <data key="d6">1407.0</data>
+  <data key="d7">496996.0</data>
+  <data key="d8">1985.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="HB:ıspartakule">
+  <data key="d0">Ispartakule</data>
+  <data key="d1">Ispartakule</data>
+  <data key="d2">HB</data>
+  <data key="d3">TCDD - HALKALI-BASAKSEHIR</data>
+  <data key="d4">True</data>
+  <data key="d5">17.752747252747252</data>
+  <data key="d6">17.0</data>
+  <data key="d7">6462.0</data>
+  <data key="d8">47.0</data>
+  <data key="d9">364</data>
+</node>
+<node id="HB:bahçeşehir">
+  <data key="d0">Bahçeşehir</data>
+  <data key="d1">Bahçeşehir</data>
+  <data key="d2">HB</data>
+  <data key="d3">TCDD - HALKALI-BASAKSEHIR</data>
+  <data key="d4">True</data>
+  <data key="d5">122.59065934065934</data>
+  <data key="d6">135.0</data>
+  <data key="d7">44623.0</data>
+  <data key="d8">252.0</data>
+  <data key="d9">364</data>
+</node>
+<node id="F4:aşiyan">
+  <data key="d0">Aşiyan</data>
+  <data key="d1">Aşiyan</data>
+  <data key="d2">F4</data>
+  <data key="d3">F4 RUMELI HISARUSTU -ASIYAN</data>
+  <data key="d4">True</data>
+  <data key="d5">1944.3013698630136</data>
+  <data key="d6">1945.0</data>
+  <data key="d7">709670.0</data>
+  <data key="d8">3802.0</data>
+  <data key="d9">365</data>
+</node>
+<node id="TF1:maçka">
+  <data key="d0">Maçka</data>
+  <data key="d1">Maçka</data>
+  <data key="d2">TF1</data>
+  <data key="d3">TF1-TELEFERIK MACKA - TASKISLA</data>
+  <data key="d4">True</data>
+  <data key="d5">613.5429362880886</data>
+  <data key="d6">631.0</data>
+  <data key="d7">221489.0</data>
+  <data key="d8">1162.0</data>
+  <data key="d9">361</data>
+</node>
+<node id="TF1:taşkışla">
+  <data key="d0">Taşkışla</data>
+  <data key="d1">Taşkışla</data>
+  <data key="d2">TF1</data>
+  <data key="d3">TF1-TELEFERIK MACKA - TASKISLA</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.0</data>
+  <data key="d7">0.0</data>
+  <data key="d8">0.0</data>
+  <data key="d9">0</data>
+</node>
+<node id="TF2:pierloti">
+  <data key="d0">Pierloti</data>
+  <data key="d1">Pierloti</data>
+  <data key="d2">TF2</data>
+  <data key="d3">TF2-TELEFERIK EYUP PIYERLOTI</data>
+  <data key="d4">True</data>
+  <data key="d5">1026.2513812154696</data>
+  <data key="d6">1089.5</data>
+  <data key="d7">371503.0</data>
+  <data key="d8">1860.0</data>
+  <data key="d9">362</data>
+</node>
+<edge source="X:Yenikapı" target="X:Aksaray">
+  <data key="d10">M1A</data>
+  <data key="d11">Yenikapı</data>
+  <data key="d12">Aksaray</data>
+  <data key="d13">route</data>
+  <data key="d14">109340.04109589042</data>
+  <data key="d15">9.145780356191812e-06</data>
+</edge>
+<edge source="X:Yenikapı" target="M2:vezneciler-istanbul üniversitesi">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">Yenikapı</data>
+  <data key="d12">Vezneciler-İstanbul Üniversitesi</data>
+  <data key="d13">route</data>
+  <data key="d14">101058.13287671233</data>
+  <data key="d15">9.895294634227685e-06</data>
+</edge>
+<edge source="X:Yenikapı" target="X:Sirkeci">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Sirkeci</data>
+  <data key="d12">Yenikapı</data>
+  <data key="d13">route</data>
+  <data key="d14">122114.06438356165</data>
+  <data key="d15">8.189064912776867e-06</data>
+</edge>
+<edge source="X:Yenikapı" target="MAR:kazlıçeşme">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Yenikapı</data>
+  <data key="d12">Kazlıçeşme</data>
+  <data key="d13">route</data>
+  <data key="d14">99446.66438356166</data>
+  <data key="d15">1.0055641445579728e-05</data>
+</edge>
+<edge source="X:Yenikapı" target="SIRKECI:kumkapı">
+  <data key="d10">SIRKECI_KAZLICESME</data>
+  <data key="d11">Kumkapı</data>
+  <data key="d12">Yenikapı</data>
+  <data key="d13">route</data>
+  <data key="d14">93864.11232876714</data>
+  <data key="d15">1.0653699003698175e-05</data>
+</edge>
+<edge source="X:Yenikapı" target="SIRKECI:cerrahpaşa">
+  <data key="d10">SIRKECI_KAZLICESME</data>
+  <data key="d11">Yenikapı</data>
+  <data key="d12">Cerrahpaşa</data>
+  <data key="d13">route</data>
+  <data key="d14">93962.79238295951</data>
+  <data key="d15">1.0642510451630145e-05</data>
+</edge>
+<edge source="X:Aksaray" target="M1:emniyet-fatih">
+  <data key="d10">M1A</data>
+  <data key="d11">Aksaray</data>
+  <data key="d12">Emniyet-Fatih</data>
+  <data key="d13">route</data>
+  <data key="d14">23210.357689826586</data>
+  <data key="d15">4.3084213236330844e-05</data>
+</edge>
+<edge source="X:Aksaray" target="T1:laleli-istanbul ü.">
+  <data key="d10">T1</data>
+  <data key="d11">Laleli-İstanbul Ü.</data>
+  <data key="d12">Aksaray</data>
+  <data key="d13">route</data>
+  <data key="d14">21406.71780821918</data>
+  <data key="d15">4.671430758133537e-05</data>
+</edge>
+<edge source="X:Aksaray" target="T1:yusufpaşa">
+  <data key="d10">T1</data>
+  <data key="d11">Aksaray</data>
+  <data key="d12">Yusufpaşa</data>
+  <data key="d13">route</data>
+  <data key="d14">22753.609589041094</data>
+  <data key="d15">4.394907085342774e-05</data>
+</edge>
+<edge source="M1:emniyet-fatih" target="X:Vatan-M1">
+  <data key="d10">M1A</data>
+  <data key="d11">Emniyet-Fatih</data>
+  <data key="d12">Topkapı-Ulubatlı</data>
+  <data key="d13">route</data>
+  <data key="d14">16138.367278867681</data>
+  <data key="d15">6.196413693654413e-05</data>
+</edge>
+<edge source="X:Vatan-M1" target="M1:bayrampaşa-maltepe">
+  <data key="d10">M1A</data>
+  <data key="d11">Topkapı-Ulubatlı</data>
+  <data key="d12">Bayrampaşa-Maltepe</data>
+  <data key="d13">route</data>
+  <data key="d14">13349.745205479452</data>
+  <data key="d15">7.490779671132198e-05</data>
+</edge>
+<edge source="X:Vatan-M1" target="T4:fetihkapı">
+  <data key="d10">T4</data>
+  <data key="d11">Fetihkapı</data>
+  <data key="d12">Vatan</data>
+  <data key="d13">route</data>
+  <data key="d14">10352.657534246575</data>
+  <data key="d15">9.659355548968963e-05</data>
+</edge>
+<edge source="X:Vatan-M1" target="T4:edirnekapı">
+  <data key="d10">T4</data>
+  <data key="d11">Vatan</data>
+  <data key="d12">Edirnekapı</data>
+  <data key="d13">route</data>
+  <data key="d14">10268.760273972603</data>
+  <data key="d15">9.738273884283961e-05</data>
+</edge>
+<edge source="M1:bayrampaşa-maltepe" target="M1:sağmalcılar">
+  <data key="d10">M1A</data>
+  <data key="d11">Bayrampaşa-Maltepe</data>
+  <data key="d12">Sağmalcılar</data>
+  <data key="d13">route</data>
+  <data key="d14">10871.084931506848</data>
+  <data key="d15">9.19871389378787e-05</data>
+</edge>
+<edge source="M1:sağmalcılar" target="M1:kartaltepe-kocatepe">
+  <data key="d10">M1A</data>
+  <data key="d11">Sağmalcılar</data>
+  <data key="d12">Kartaltepe-Kocatepe</data>
+  <data key="d13">route</data>
+  <data key="d14">18036.564383561643</data>
+  <data key="d15">5.544293129967649e-05</data>
+</edge>
+<edge source="M1:kartaltepe-kocatepe" target="M1:otogar">
+  <data key="d10">M1A</data>
+  <data key="d11">Kartaltepe-Kocatepe</data>
+  <data key="d12">Otogar</data>
+  <data key="d13">route</data>
+  <data key="d14">17060.331506849314</data>
+  <data key="d15">5.861550812178087e-05</data>
+</edge>
+<edge source="M1:otogar" target="M1:terazidere">
+  <data key="d10">M1A</data>
+  <data key="d11">Otogar</data>
+  <data key="d12">Terazidere</data>
+  <data key="d13">route</data>
+  <data key="d14">10242.987671232877</data>
+  <data key="d15">9.762776565752099e-05</data>
+</edge>
+<edge source="M1:otogar" target="M1:esenler">
+  <data key="d10">M1B</data>
+  <data key="d11">Otogar</data>
+  <data key="d12">Esenler</data>
+  <data key="d13">route</data>
+  <data key="d14">11016.795890410958</data>
+  <data key="d15">9.077049352166014e-05</data>
+</edge>
+<edge source="M1:terazidere" target="M1:davutpaşa-ytü">
+  <data key="d10">M1A</data>
+  <data key="d11">Terazidere</data>
+  <data key="d12">Davutpaşa-YTÜ</data>
+  <data key="d13">route</data>
+  <data key="d14">9001.820547945204</data>
+  <data key="d15">0.00011108863975612849</data>
+</edge>
+<edge source="M1:davutpaşa-ytü" target="M1:merter">
+  <data key="d10">M1A</data>
+  <data key="d11">Davutpaşa-YTÜ</data>
+  <data key="d12">Merter</data>
+  <data key="d13">route</data>
+  <data key="d14">8183.91095890411</data>
+  <data key="d15">0.00012219096774409528</data>
+</edge>
+<edge source="M1:merter" target="X:Zeytinburnu">
+  <data key="d10">M1A</data>
+  <data key="d11">Merter</data>
+  <data key="d12">Zeytinburnu</data>
+  <data key="d13">route</data>
+  <data key="d14">29652.683561643837</data>
+  <data key="d15">3.3723760546701886e-05</data>
+</edge>
+<edge source="X:Zeytinburnu" target="X:İncirli">
+  <data key="d10">M1A</data>
+  <data key="d11">Zeytinburnu</data>
+  <data key="d12">Bakırköy-İncirli</data>
+  <data key="d13">route</data>
+  <data key="d14">36134.47260273973</data>
+  <data key="d15">2.7674404189980615e-05</data>
+</edge>
+<edge source="X:Zeytinburnu" target="T1:mithatpaşa">
+  <data key="d10">T1</data>
+  <data key="d11">Mithatpaşa</data>
+  <data key="d12">Zeytinburnu</data>
+  <data key="d13">route</data>
+  <data key="d14">28266.368493150687</data>
+  <data key="d15">3.5377731675800985e-05</data>
+</edge>
+<edge source="X:Zeytinburnu" target="T1:mehmet akif">
+  <data key="d10">T1</data>
+  <data key="d11">Zeytinburnu</data>
+  <data key="d12">Mehmet Akif</data>
+  <data key="d13">route</data>
+  <data key="d14">27121.198630136987</data>
+  <data key="d15">3.687152672112372e-05</data>
+</edge>
+<edge source="X:Zeytinburnu" target="MAR:kazlıçeşme">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Kazlıçeşme</data>
+  <data key="d12">Zeytinburnu</data>
+  <data key="d13">route</data>
+  <data key="d14">32114.28219178082</data>
+  <data key="d15">3.113879345109371e-05</data>
+</edge>
+<edge source="X:Zeytinburnu" target="MAR:yenimahalle (marmaray)">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Zeytinburnu</data>
+  <data key="d12">Yenimahalle (Marmaray)</data>
+  <data key="d13">route</data>
+  <data key="d14">28869.028767123287</data>
+  <data key="d15">3.46391978776516e-05</data>
+</edge>
+<edge source="X:İncirli" target="M1:bahçelievler">
+  <data key="d10">M1A</data>
+  <data key="d11">Bakırköy-İncirli</data>
+  <data key="d12">Bahçelievler</data>
+  <data key="d13">route</data>
+  <data key="d14">13225.057534246575</data>
+  <data key="d15">7.56140377771876e-05</data>
+</edge>
+<edge source="X:İncirli" target="M3:özgürlük meydanı">
+  <data key="d10">M3</data>
+  <data key="d11">Özgürlük Meydanı</data>
+  <data key="d12">İncirli</data>
+  <data key="d13">route</data>
+  <data key="d14">19659.03287671233</data>
+  <data key="d15">5.086720217984775e-05</data>
+</edge>
+<edge source="X:İncirli" target="M3:haznedar">
+  <data key="d10">M3</data>
+  <data key="d11">İncirli</data>
+  <data key="d12">Haznedar</data>
+  <data key="d13">route</data>
+  <data key="d14">11805.893150684931</data>
+  <data key="d15">8.470346014795027e-05</data>
+</edge>
+<edge source="M1:bahçelievler" target="M1:ataköy-şirinevler (m1)">
+  <data key="d10">M1A</data>
+  <data key="d11">Bahçelievler</data>
+  <data key="d12">Ataköy-Şirinevler (M1)</data>
+  <data key="d13">route</data>
+  <data key="d14">10808.879452054794</data>
+  <data key="d15">9.25165281411199e-05</data>
+</edge>
+<edge source="M1:ataköy-şirinevler (m1)" target="X:Yenibosna">
+  <data key="d10">M1A</data>
+  <data key="d11">Ataköy-Şirinevler (M1)</data>
+  <data key="d12">Yenibosna</data>
+  <data key="d13">route</data>
+  <data key="d14">17334.60821917808</data>
+  <data key="d15">5.768806467132344e-05</data>
+</edge>
+<edge source="X:Yenibosna" target="M1:dtm-istanbul fuar merkezi">
+  <data key="d10">M1A</data>
+  <data key="d11">Yenibosna</data>
+  <data key="d12">DTM-İstanbul Fuar Merkezi</data>
+  <data key="d13">route</data>
+  <data key="d14">10985.350684931507</data>
+  <data key="d15">9.103032107765933e-05</data>
+</edge>
+<edge source="X:Yenibosna" target="M9:ataköy (m9)">
+  <data key="d10">M9</data>
+  <data key="d11">Ataköy (M9)</data>
+  <data key="d12">Yenibosna</data>
+  <data key="d13">route</data>
+  <data key="d14">13932.68082191781</data>
+  <data key="d15">7.177369615952717e-05</data>
+</edge>
+<edge source="X:Yenibosna" target="M9:çobançeşme">
+  <data key="d10">M9</data>
+  <data key="d11">Yenibosna</data>
+  <data key="d12">Çobançeşme</data>
+  <data key="d13">route</data>
+  <data key="d14">10335.598630136987</data>
+  <data key="d15">9.675298313966611e-05</data>
+</edge>
+<edge source="M1:dtm-istanbul fuar merkezi" target="M1:atatürk havalimanı">
+  <data key="d10">M1A</data>
+  <data key="d11">DTM-İstanbul Fuar Merkezi</data>
+  <data key="d12">Atatürk Havalimanı</data>
+  <data key="d13">route</data>
+  <data key="d14">2158.8794520547945</data>
+  <data key="d15">0.0004632032599357099</data>
+</edge>
+<edge source="M1:esenler" target="M1:menderes">
+  <data key="d10">M1B</data>
+  <data key="d11">Esenler</data>
+  <data key="d12">Menderes</data>
+  <data key="d13">route</data>
+  <data key="d14">11710.139726027397</data>
+  <data key="d15">8.539607753589502e-05</data>
+</edge>
+<edge source="M1:menderes" target="M1:üçyüzlü">
+  <data key="d10">M1B</data>
+  <data key="d11">Menderes</data>
+  <data key="d12">Üçyüzlü</data>
+  <data key="d13">route</data>
+  <data key="d14">12315.880821917808</data>
+  <data key="d15">8.119597895266753e-05</data>
+</edge>
+<edge source="M1:üçyüzlü" target="X:Bağcılar">
+  <data key="d10">M1B</data>
+  <data key="d11">Üçyüzlü</data>
+  <data key="d12">Bağcılar Meydan</data>
+  <data key="d13">route</data>
+  <data key="d14">17024.376712328765</data>
+  <data key="d15">5.8739301702353484e-05</data>
+</edge>
+<edge source="X:Bağcılar" target="X:Kirazlı">
+  <data key="d10">M1B</data>
+  <data key="d11">Bağcılar Meydan</data>
+  <data key="d12">Kirazlı</data>
+  <data key="d13">route</data>
+  <data key="d14">20986.11917808219</data>
+  <data key="d15">4.765054422469856e-05</data>
+</edge>
+<edge source="X:Bağcılar" target="T1:güneştepe">
+  <data key="d10">T1</data>
+  <data key="d11">Güneştepe</data>
+  <data key="d12">Bağcılar</data>
+  <data key="d13">route</data>
+  <data key="d14">12346.03698630137</data>
+  <data key="d15">8.099765140097644e-05</data>
+</edge>
+<edge source="X:Kirazlı" target="M3:molla gürani">
+  <data key="d10">M3</data>
+  <data key="d11">Molla Gürani</data>
+  <data key="d12">Kirazlı-Bağcılar</data>
+  <data key="d13">route</data>
+  <data key="d14">14029.035616438357</data>
+  <data key="d15">7.12807371326552e-05</data>
+</edge>
+<edge source="X:Kirazlı" target="M3:yenimahalle">
+  <data key="d10">M3</data>
+  <data key="d11">Kirazlı-Bağcılar</data>
+  <data key="d12">Yenimahalle</data>
+  <data key="d13">route</data>
+  <data key="d14">13563.716438356165</data>
+  <data key="d15">7.372610630314781e-05</data>
+</edge>
+<edge source="M2:vezneciler-istanbul üniversitesi" target="M2:haliç">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">Vezneciler-İstanbul Üniversitesi</data>
+  <data key="d12">Haliç</data>
+  <data key="d13">route</data>
+  <data key="d14">13828.249315068493</data>
+  <data key="d15">7.231573406116643e-05</data>
+</edge>
+<edge source="M2:vezneciler-istanbul üniversitesi" target="T1:laleli-istanbul ü.">
+  <data key="d10">TRANSFER:M2_MAIN-T1</data>
+  <data key="d11">Vezneciler-İstanbul Üniversitesi</data>
+  <data key="d12">Laleli-İstanbul Ü.</data>
+  <data key="d13">transfer</data>
+  <data key="d16">M2–T1 walking interchange referenced by Metro Istanbul route information</data>
+  <data key="d17">https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=T1</data>
+  <data key="d14">13124.809589041095</data>
+  <data key="d15">7.619158153996964e-05</data>
+</edge>
+<edge source="M2:haliç" target="X:Şişhane-Tünel">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">Haliç</data>
+  <data key="d12">Şişhane</data>
+  <data key="d13">route</data>
+  <data key="d14">16939.901369863015</data>
+  <data key="d15">5.903222091830199e-05</data>
+</edge>
+<edge source="X:Şişhane-Tünel" target="X:Taksim">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">Şişhane</data>
+  <data key="d12">Taksim</data>
+  <data key="d13">route</data>
+  <data key="d14">27037.463709982592</data>
+  <data key="d15">3.6985717696249245e-05</data>
+</edge>
+<edge source="X:Şişhane-Tünel" target="T2:odakule">
+  <data key="d10">T2</data>
+  <data key="d11">Odakule</data>
+  <data key="d12">Beyoğlu Tünel</data>
+  <data key="d13">route</data>
+  <data key="d14">21966.424657534248</data>
+  <data key="d15">4.552402202863772e-05</data>
+</edge>
+<edge source="X:Şişhane-Tünel" target="X:Karaköy">
+  <data key="d10">TUNEL</data>
+  <data key="d11">Karaköy</data>
+  <data key="d12">Beyoğlu</data>
+  <data key="d13">route</data>
+  <data key="d14">20021.286301369866</data>
+  <data key="d15">4.994684082468665e-05</data>
+</edge>
+<edge source="X:Taksim" target="M2:osmanbey">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">Taksim</data>
+  <data key="d12">Osmanbey</data>
+  <data key="d13">route</data>
+  <data key="d14">35841.58699765382</data>
+  <data key="d15">2.7900550276009252e-05</data>
+</edge>
+<edge source="X:Taksim" target="T2:hüseyin ağa camii">
+  <data key="d10">T2</data>
+  <data key="d11">Taksim Meydan</data>
+  <data key="d12">Hüseyin Ağa Camii</data>
+  <data key="d13">route</data>
+  <data key="d14">32108.50276243094</data>
+  <data key="d15">3.1144398335822306e-05</data>
+</edge>
+<edge source="X:Taksim" target="X:Kabataş">
+  <data key="d10">F1</data>
+  <data key="d11">Taksim</data>
+  <data key="d12">Kabataş</data>
+  <data key="d13">route</data>
+  <data key="d14">24891.860970256566</data>
+  <data key="d15">4.0173774118170834e-05</data>
+</edge>
+<edge source="M2:osmanbey" target="X:Mecidiyeköy">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">Osmanbey</data>
+  <data key="d12">Şişli-Mecidiyeköy</data>
+  <data key="d13">route</data>
+  <data key="d14">71715.0506849315</data>
+  <data key="d15">1.394407436722507e-05</data>
+</edge>
+<edge source="X:Mecidiyeköy" target="X:Gayrettepe">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">Şişli-Mecidiyeköy</data>
+  <data key="d12">Gayrettepe</data>
+  <data key="d13">route</data>
+  <data key="d14">70686.80273972603</data>
+  <data key="d15">1.4146912312360102e-05</data>
+</edge>
+<edge source="X:Mecidiyeköy" target="M7:fulya">
+  <data key="d10">M7</data>
+  <data key="d11">Fulya</data>
+  <data key="d12">Şişli-Mecidiyeköy</data>
+  <data key="d13">route</data>
+  <data key="d14">52587.7301369863</data>
+  <data key="d15">1.901584261946827e-05</data>
+</edge>
+<edge source="X:Mecidiyeköy" target="M7:çağlayan">
+  <data key="d10">M7</data>
+  <data key="d11">Şişli-Mecidiyeköy</data>
+  <data key="d12">Çağlayan</data>
+  <data key="d13">route</data>
+  <data key="d14">56702.199958603036</data>
+  <data key="d15">1.7636000026984435e-05</data>
+</edge>
+<edge source="X:Gayrettepe" target="X:Levent">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">Gayrettepe</data>
+  <data key="d12">Levent</data>
+  <data key="d13">route</data>
+  <data key="d14">39890.48630136986</data>
+  <data key="d15">2.5068633970643256e-05</data>
+</edge>
+<edge source="X:Gayrettepe" target="X:Kağıthane">
+  <data key="d10">M11</data>
+  <data key="d11">Gayrettepe</data>
+  <data key="d12">Kağıthane</data>
+  <data key="d13">route</data>
+  <data key="d14">29909.22739726027</data>
+  <data key="d15">3.343449787979483e-05</data>
+</edge>
+<edge source="X:Levent" target="M2:4. levent">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">Levent</data>
+  <data key="d12">4. Levent</data>
+  <data key="d13">route</data>
+  <data key="d14">32381.04794520548</data>
+  <data key="d15">3.088226179993244e-05</data>
+</edge>
+<edge source="X:Levent" target="M6:nispetiye">
+  <data key="d10">M6</data>
+  <data key="d11">Levent</data>
+  <data key="d12">Nispetiye</data>
+  <data key="d13">route</data>
+  <data key="d14">21865.80684931507</data>
+  <data key="d15">4.5733505600381e-05</data>
+</edge>
+<edge source="M2:4. levent" target="M2:sanayi mahallesi">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">4. Levent</data>
+  <data key="d12">Sanayi Mahallesi</data>
+  <data key="d13">route</data>
+  <data key="d14">15786.734246575343</data>
+  <data key="d15">6.33443234288265e-05</data>
+</edge>
+<edge source="M2:sanayi mahallesi" target="M2:itü-ayazağa">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">Sanayi Mahallesi</data>
+  <data key="d12">İTÜ-Ayazağa</data>
+  <data key="d13">route</data>
+  <data key="d14">17045.712328767124</data>
+  <data key="d15">5.8665779447207625e-05</data>
+</edge>
+<edge source="M2:sanayi mahallesi" target="X:Seyrantepe">
+  <data key="d10">M2_BRANCH</data>
+  <data key="d11">Sanayi Mahallesi</data>
+  <data key="d12">Seyrantepe</data>
+  <data key="d13">route</data>
+  <data key="d14">9099.843835616437</data>
+  <data key="d15">0.00010989199573799703</data>
+</edge>
+<edge source="M2:itü-ayazağa" target="M2:atatürk oto sanayi">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">İTÜ-Ayazağa</data>
+  <data key="d12">Atatürk Oto Sanayi</data>
+  <data key="d13">route</data>
+  <data key="d14">16528.465753424658</data>
+  <data key="d15">6.0501683272859274e-05</data>
+</edge>
+<edge source="M2:atatürk oto sanayi" target="M2:darüşşafaka">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">Atatürk Oto Sanayi</data>
+  <data key="d12">Darüşşafaka</data>
+  <data key="d13">route</data>
+  <data key="d14">6153.687671232877</data>
+  <data key="d15">0.00016250418503928595</data>
+</edge>
+<edge source="M2:darüşşafaka" target="M2:hacıosman">
+  <data key="d10">M2_MAIN</data>
+  <data key="d11">Darüşşafaka</data>
+  <data key="d12">Hacıosman</data>
+  <data key="d13">route</data>
+  <data key="d14">9744.194520547946</data>
+  <data key="d15">0.00010262520908129068</data>
+</edge>
+<edge source="X:Seyrantepe" target="F3:vadistanbul">
+  <data key="d10">F3</data>
+  <data key="d11">Seyrantepe</data>
+  <data key="d12">Vadistanbul</data>
+  <data key="d13">route</data>
+  <data key="d14">9125.517808219178</data>
+  <data key="d15">0.00010958282269739469</data>
+</edge>
+<edge source="M3:bakırköy sahil" target="M3:özgürlük meydanı">
+  <data key="d10">M3</data>
+  <data key="d11">Bakırköy Sahil</data>
+  <data key="d12">Özgürlük Meydanı</data>
+  <data key="d13">route</data>
+  <data key="d14">10124.564383561643</data>
+  <data key="d15">9.876968155031058e-05</data>
+</edge>
+<edge source="M3:özgürlük meydanı" target="MAR:bakırköy (marmaray)">
+  <data key="d10">TRANSFER:M3-MARMARAY</data>
+  <data key="d11">Özgürlük Meydanı</data>
+  <data key="d12">Bakırköy (Marmaray)</data>
+  <data key="d13">transfer</data>
+  <data key="d16">M3 official route information lists Marmaray transfer at Özgürlük Meydanı; represented as an explicit inter-station transfer edge</data>
+  <data key="d17">https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=M3</data>
+  <data key="d14">25108.10410958904</data>
+  <data key="d15">3.982777814028937e-05</data>
+</edge>
+<edge source="M3:haznedar" target="M3:ilkyuva">
+  <data key="d10">M3</data>
+  <data key="d11">Haznedar</data>
+  <data key="d12">İlkyuva</data>
+  <data key="d13">route</data>
+  <data key="d14">5217.938356164384</data>
+  <data key="d15">0.0001916465722172852</data>
+</edge>
+<edge source="M3:ilkyuva" target="M3:yıldıztepe">
+  <data key="d10">M3</data>
+  <data key="d11">İlkyuva</data>
+  <data key="d12">Yıldıztepe</data>
+  <data key="d13">route</data>
+  <data key="d14">5979.430845536135</data>
+  <data key="d15">0.0001672399975570479</data>
+</edge>
+<edge source="M3:yıldıztepe" target="M3:molla gürani">
+  <data key="d10">M3</data>
+  <data key="d11">Yıldıztepe</data>
+  <data key="d12">Molla Gürani</data>
+  <data key="d13">route</data>
+  <data key="d14">6358.444544166273</data>
+  <data key="d15">0.00015727116798045792</data>
+</edge>
+<edge source="M3:yenimahalle" target="X:Mahmutbey">
+  <data key="d10">M3</data>
+  <data key="d11">Yenimahalle</data>
+  <data key="d12">Mahmutbey</data>
+  <data key="d13">route</data>
+  <data key="d14">26394.294520547945</data>
+  <data key="d15">3.788697588493985e-05</data>
+</edge>
+<edge source="X:Mahmutbey" target="M3:istoç">
+  <data key="d10">M3</data>
+  <data key="d11">Mahmutbey</data>
+  <data key="d12">İSTOÇ</data>
+  <data key="d13">route</data>
+  <data key="d14">24395.57123287671</data>
+  <data key="d15">4.0991046713116076e-05</data>
+</edge>
+<edge source="X:Mahmutbey" target="M7:göztepe (m7)">
+  <data key="d10">M7</data>
+  <data key="d11">Göztepe (M7)</data>
+  <data key="d12">Mahmutbey</data>
+  <data key="d13">route</data>
+  <data key="d14">27019.332876712328</data>
+  <data key="d15">3.701053629128976e-05</data>
+</edge>
+<edge source="M3:istoç" target="X:İkitelli Sanayi">
+  <data key="d10">M3</data>
+  <data key="d11">İSTOÇ</data>
+  <data key="d12">İkitelli Sanayi</data>
+  <data key="d13">route</data>
+  <data key="d14">5253.482191780822</data>
+  <data key="d15">0.00019034993619365835</data>
+</edge>
+<edge source="X:İkitelli Sanayi" target="M3:turgut özal">
+  <data key="d10">M3</data>
+  <data key="d11">İkitelli Sanayi</data>
+  <data key="d12">Turgut Özal</data>
+  <data key="d13">route</data>
+  <data key="d14">5527.928767123288</data>
+  <data key="d15">0.00018089958140332478</data>
+</edge>
+<edge source="X:İkitelli Sanayi" target="M9:masko">
+  <data key="d10">M9</data>
+  <data key="d11">Masko</data>
+  <data key="d12">İkitelli Sanayi</data>
+  <data key="d13">route</data>
+  <data key="d14">6746.572602739726</data>
+  <data key="d15">0.000148223410446055</data>
+</edge>
+<edge source="X:İkitelli Sanayi" target="M9:ziya gökalp mahallesi">
+  <data key="d10">M9</data>
+  <data key="d11">İkitelli Sanayi</data>
+  <data key="d12">Ziya Gökalp Mahallesi</data>
+  <data key="d13">route</data>
+  <data key="d14">5438.469863013699</data>
+  <data key="d15">0.0001838752489557523</data>
+</edge>
+<edge source="M3:turgut özal" target="M3:siteler">
+  <data key="d10">M3</data>
+  <data key="d11">Turgut Özal</data>
+  <data key="d12">Siteler</data>
+  <data key="d13">route</data>
+  <data key="d14">3341.4301369863015</data>
+  <data key="d15">0.00029927305345426697</data>
+</edge>
+<edge source="M3:siteler" target="M3:başak konutları">
+  <data key="d10">M3</data>
+  <data key="d11">Siteler</data>
+  <data key="d12">Başak Konutları</data>
+  <data key="d13">route</data>
+  <data key="d14">4415.568493150685</data>
+  <data key="d15">0.00022647140488278554</data>
+</edge>
+<edge source="M3:başak konutları" target="M3:başakşehir-metrokent">
+  <data key="d10">M3</data>
+  <data key="d11">Başak Konutları</data>
+  <data key="d12">Başakşehir-Metrokent</data>
+  <data key="d13">route</data>
+  <data key="d14">5837.793150684931</data>
+  <data key="d15">0.00017129760753559296</data>
+</edge>
+<edge source="M3:başakşehir-metrokent" target="M3:onurkent">
+  <data key="d10">M3</data>
+  <data key="d11">Başakşehir-Metrokent</data>
+  <data key="d12">Onurkent</data>
+  <data key="d13">route</data>
+  <data key="d14">4108.931506849315</data>
+  <data key="d15">0.00024337227289699686</data>
+</edge>
+<edge source="M3:onurkent" target="M3:şehir hastanesi">
+  <data key="d10">M3</data>
+  <data key="d11">Onurkent</data>
+  <data key="d12">Şehir Hastanesi</data>
+  <data key="d13">route</data>
+  <data key="d14">5026.390410958904</data>
+  <data key="d15">0.00019894992593884607</data>
+</edge>
+<edge source="M3:şehir hastanesi" target="M3:toplu konutlar">
+  <data key="d10">M3</data>
+  <data key="d11">Şehir Hastanesi</data>
+  <data key="d12">Toplu Konutlar</data>
+  <data key="d13">route</data>
+  <data key="d14">5844.056164383562</data>
+  <data key="d15">0.00017111402968617451</data>
+</edge>
+<edge source="M3:toplu konutlar" target="M3:kayaşehir merkez">
+  <data key="d10">M3</data>
+  <data key="d11">Toplu Konutlar</data>
+  <data key="d12">Kayaşehir Merkez</data>
+  <data key="d13">route</data>
+  <data key="d14">4919.531506849315</data>
+  <data key="d15">0.000203271388466103</data>
+</edge>
+<edge source="X:Kadıköy" target="X:Ayrılık Çeşmesi">
+  <data key="d10">M4</data>
+  <data key="d11">Kadıköy</data>
+  <data key="d12">Ayrılık Çeşmesi</data>
+  <data key="d13">route</data>
+  <data key="d14">46275.69315068493</data>
+  <data key="d15">2.16096168833983e-05</data>
+</edge>
+<edge source="X:Kadıköy" target="T3:iskele camii">
+  <data key="d10">T3</data>
+  <data key="d11">Kadıköy İDO</data>
+  <data key="d12">İskele Camii</data>
+  <data key="d13">route</data>
+  <data key="d14">30067.156164383563</data>
+  <data key="d15">3.325888203502807e-05</data>
+</edge>
+<edge source="X:Kadıköy" target="T3:damga sokak">
+  <data key="d10">T3</data>
+  <data key="d11">Damga Sokak</data>
+  <data key="d12">Kadıköy İDO</data>
+  <data key="d13">route</data>
+  <data key="d14">30067.156164383563</data>
+  <data key="d15">3.325888203502807e-05</data>
+</edge>
+<edge source="X:Ayrılık Çeşmesi" target="M4:acıbadem">
+  <data key="d10">M4</data>
+  <data key="d11">Ayrılık Çeşmesi</data>
+  <data key="d12">Acıbadem</data>
+  <data key="d13">route</data>
+  <data key="d14">34128.628767123286</data>
+  <data key="d15">2.93009135181932e-05</data>
+</edge>
+<edge source="X:Ayrılık Çeşmesi" target="MAR:söğütlüçeşme">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Söğütlüçeşme</data>
+  <data key="d12">Ayrılık Çeşmesi</data>
+  <data key="d13">route</data>
+  <data key="d14">45055.120547945204</data>
+  <data key="d15">2.2195035499591094e-05</data>
+</edge>
+<edge source="X:Ayrılık Çeşmesi" target="X:Üsküdar">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Ayrılık Çeşmesi</data>
+  <data key="d12">Üsküdar</data>
+  <data key="d13">route</data>
+  <data key="d14">88374.30958904109</data>
+  <data key="d15">1.131550565600125e-05</data>
+</edge>
+<edge source="M4:acıbadem" target="M4:ünalan">
+  <data key="d10">M4</data>
+  <data key="d11">Acıbadem</data>
+  <data key="d12">Ünalan</data>
+  <data key="d13">route</data>
+  <data key="d14">14030.568493150684</data>
+  <data key="d15">7.127294952361844e-05</data>
+</edge>
+<edge source="M4:ünalan" target="M4:göztepe">
+  <data key="d10">M4</data>
+  <data key="d11">Ünalan</data>
+  <data key="d12">Göztepe</data>
+  <data key="d13">route</data>
+  <data key="d14">16994.646575342464</data>
+  <data key="d15">5.884205920768604e-05</data>
+</edge>
+<edge source="M4:göztepe" target="M4:yenisahra">
+  <data key="d10">M4</data>
+  <data key="d11">Göztepe</data>
+  <data key="d12">Yenisahra</data>
+  <data key="d13">route</data>
+  <data key="d14">10211.90410958904</data>
+  <data key="d15">9.792493048000655e-05</data>
+</edge>
+<edge source="M4:yenisahra" target="X:Kozyatağı">
+  <data key="d10">M4</data>
+  <data key="d11">Yenisahra</data>
+  <data key="d12">Kozyatağı</data>
+  <data key="d13">route</data>
+  <data key="d14">21820.898630136984</data>
+  <data key="d15">4.5827626852126684e-05</data>
+</edge>
+<edge source="X:Kozyatağı" target="X:Bostancı">
+  <data key="d10">M4</data>
+  <data key="d11">Kozyatağı</data>
+  <data key="d12">Bostancı</data>
+  <data key="d13">route</data>
+  <data key="d14">38278.76849315068</data>
+  <data key="d15">2.6124142425818443e-05</data>
+</edge>
+<edge source="X:Kozyatağı" target="M8:ayşekadın">
+  <data key="d10">M8</data>
+  <data key="d11">Ayşekadın</data>
+  <data key="d12">Kozyatağı</data>
+  <data key="d13">route</data>
+  <data key="d14">19005.38904109589</data>
+  <data key="d15">5.261665508859997e-05</data>
+</edge>
+<edge source="X:Kozyatağı" target="M8:küçükbakkalköy">
+  <data key="d10">M8</data>
+  <data key="d11">Kozyatağı</data>
+  <data key="d12">Küçükbakkalköy</data>
+  <data key="d13">route</data>
+  <data key="d14">19310.120547945204</data>
+  <data key="d15">5.178631575691589e-05</data>
+</edge>
+<edge source="X:Bostancı" target="M4:küçükyalı">
+  <data key="d10">M4</data>
+  <data key="d11">Bostancı</data>
+  <data key="d12">Küçükyalı</data>
+  <data key="d13">route</data>
+  <data key="d14">27502.12465753425</data>
+  <data key="d15">3.63608271161715e-05</data>
+</edge>
+<edge source="X:Bostancı" target="M8:emin ali paşa">
+  <data key="d10">M8</data>
+  <data key="d11">Bostancı</data>
+  <data key="d12">Emin Ali Paşa</data>
+  <data key="d13">route</data>
+  <data key="d14">21516.100000000002</data>
+  <data key="d15">4.647682433154707e-05</data>
+</edge>
+<edge source="X:Bostancı" target="MAR:küçükyalı (marmaray)">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Küçükyalı (Marmaray)</data>
+  <data key="d12">Bostancı (Marmaray)</data>
+  <data key="d13">route</data>
+  <data key="d14">25430.6397260274</data>
+  <data key="d15">3.9322644289460556e-05</data>
+</edge>
+<edge source="X:Bostancı" target="MAR:suadiye">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Bostancı (Marmaray)</data>
+  <data key="d12">Suadiye</data>
+  <data key="d13">route</data>
+  <data key="d14">27428.38767123288</data>
+  <data key="d15">3.6458577587074444e-05</data>
+</edge>
+<edge source="M4:küçükyalı" target="M4:maltepe">
+  <data key="d10">M4</data>
+  <data key="d11">Küçükyalı</data>
+  <data key="d12">Maltepe</data>
+  <data key="d13">route</data>
+  <data key="d14">13860.854794520548</data>
+  <data key="d15">7.214562267799808e-05</data>
+</edge>
+<edge source="M4:maltepe" target="M4:huzurevi">
+  <data key="d10">M4</data>
+  <data key="d11">Maltepe</data>
+  <data key="d12">Huzurevi</data>
+  <data key="d13">route</data>
+  <data key="d14">11376.776712328767</data>
+  <data key="d15">8.789835867274442e-05</data>
+</edge>
+<edge source="M4:huzurevi" target="M4:gülsuyu">
+  <data key="d10">M4</data>
+  <data key="d11">Huzurevi</data>
+  <data key="d12">Gülsuyu</data>
+  <data key="d13">route</data>
+  <data key="d14">6794.753424657534</data>
+  <data key="d15">0.00014717237514036817</data>
+</edge>
+<edge source="M4:gülsuyu" target="M4:esenkent">
+  <data key="d10">M4</data>
+  <data key="d11">Gülsuyu</data>
+  <data key="d12">Esenkent</data>
+  <data key="d13">route</data>
+  <data key="d14">7501.735616438356</data>
+  <data key="d15">0.0001333024850687521</data>
+</edge>
+<edge source="M4:esenkent" target="M4:hastane-adliye">
+  <data key="d10">M4</data>
+  <data key="d11">Esenkent</data>
+  <data key="d12">Hastane-Adliye</data>
+  <data key="d13">route</data>
+  <data key="d14">10148.338356164384</data>
+  <data key="d15">9.853829906967697e-05</data>
+</edge>
+<edge source="M4:hastane-adliye" target="M4:soğanlık">
+  <data key="d10">M4</data>
+  <data key="d11">Hastane-Adliye</data>
+  <data key="d12">Soğanlık</data>
+  <data key="d13">route</data>
+  <data key="d14">9672.042465753424</data>
+  <data key="d15">0.00010339077847732577</data>
+</edge>
+<edge source="M4:soğanlık" target="M4:kartal">
+  <data key="d10">M4</data>
+  <data key="d11">Soğanlık</data>
+  <data key="d12">Kartal</data>
+  <data key="d13">route</data>
+  <data key="d14">9002.22602739726</data>
+  <data key="d15">0.00011108363608696479</data>
+</edge>
+<edge source="M4:kartal" target="M4:yakacık-adnan kahveci">
+  <data key="d10">M4</data>
+  <data key="d11">Kartal</data>
+  <data key="d12">Yakacık-Adnan Kahveci</data>
+  <data key="d13">route</data>
+  <data key="d14">7848.395890410959</data>
+  <data key="d15">0.0001274145715842117</data>
+</edge>
+<edge source="M4:yakacık-adnan kahveci" target="M4:pendik">
+  <data key="d10">M4</data>
+  <data key="d11">Yakacık-Adnan Kahveci</data>
+  <data key="d12">Pendik</data>
+  <data key="d13">route</data>
+  <data key="d14">7417.979452054795</data>
+  <data key="d15">0.00013480759908589368</data>
+</edge>
+<edge source="M4:pendik" target="M4:tavşantepe">
+  <data key="d10">M4</data>
+  <data key="d11">Pendik</data>
+  <data key="d12">Tavşantepe</data>
+  <data key="d13">route</data>
+  <data key="d14">9380.994520547945</data>
+  <data key="d15">0.00010659850592702296</data>
+</edge>
+<edge source="M4:tavşantepe" target="M4:fevzi çakmak">
+  <data key="d10">M4</data>
+  <data key="d11">Tavşantepe</data>
+  <data key="d12">Fevzi Çakmak</data>
+  <data key="d13">route</data>
+  <data key="d14">8856.457534246576</data>
+  <data key="d15">0.00011291196238825195</data>
+</edge>
+<edge source="M4:fevzi çakmak" target="M4:yayalar">
+  <data key="d10">M4</data>
+  <data key="d11">Fevzi Çakmak</data>
+  <data key="d12">Yayalar</data>
+  <data key="d13">route</data>
+  <data key="d14">6286.058904109589</data>
+  <data key="d15">0.0001590821873059824</data>
+</edge>
+<edge source="M4:yayalar" target="M4:kurtköy">
+  <data key="d10">M4</data>
+  <data key="d11">Yayalar</data>
+  <data key="d12">Kurtköy</data>
+  <data key="d13">route</data>
+  <data key="d14">7404.598630136987</data>
+  <data key="d15">0.00013505120938358002</data>
+</edge>
+<edge source="M4:kurtköy" target="M4:sabiha gökçen havalimanı">
+  <data key="d10">M4</data>
+  <data key="d11">Kurtköy</data>
+  <data key="d12">Sabiha Gökçen Havalimanı</data>
+  <data key="d13">route</data>
+  <data key="d14">10845.587671232875</data>
+  <data key="d15">9.220339462585569e-05</data>
+</edge>
+<edge source="X:Üsküdar" target="M5:fıstıkağacı">
+  <data key="d10">M5</data>
+  <data key="d11">Üsküdar</data>
+  <data key="d12">Fıstıkağacı</data>
+  <data key="d13">route</data>
+  <data key="d14">58890.83835616438</data>
+  <data key="d15">1.698056994794548e-05</data>
+</edge>
+<edge source="X:Üsküdar" target="X:Sirkeci">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Üsküdar</data>
+  <data key="d12">Sirkeci</data>
+  <data key="d13">route</data>
+  <data key="d14">86059.68630136986</data>
+  <data key="d15">1.1619842495104266e-05</data>
+</edge>
+<edge source="M5:fıstıkağacı" target="M5:bağlarbaşı">
+  <data key="d10">M5</data>
+  <data key="d11">Fıstıkağacı</data>
+  <data key="d12">Bağlarbaşı</data>
+  <data key="d13">route</data>
+  <data key="d14">7184.928767123288</data>
+  <data key="d15">0.0001391802246635747</data>
+</edge>
+<edge source="M5:bağlarbaşı" target="M5:altunizade">
+  <data key="d10">M5</data>
+  <data key="d11">Bağlarbaşı</data>
+  <data key="d12">Altunizade</data>
+  <data key="d13">route</data>
+  <data key="d14">20236.856164383564</data>
+  <data key="d15">4.941479011744812e-05</data>
+</edge>
+<edge source="M5:altunizade" target="M5:kısıklı">
+  <data key="d10">M5</data>
+  <data key="d11">Altunizade</data>
+  <data key="d12">Kısıklı</data>
+  <data key="d13">route</data>
+  <data key="d14">16466.28219178082</data>
+  <data key="d15">6.0730162908246046e-05</data>
+</edge>
+<edge source="M5:kısıklı" target="M5:bulgurlu">
+  <data key="d10">M5</data>
+  <data key="d11">Kısıklı</data>
+  <data key="d12">Bulgurlu</data>
+  <data key="d13">route</data>
+  <data key="d14">9415.142465753424</data>
+  <data key="d15">0.00010621188193778195</data>
+</edge>
+<edge source="M5:bulgurlu" target="M5:ümraniye">
+  <data key="d10">M5</data>
+  <data key="d11">Bulgurlu</data>
+  <data key="d12">Ümraniye</data>
+  <data key="d13">route</data>
+  <data key="d14">16852.30821917808</data>
+  <data key="d15">5.9339052371590905e-05</data>
+</edge>
+<edge source="M5:ümraniye" target="M5:çarşı">
+  <data key="d10">M5</data>
+  <data key="d11">Ümraniye</data>
+  <data key="d12">Çarşı</data>
+  <data key="d13">route</data>
+  <data key="d14">18440.113698630135</data>
+  <data key="d15">5.422960055144818e-05</data>
+</edge>
+<edge source="M5:çarşı" target="M5:yamanevler">
+  <data key="d10">M5</data>
+  <data key="d11">Çarşı</data>
+  <data key="d12">Yamanevler</data>
+  <data key="d13">route</data>
+  <data key="d14">14533.739726027397</data>
+  <data key="d15">6.880541545746647e-05</data>
+</edge>
+<edge source="M5:yamanevler" target="M5:çakmak">
+  <data key="d10">M5</data>
+  <data key="d11">Yamanevler</data>
+  <data key="d12">Çakmak</data>
+  <data key="d13">route</data>
+  <data key="d14">12780.761643835616</data>
+  <data key="d15">7.824259835737703e-05</data>
+</edge>
+<edge source="M5:çakmak" target="M5:ıhlamurkuyu">
+  <data key="d10">M5</data>
+  <data key="d11">Çakmak</data>
+  <data key="d12">Ihlamurkuyu</data>
+  <data key="d13">route</data>
+  <data key="d14">11657.845205479452</data>
+  <data key="d15">8.577914549165374e-05</data>
+</edge>
+<edge source="M5:ıhlamurkuyu" target="M5:altınşehir">
+  <data key="d10">M5</data>
+  <data key="d11">Ihlamurkuyu</data>
+  <data key="d12">Altınşehir</data>
+  <data key="d13">route</data>
+  <data key="d14">7993.146575342465</data>
+  <data key="d15">0.00012510717657609764</data>
+</edge>
+<edge source="M5:altınşehir" target="M5:imam hatip lisesi">
+  <data key="d10">M5</data>
+  <data key="d11">Altınşehir</data>
+  <data key="d12">İmam Hatip Lisesi</data>
+  <data key="d13">route</data>
+  <data key="d14">7334.324657534246</data>
+  <data key="d15">0.00013634520514069985</data>
+</edge>
+<edge source="M5:imam hatip lisesi" target="X:Dudullu">
+  <data key="d10">M5</data>
+  <data key="d11">İmam Hatip Lisesi</data>
+  <data key="d12">Dudullu</data>
+  <data key="d13">route</data>
+  <data key="d14">21990.52191780822</data>
+  <data key="d15">4.5474136709333245e-05</data>
+</edge>
+<edge source="X:Dudullu" target="M5:necip fazıl">
+  <data key="d10">M5</data>
+  <data key="d11">Dudullu</data>
+  <data key="d12">Necip Fazıl</data>
+  <data key="d13">route</data>
+  <data key="d14">23277.960273972603</data>
+  <data key="d15">4.295909041128974e-05</data>
+</edge>
+<edge source="X:Dudullu" target="M8:modoko-keyap">
+  <data key="d10">M8</data>
+  <data key="d11">MODOKO-KEYAP</data>
+  <data key="d12">Dudullu</data>
+  <data key="d13">route</data>
+  <data key="d14">19667.55890410959</data>
+  <data key="d15">5.0845150884030014e-05</data>
+</edge>
+<edge source="X:Dudullu" target="M8:huzur (m8)">
+  <data key="d10">M8</data>
+  <data key="d11">Dudullu</data>
+  <data key="d12">Huzur (M8)</data>
+  <data key="d13">route</data>
+  <data key="d14">19809.971232876713</data>
+  <data key="d15">5.047962908398351e-05</data>
+</edge>
+<edge source="M5:necip fazıl" target="M5:çekmeköy">
+  <data key="d10">M5</data>
+  <data key="d11">Necip Fazıl</data>
+  <data key="d12">Çekmeköy</data>
+  <data key="d13">route</data>
+  <data key="d14">14428.05616438356</data>
+  <data key="d15">6.930940582755384e-05</data>
+</edge>
+<edge source="M5:çekmeköy" target="M5:meclis">
+  <data key="d10">M5</data>
+  <data key="d11">Çekmeköy</data>
+  <data key="d12">Meclis</data>
+  <data key="d13">route</data>
+  <data key="d14">12894.931506849316</data>
+  <data key="d15">7.754984968077082e-05</data>
+</edge>
+<edge source="M5:meclis" target="M5:sarıgazi">
+  <data key="d10">M5</data>
+  <data key="d11">Meclis</data>
+  <data key="d12">Sarıgazi</data>
+  <data key="d13">route</data>
+  <data key="d14">10143.44794520548</data>
+  <data key="d15">9.858580685797985e-05</data>
+</edge>
+<edge source="M5:sarıgazi" target="M5:sancaktepe">
+  <data key="d10">M5</data>
+  <data key="d11">Sarıgazi</data>
+  <data key="d12">Sancaktepe</data>
+  <data key="d13">route</data>
+  <data key="d14">9855.635616438356</data>
+  <data key="d15">0.00010146479018888296</data>
+</edge>
+<edge source="M5:sancaktepe" target="M5:samandıra merkez">
+  <data key="d10">M5</data>
+  <data key="d11">Sancaktepe</data>
+  <data key="d12">Samandıra Merkez</data>
+  <data key="d13">route</data>
+  <data key="d14">10659.875342465753</data>
+  <data key="d15">9.380972740049775e-05</data>
+</edge>
+<edge source="M6:nispetiye" target="M6:etiler">
+  <data key="d10">M6</data>
+  <data key="d11">Nispetiye</data>
+  <data key="d12">Etiler</data>
+  <data key="d13">route</data>
+  <data key="d14">1567.3657534246577</data>
+  <data key="d15">0.0006380131745350588</data>
+</edge>
+<edge source="M6:etiler" target="X:Hisarüstü">
+  <data key="d10">M6</data>
+  <data key="d11">Etiler</data>
+  <data key="d12">Boğaziçi Üniversitesi/Hisarüstü</data>
+  <data key="d13">route</data>
+  <data key="d14">3367.232876712329</data>
+  <data key="d15">0.0002969797565579639</data>
+</edge>
+<edge source="X:Hisarüstü" target="F4:aşiyan">
+  <data key="d10">F4</data>
+  <data key="d11">Boğaziçi Üniversitesi/Hisarüstü</data>
+  <data key="d12">Aşiyan</data>
+  <data key="d13">route</data>
+  <data key="d14">3506.4260273972604</data>
+  <data key="d15">0.0002851906734055009</data>
+</edge>
+<edge source="M7:yıldız" target="M7:fulya">
+  <data key="d10">M7</data>
+  <data key="d11">Yıldız</data>
+  <data key="d12">Fulya</data>
+  <data key="d13">route</data>
+  <data key="d14">2928.119178082192</data>
+  <data key="d15">0.0003415161539479969</data>
+</edge>
+<edge source="M7:çağlayan" target="X:Kağıthane">
+  <data key="d10">M7</data>
+  <data key="d11">Çağlayan</data>
+  <data key="d12">Kağıthane</data>
+  <data key="d13">route</data>
+  <data key="d14">15924.624616137287</data>
+  <data key="d15">6.27958287309734e-05</data>
+</edge>
+<edge source="X:Kağıthane" target="M7:nurtepe">
+  <data key="d10">M7</data>
+  <data key="d11">Kağıthane</data>
+  <data key="d12">Nurtepe</data>
+  <data key="d13">route</data>
+  <data key="d14">14392.469863013699</data>
+  <data key="d15">6.948077776211551e-05</data>
+</edge>
+<edge source="X:Kağıthane" target="M11:hasdal">
+  <data key="d10">M11</data>
+  <data key="d11">Kağıthane</data>
+  <data key="d12">Hasdal</data>
+  <data key="d13">route</data>
+  <data key="d14">11233.498630136986</data>
+  <data key="d15">8.901946160541844e-05</data>
+</edge>
+<edge source="M7:nurtepe" target="X:Alibeyköy">
+  <data key="d10">M7</data>
+  <data key="d11">Nurtepe</data>
+  <data key="d12">Alibeyköy Metro</data>
+  <data key="d13">route</data>
+  <data key="d14">15691.900000000001</data>
+  <data key="d15">6.37271458523187e-05</data>
+</edge>
+<edge source="X:Alibeyköy" target="M7:çırçır">
+  <data key="d10">M7</data>
+  <data key="d11">Alibeyköy Metro</data>
+  <data key="d12">Çırçır</data>
+  <data key="d13">route</data>
+  <data key="d14">15431.2</data>
+  <data key="d15">6.480377417180777e-05</data>
+</edge>
+<edge source="X:Alibeyköy" target="T5:alibeyköy">
+  <data key="d10">T5</data>
+  <data key="d11">Alibeyköy</data>
+  <data key="d12">Alibeyköy Metro</data>
+  <data key="d13">route</data>
+  <data key="d14">13914.256164383562</data>
+  <data key="d15">7.186873579054181e-05</data>
+</edge>
+<edge source="X:Alibeyköy" target="T5:cep otogar">
+  <data key="d10">T5</data>
+  <data key="d11">Alibeyköy Metro</data>
+  <data key="d12">Cep Otogar</data>
+  <data key="d13">route</data>
+  <data key="d14">14310.313698630138</data>
+  <data key="d15">6.987967007988969e-05</data>
+</edge>
+<edge source="M7:çırçır" target="M7:veysel karani-akşemsettin">
+  <data key="d10">M7</data>
+  <data key="d11">Çırçır</data>
+  <data key="d12">Veysel Karani-Akşemsettin</data>
+  <data key="d13">route</data>
+  <data key="d14">8170.947945205479</data>
+  <data key="d15">0.00012238482079509228</data>
+</edge>
+<edge source="M7:veysel karani-akşemsettin" target="M7:yeşilpınar">
+  <data key="d10">M7</data>
+  <data key="d11">Veysel Karani-Akşemsettin</data>
+  <data key="d12">Yeşilpınar</data>
+  <data key="d13">route</data>
+  <data key="d14">9270.550684931506</data>
+  <data key="d15">0.00010786845722395059</data>
+</edge>
+<edge source="M7:yeşilpınar" target="M7:kazım karabekir">
+  <data key="d10">M7</data>
+  <data key="d11">Yeşilpınar</data>
+  <data key="d12">Kazım Karabekir</data>
+  <data key="d13">route</data>
+  <data key="d14">10604.860273972603</data>
+  <data key="d15">9.429638620079601e-05</data>
+</edge>
+<edge source="M7:kazım karabekir" target="M7:yenimahalle">
+  <data key="d10">M7</data>
+  <data key="d11">Kazım Karabekir</data>
+  <data key="d12">Yenimahalle</data>
+  <data key="d13">route</data>
+  <data key="d14">11263.15205479452</data>
+  <data key="d15">8.878509276400278e-05</data>
+</edge>
+<edge source="M7:yenimahalle" target="X:Kiptaş-Venezia">
+  <data key="d10">M7</data>
+  <data key="d11">Yenimahalle</data>
+  <data key="d12">Karadeniz Mahallesi</data>
+  <data key="d13">route</data>
+  <data key="d14">22163.07397260274</data>
+  <data key="d15">4.5120094858509565e-05</data>
+</edge>
+<edge source="X:Kiptaş-Venezia" target="M7:tekstilkent-giyimkent">
+  <data key="d10">M7</data>
+  <data key="d11">Karadeniz Mahallesi</data>
+  <data key="d12">Tekstilkent-Giyimkent</data>
+  <data key="d13">route</data>
+  <data key="d14">19364.642465753423</data>
+  <data key="d15">5.164050933388059e-05</data>
+</edge>
+<edge source="X:Kiptaş-Venezia" target="T4:karadeniz mahallesi">
+  <data key="d10">T4</data>
+  <data key="d11">Karadeniz Mahallesi</data>
+  <data key="d12">Kiptaş Venezia</data>
+  <data key="d13">route</data>
+  <data key="d14">19652.41780821918</data>
+  <data key="d15">5.088432424746092e-05</data>
+</edge>
+<edge source="X:Kiptaş-Venezia" target="T4:cumhuriyet">
+  <data key="d10">T4</data>
+  <data key="d11">Kiptaş Venezia</data>
+  <data key="d12">Cumhuriyet</data>
+  <data key="d13">route</data>
+  <data key="d14">18288.358904109587</data>
+  <data key="d15">5.467959182358836e-05</data>
+</edge>
+<edge source="M7:tekstilkent-giyimkent" target="M7:oruç reis">
+  <data key="d10">M7</data>
+  <data key="d11">Tekstilkent-Giyimkent</data>
+  <data key="d12">Oruç Reis</data>
+  <data key="d13">route</data>
+  <data key="d14">5444.784931506849</data>
+  <data key="d15">0.00018366198345381646</data>
+</edge>
+<edge source="M7:oruç reis" target="M7:göztepe (m7)">
+  <data key="d10">M7</data>
+  <data key="d11">Oruç Reis</data>
+  <data key="d12">Göztepe (M7)</data>
+  <data key="d13">route</data>
+  <data key="d14">7734.7520547945205</data>
+  <data key="d15">0.00012928662650280208</data>
+</edge>
+<edge source="M8:emin ali paşa" target="M8:ayşekadın">
+  <data key="d10">M8</data>
+  <data key="d11">Emin Ali Paşa</data>
+  <data key="d12">Ayşekadın</data>
+  <data key="d13">route</data>
+  <data key="d14">2242.7205479452055</data>
+  <data key="d15">0.0004458870281079853</data>
+</edge>
+<edge source="M8:küçükbakkalköy" target="M8:içerenköy">
+  <data key="d10">M8</data>
+  <data key="d11">Küçükbakkalköy</data>
+  <data key="d12">İçerenköy</data>
+  <data key="d13">route</data>
+  <data key="d14">4241.260273972603</data>
+  <data key="d15">0.00023577897497513016</data>
+</edge>
+<edge source="M8:içerenköy" target="M8:kayışdağı">
+  <data key="d10">M8</data>
+  <data key="d11">İçerenköy</data>
+  <data key="d12">Kayışdağı</data>
+  <data key="d13">route</data>
+  <data key="d14">3921.495890410959</data>
+  <data key="d15">0.00025500472981375573</data>
+</edge>
+<edge source="M8:kayışdağı" target="M8:mevlana">
+  <data key="d10">M8</data>
+  <data key="d11">Kayışdağı</data>
+  <data key="d12">Mevlana</data>
+  <data key="d13">route</data>
+  <data key="d14">3535.012328767123</data>
+  <data key="d15">0.0002828844448044009</data>
+</edge>
+<edge source="M8:mevlana" target="M8:imes">
+  <data key="d10">M8</data>
+  <data key="d11">Mevlana</data>
+  <data key="d12">İMES</data>
+  <data key="d13">route</data>
+  <data key="d14">3745.8191780821917</data>
+  <data key="d15">0.0002669643013873367</data>
+</edge>
+<edge source="M8:imes" target="M8:modoko-keyap">
+  <data key="d10">M8</data>
+  <data key="d11">İMES</data>
+  <data key="d12">MODOKO-KEYAP</data>
+  <data key="d13">route</data>
+  <data key="d14">2823.378082191781</data>
+  <data key="d15">0.0003541856495619257</data>
+</edge>
+<edge source="M8:huzur (m8)" target="M8:parseller">
+  <data key="d10">M8</data>
+  <data key="d11">Huzur (M8)</data>
+  <data key="d12">Parseller</data>
+  <data key="d13">route</data>
+  <data key="d14">2175.4</data>
+  <data key="d15">0.0004596855750666544</data>
+</edge>
+<edge source="M9:ataköy (m9)" target="MAR:ataköy">
+  <data key="d10">TRANSFER:M9-MARMARAY</data>
+  <data key="d11">Ataköy (M9)</data>
+  <data key="d12">Ataköy</data>
+  <data key="d13">transfer</data>
+  <data key="d16">M9 Ataköy and Marmaray Ataköy interchange represented as an explicit transfer edge</data>
+  <data key="d17">https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=M9</data>
+  <data key="d14">12053.076712328766</data>
+  <data key="d15">8.296636816200855e-05</data>
+</edge>
+<edge source="M9:çobançeşme" target="M9:29 ekim cumhuriyet">
+  <data key="d10">M9</data>
+  <data key="d11">Çobançeşme</data>
+  <data key="d12">29 Ekim Cumhuriyet</data>
+  <data key="d13">route</data>
+  <data key="d14">2781.898630136986</data>
+  <data key="d15">0.0003594667286459529</data>
+</edge>
+<edge source="M9:29 ekim cumhuriyet" target="M9:doğu sanayi">
+  <data key="d10">M9</data>
+  <data key="d11">29 Ekim Cumhuriyet</data>
+  <data key="d12">Doğu Sanayi</data>
+  <data key="d13">route</data>
+  <data key="d14">3530.2054794520545</data>
+  <data key="d15">0.0002832696300032984</data>
+</edge>
+<edge source="M9:doğu sanayi" target="M9:mimar sinan">
+  <data key="d10">M9</data>
+  <data key="d11">Doğu Sanayi</data>
+  <data key="d12">Mimar Sinan</data>
+  <data key="d13">route</data>
+  <data key="d14">2686.504109589041</data>
+  <data key="d15">0.00037223095860179856</data>
+</edge>
+<edge source="M9:mimar sinan" target="M9:15 temmuz">
+  <data key="d10">M9</data>
+  <data key="d11">Mimar Sinan</data>
+  <data key="d12">15 Temmuz</data>
+  <data key="d13">route</data>
+  <data key="d14">2881.304109589041</data>
+  <data key="d15">0.00034706506566661215</data>
+</edge>
+<edge source="M9:15 temmuz" target="M9:halkalı caddesi">
+  <data key="d10">M9</data>
+  <data key="d11">15 Temmuz</data>
+  <data key="d12">Halkalı Caddesi</data>
+  <data key="d13">route</data>
+  <data key="d14">3943.1123287671235</data>
+  <data key="d15">0.00025360677470546875</data>
+</edge>
+<edge source="M9:halkalı caddesi" target="M9:atatürk mahallesi">
+  <data key="d10">M9</data>
+  <data key="d11">Halkalı Caddesi</data>
+  <data key="d12">Atatürk Mahallesi</data>
+  <data key="d13">route</data>
+  <data key="d14">4326.782191780821</data>
+  <data key="d15">0.00023111863636205338</data>
+</edge>
+<edge source="M9:atatürk mahallesi" target="M9:bahariye">
+  <data key="d10">M9</data>
+  <data key="d11">Atatürk Mahallesi</data>
+  <data key="d12">Bahariye</data>
+  <data key="d13">route</data>
+  <data key="d14">4703.634246575342</data>
+  <data key="d15">0.00021260156457277425</data>
+</edge>
+<edge source="M9:bahariye" target="M9:masko">
+  <data key="d10">M9</data>
+  <data key="d11">Bahariye</data>
+  <data key="d12">Masko</data>
+  <data key="d13">route</data>
+  <data key="d14">5612.15205479452</data>
+  <data key="d15">0.00017818476588596518</data>
+</edge>
+<edge source="M9:ziya gökalp mahallesi" target="M9:olimpiyat">
+  <data key="d10">M9</data>
+  <data key="d11">Ziya Gökalp Mahallesi</data>
+  <data key="d12">Olimpiyat</data>
+  <data key="d13">route</data>
+  <data key="d14">5495.864383561644</data>
+  <data key="d15">0.00018195499928838147</data>
+</edge>
+<edge source="X:Kabataş" target="T1:fındıklı-mimar sinan ü.">
+  <data key="d10">T1</data>
+  <data key="d11">Kabataş</data>
+  <data key="d12">Fındıklı-Mimar Sinan Ü.</data>
+  <data key="d13">route</data>
+  <data key="d14">9967.635616438356</data>
+  <data key="d15">0.00010032469468996508</data>
+</edge>
+<edge source="T1:fındıklı-mimar sinan ü." target="T1:tophane">
+  <data key="d10">T1</data>
+  <data key="d11">Fındıklı-Mimar Sinan Ü.</data>
+  <data key="d12">Tophane</data>
+  <data key="d13">route</data>
+  <data key="d14">5257.521917808219</data>
+  <data key="d15">0.00019020367687157163</data>
+</edge>
+<edge source="T1:tophane" target="X:Karaköy">
+  <data key="d10">T1</data>
+  <data key="d11">Tophane</data>
+  <data key="d12">Karaköy</data>
+  <data key="d13">route</data>
+  <data key="d14">13165.5698630137</data>
+  <data key="d15">7.595569431516369e-05</data>
+</edge>
+<edge source="X:Karaköy" target="X:Eminönü">
+  <data key="d10">T1</data>
+  <data key="d11">Karaköy</data>
+  <data key="d12">Eminönü</data>
+  <data key="d13">route</data>
+  <data key="d14">24293.679452054796</data>
+  <data key="d15">4.1162970062792135e-05</data>
+</edge>
+<edge source="X:Eminönü" target="X:Sirkeci">
+  <data key="d10">T1</data>
+  <data key="d11">Eminönü</data>
+  <data key="d12">Sirkeci</data>
+  <data key="d13">route</data>
+  <data key="d14">44183.09726027397</data>
+  <data key="d15">2.2633089620430995e-05</data>
+</edge>
+<edge source="X:Eminönü" target="T5:küçükpazar">
+  <data key="d10">T5</data>
+  <data key="d11">Eminönü</data>
+  <data key="d12">Küçükpazar</data>
+  <data key="d13">route</data>
+  <data key="d14">17197.957534246576</data>
+  <data key="d15">5.814643965765606e-05</data>
+</edge>
+<edge source="X:Sirkeci" target="T1:gülhane">
+  <data key="d10">T1</data>
+  <data key="d11">Sirkeci</data>
+  <data key="d12">Gülhane</data>
+  <data key="d13">route</data>
+  <data key="d14">31886.472602739726</data>
+  <data key="d15">3.1361261324154075e-05</data>
+</edge>
+<edge source="X:Sirkeci" target="SIRKECI:cankurtaran">
+  <data key="d10">SIRKECI_KAZLICESME</data>
+  <data key="d11">Sirkeci</data>
+  <data key="d12">Cankurtaran</data>
+  <data key="d13">route</data>
+  <data key="d14">29332.752769832907</data>
+  <data key="d15">3.409158382940601e-05</data>
+</edge>
+<edge source="T1:gülhane" target="T1:sultanahmet">
+  <data key="d10">T1</data>
+  <data key="d11">Gülhane</data>
+  <data key="d12">Sultanahmet</data>
+  <data key="d13">route</data>
+  <data key="d14">9091.732876712329</data>
+  <data key="d15">0.00010999003309494625</data>
+</edge>
+<edge source="T1:sultanahmet" target="T1:çemberlitaş">
+  <data key="d10">T1</data>
+  <data key="d11">Sultanahmet</data>
+  <data key="d12">Çemberlitaş</data>
+  <data key="d13">route</data>
+  <data key="d14">11345.557534246575</data>
+  <data key="d15">8.814022554480017e-05</data>
+</edge>
+<edge source="T1:çemberlitaş" target="T1:beyazıt-kapalıçarşı">
+  <data key="d10">T1</data>
+  <data key="d11">Çemberlitaş</data>
+  <data key="d12">Beyazıt-Kapalıçarşı</data>
+  <data key="d13">route</data>
+  <data key="d14">13390.801369863013</data>
+  <data key="d15">7.467812958906058e-05</data>
+</edge>
+<edge source="T1:beyazıt-kapalıçarşı" target="T1:laleli-istanbul ü.">
+  <data key="d10">T1</data>
+  <data key="d11">Beyazıt-Kapalıçarşı</data>
+  <data key="d12">Laleli-İstanbul Ü.</data>
+  <data key="d13">route</data>
+  <data key="d14">13431.245205479452</data>
+  <data key="d15">7.44532606397534e-05</data>
+</edge>
+<edge source="T1:yusufpaşa" target="T1:haseki">
+  <data key="d10">T1</data>
+  <data key="d11">Yusufpaşa</data>
+  <data key="d12">Haseki</data>
+  <data key="d13">route</data>
+  <data key="d14">8099.321917808219</data>
+  <data key="d15">0.00012346712603202871</data>
+</edge>
+<edge source="T1:haseki" target="T1:fındıkzade">
+  <data key="d10">T1</data>
+  <data key="d11">Haseki</data>
+  <data key="d12">Fındıkzade</data>
+  <data key="d13">route</data>
+  <data key="d14">6300.693150684931</data>
+  <data key="d15">0.00015871269653741076</data>
+</edge>
+<edge source="T1:fındıkzade" target="T1:çapa-şehremini">
+  <data key="d10">T1</data>
+  <data key="d11">Fındıkzade</data>
+  <data key="d12">Çapa-Şehremini</data>
+  <data key="d13">route</data>
+  <data key="d14">10764.086301369862</data>
+  <data key="d15">9.290152196872834e-05</data>
+</edge>
+<edge source="T1:çapa-şehremini" target="T1:pazartekke">
+  <data key="d10">T1</data>
+  <data key="d11">Çapa-Şehremini</data>
+  <data key="d12">Pazartekke</data>
+  <data key="d13">route</data>
+  <data key="d14">8170.6123287671235</data>
+  <data key="d15">0.00012238984787947852</data>
+</edge>
+<edge source="T1:pazartekke" target="X:Topkapı">
+  <data key="d10">T1</data>
+  <data key="d11">Pazartekke</data>
+  <data key="d12">Topkapı</data>
+  <data key="d13">route</data>
+  <data key="d14">15162.334246575341</data>
+  <data key="d15">6.595290565012219e-05</data>
+</edge>
+<edge source="X:Topkapı" target="T1:cevizlibağ-aöy">
+  <data key="d10">T1</data>
+  <data key="d11">Topkapı</data>
+  <data key="d12">Cevizlibağ-AÖY</data>
+  <data key="d13">route</data>
+  <data key="d14">25031.71643835616</data>
+  <data key="d15">3.9949317996735437e-05</data>
+</edge>
+<edge source="X:Topkapı" target="T4:fetihkapı">
+  <data key="d10">T4</data>
+  <data key="d11">Topkapı</data>
+  <data key="d12">Fetihkapı</data>
+  <data key="d13">route</data>
+  <data key="d14">14225.475342465752</data>
+  <data key="d15">7.029642074699674e-05</data>
+</edge>
+<edge source="T1:cevizlibağ-aöy" target="T1:merkezefendi">
+  <data key="d10">T1</data>
+  <data key="d11">Cevizlibağ-AÖY</data>
+  <data key="d12">Merkezefendi</data>
+  <data key="d13">route</data>
+  <data key="d14">13909.521917808219</data>
+  <data key="d15">7.189319704221539e-05</data>
+</edge>
+<edge source="T1:merkezefendi" target="T1:seyitnizam-akşemsettin">
+  <data key="d10">T1</data>
+  <data key="d11">Merkezefendi</data>
+  <data key="d12">Seyitnizam-Akşemsettin</data>
+  <data key="d13">route</data>
+  <data key="d14">6818.358904109589</data>
+  <data key="d15">0.0001466628574505334</data>
+</edge>
+<edge source="T1:seyitnizam-akşemsettin" target="T1:mithatpaşa">
+  <data key="d10">T1</data>
+  <data key="d11">Seyitnizam-Akşemsettin</data>
+  <data key="d12">Mithatpaşa</data>
+  <data key="d13">route</data>
+  <data key="d14">7398.435616438356</data>
+  <data key="d15">0.0001351637091736165</data>
+</edge>
+<edge source="T1:mehmet akif" target="T1:merter tekstil merkezi">
+  <data key="d10">T1</data>
+  <data key="d11">Mehmet Akif</data>
+  <data key="d12">Merter Tekstil Merkezi</data>
+  <data key="d13">route</data>
+  <data key="d14">2534.0164383561646</data>
+  <data key="d15">0.0003946304313040319</data>
+</edge>
+<edge source="T1:merter tekstil merkezi" target="T1:güngören">
+  <data key="d10">T1</data>
+  <data key="d11">Merter Tekstil Merkezi</data>
+  <data key="d12">Güngören</data>
+  <data key="d13">route</data>
+  <data key="d14">9426.424657534246</data>
+  <data key="d15">0.00010608476027024003</data>
+</edge>
+<edge source="T1:güngören" target="T1:akıncılar">
+  <data key="d10">T1</data>
+  <data key="d11">Güngören</data>
+  <data key="d12">Akıncılar</data>
+  <data key="d13">route</data>
+  <data key="d14">6479.7054794520545</data>
+  <data key="d15">0.00015432800197032464</data>
+</edge>
+<edge source="T1:akıncılar" target="T1:soğanlı">
+  <data key="d10">T1</data>
+  <data key="d11">Akıncılar</data>
+  <data key="d12">Soğanlı</data>
+  <data key="d13">route</data>
+  <data key="d14">4934.246575342466</data>
+  <data key="d15">0.00020266518600777346</data>
+</edge>
+<edge source="T1:soğanlı" target="T1:yavuzselim">
+  <data key="d10">T1</data>
+  <data key="d11">Soğanlı</data>
+  <data key="d12">Yavuzselim</data>
+  <data key="d13">route</data>
+  <data key="d14">6335.506849315068</data>
+  <data key="d15">0.00015784056805306904</data>
+</edge>
+<edge source="T1:yavuzselim" target="T1:güneştepe">
+  <data key="d10">T1</data>
+  <data key="d11">Yavuzselim</data>
+  <data key="d12">Güneştepe</data>
+  <data key="d13">route</data>
+  <data key="d14">2635.2246575342465</data>
+  <data key="d15">0.00037947428775795156</data>
+</edge>
+<edge source="T3:iskele camii" target="T3:çarşı">
+  <data key="d10">T3</data>
+  <data key="d11">İskele Camii</data>
+  <data key="d12">Çarşı</data>
+  <data key="d13">route</data>
+  <data key="d14">7263.905479452054</data>
+  <data key="d15">0.00013766698958690663</data>
+</edge>
+<edge source="T3:çarşı" target="T3:altıyol">
+  <data key="d10">T3</data>
+  <data key="d11">Çarşı</data>
+  <data key="d12">Altıyol</data>
+  <data key="d13">route</data>
+  <data key="d14">7263.905479452054</data>
+  <data key="d15">0.00013766698958690663</data>
+</edge>
+<edge source="T3:altıyol" target="T3:bahariye">
+  <data key="d10">T3</data>
+  <data key="d11">Altıyol</data>
+  <data key="d12">Bahariye</data>
+  <data key="d13">route</data>
+  <data key="d14">7263.905479452054</data>
+  <data key="d15">0.00013766698958690663</data>
+</edge>
+<edge source="T3:bahariye" target="T3:kilise">
+  <data key="d10">T3</data>
+  <data key="d11">Bahariye</data>
+  <data key="d12">Kilise</data>
+  <data key="d13">route</data>
+  <data key="d14">7263.905479452054</data>
+  <data key="d15">0.00013766698958690663</data>
+</edge>
+<edge source="T3:kilise" target="T3:moda ilkokulu">
+  <data key="d10">T3</data>
+  <data key="d11">Kilise</data>
+  <data key="d12">Moda İlkokulu</data>
+  <data key="d13">route</data>
+  <data key="d14">7263.905479452054</data>
+  <data key="d15">0.00013766698958690663</data>
+</edge>
+<edge source="T3:moda ilkokulu" target="T3:moda">
+  <data key="d10">T3</data>
+  <data key="d11">Moda İlkokulu</data>
+  <data key="d12">Moda</data>
+  <data key="d13">route</data>
+  <data key="d14">7263.905479452054</data>
+  <data key="d15">0.00013766698958690663</data>
+</edge>
+<edge source="T3:moda" target="T3:rızapaşa">
+  <data key="d10">T3</data>
+  <data key="d11">Moda</data>
+  <data key="d12">Rızapaşa</data>
+  <data key="d13">route</data>
+  <data key="d14">7263.905479452054</data>
+  <data key="d15">0.00013766698958690663</data>
+</edge>
+<edge source="T3:rızapaşa" target="T3:mühürdar">
+  <data key="d10">T3</data>
+  <data key="d11">Rızapaşa</data>
+  <data key="d12">Mühürdar</data>
+  <data key="d13">route</data>
+  <data key="d14">7263.905479452054</data>
+  <data key="d15">0.00013766698958690663</data>
+</edge>
+<edge source="T3:mühürdar" target="T3:damga sokak">
+  <data key="d10">T3</data>
+  <data key="d11">Mühürdar</data>
+  <data key="d12">Damga Sokak</data>
+  <data key="d13">route</data>
+  <data key="d14">7263.905479452054</data>
+  <data key="d15">0.00013766698958690663</data>
+</edge>
+<edge source="T2:hüseyin ağa camii" target="T2:galatasaray lisesi">
+  <data key="d10">T2</data>
+  <data key="d11">Hüseyin Ağa Camii</data>
+  <data key="d12">Galatasaray Lisesi</data>
+  <data key="d13">route</data>
+  <data key="d14">7263.905479452054</data>
+  <data key="d15">0.00013766698958690663</data>
+</edge>
+<edge source="T2:galatasaray lisesi" target="T2:odakule">
+  <data key="d10">T2</data>
+  <data key="d11">Galatasaray Lisesi</data>
+  <data key="d12">Odakule</data>
+  <data key="d13">route</data>
+  <data key="d14">7263.905479452054</data>
+  <data key="d15">0.00013766698958690663</data>
+</edge>
+<edge source="T4:edirnekapı" target="T4:şehitlik">
+  <data key="d10">T4</data>
+  <data key="d11">Edirnekapı</data>
+  <data key="d12">Şehitlik</data>
+  <data key="d13">route</data>
+  <data key="d14">6456.193150684932</data>
+  <data key="d15">0.00015489003762130486</data>
+</edge>
+<edge source="T4:şehitlik" target="T4:demirkapı">
+  <data key="d10">T4</data>
+  <data key="d11">Şehitlik</data>
+  <data key="d12">Demirkapı</data>
+  <data key="d13">route</data>
+  <data key="d14">7149.4301369863015</data>
+  <data key="d15">0.00013987128775854154</data>
+</edge>
+<edge source="T4:demirkapı" target="T4:topçular">
+  <data key="d10">T4</data>
+  <data key="d11">Demirkapı</data>
+  <data key="d12">Topçular</data>
+  <data key="d13">route</data>
+  <data key="d14">3336.1342465753423</data>
+  <data key="d15">0.0002997481294484881</data>
+</edge>
+<edge source="T4:topçular" target="T4:rami">
+  <data key="d10">T4</data>
+  <data key="d11">Topçular</data>
+  <data key="d12">Rami</data>
+  <data key="d13">route</data>
+  <data key="d14">4270.834246575342</data>
+  <data key="d15">0.00023414629139538042</data>
+</edge>
+<edge source="T4:rami" target="T4:bereç">
+  <data key="d10">T4</data>
+  <data key="d11">Rami</data>
+  <data key="d12">Bereç</data>
+  <data key="d13">route</data>
+  <data key="d14">7252.089041095891</data>
+  <data key="d15">0.00013789130198667364</data>
+</edge>
+<edge source="T4:bereç" target="T4:sağmalcılar">
+  <data key="d10">T4</data>
+  <data key="d11">Bereç</data>
+  <data key="d12">Sağmalcılar</data>
+  <data key="d13">route</data>
+  <data key="d14">7128.638356164383</data>
+  <data key="d15">0.00014027924409088096</data>
+</edge>
+<edge source="T4:sağmalcılar" target="T4:çukurçeşme">
+  <data key="d10">T4</data>
+  <data key="d11">Sağmalcılar</data>
+  <data key="d12">Çukurçeşme</data>
+  <data key="d13">route</data>
+  <data key="d14">5822.935616438356</data>
+  <data key="d15">0.00017173468261901507</data>
+</edge>
+<edge source="T4:çukurçeşme" target="T4:ali fuat başgil">
+  <data key="d10">T4</data>
+  <data key="d11">Çukurçeşme</data>
+  <data key="d12">Ali Fuat Başgil</data>
+  <data key="d13">route</data>
+  <data key="d14">8507.03698630137</data>
+  <data key="d15">0.00011754974165626298</data>
+</edge>
+<edge source="T4:ali fuat başgil" target="T4:taşköprü">
+  <data key="d10">T4</data>
+  <data key="d11">Ali Fuat Başgil</data>
+  <data key="d12">Taşköprü</data>
+  <data key="d13">route</data>
+  <data key="d14">9263.380821917808</data>
+  <data key="d15">0.00010795194748270847</data>
+</edge>
+<edge source="T4:taşköprü" target="T4:karadeniz mahallesi">
+  <data key="d10">T4</data>
+  <data key="d11">Taşköprü</data>
+  <data key="d12">Karadeniz Mahallesi</data>
+  <data key="d13">route</data>
+  <data key="d14">6116.3794520547945</data>
+  <data key="d15">0.00016349541552135888</data>
+</edge>
+<edge source="T4:cumhuriyet" target="T4:baştabya">
+  <data key="d10">T4</data>
+  <data key="d11">Cumhuriyet</data>
+  <data key="d12">Baştabya</data>
+  <data key="d13">route</data>
+  <data key="d14">3062.8082191780823</data>
+  <data key="d15">0.0003264977525325939</data>
+</edge>
+<edge source="T4:baştabya" target="T4:hacı şükrü">
+  <data key="d10">T4</data>
+  <data key="d11">Baştabya</data>
+  <data key="d12">Hacı Şükrü</data>
+  <data key="d13">route</data>
+  <data key="d14">5596.964383561644</data>
+  <data key="d15">0.00017866828006571074</data>
+</edge>
+<edge source="T4:hacı şükrü" target="T4:yenimahalle">
+  <data key="d10">T4</data>
+  <data key="d11">Hacı Şükrü</data>
+  <data key="d12">Yenimahalle</data>
+  <data key="d13">route</data>
+  <data key="d14">7641.66301369863</data>
+  <data key="d15">0.00013086156746344033</data>
+</edge>
+<edge source="T4:yenimahalle" target="T4:sultançiftliği">
+  <data key="d10">T4</data>
+  <data key="d11">Yenimahalle</data>
+  <data key="d12">Sultançiftliği</data>
+  <data key="d13">route</data>
+  <data key="d14">9382.375342465753</data>
+  <data key="d15">0.00010658281762336669</data>
+</edge>
+<edge source="T4:sultançiftliği" target="T4:cebeci">
+  <data key="d10">T4</data>
+  <data key="d11">Sultançiftliği</data>
+  <data key="d12">Cebeci</data>
+  <data key="d13">route</data>
+  <data key="d14">7560.332876712329</data>
+  <data key="d15">0.000132269308284063</data>
+</edge>
+<edge source="T4:cebeci" target="T4:mescidi selam">
+  <data key="d10">T4</data>
+  <data key="d11">Cebeci</data>
+  <data key="d12">Mescidi Selam</data>
+  <data key="d13">route</data>
+  <data key="d14">6661.1205479452055</data>
+  <data key="d15">0.00015012489157075468</data>
+</edge>
+<edge source="T5:küçükpazar" target="T5:cibali">
+  <data key="d10">T5</data>
+  <data key="d11">Küçükpazar</data>
+  <data key="d12">Cibali</data>
+  <data key="d13">route</data>
+  <data key="d14">2998.0986301369867</data>
+  <data key="d15">0.0003335447306329308</data>
+</edge>
+<edge source="T5:cibali" target="T5:fener">
+  <data key="d10">T5</data>
+  <data key="d11">Cibali</data>
+  <data key="d12">Fener</data>
+  <data key="d13">route</data>
+  <data key="d14">2574.5095890410958</data>
+  <data key="d15">0.00038842349015000597</data>
+</edge>
+<edge source="T5:fener" target="T5:balat">
+  <data key="d10">T5</data>
+  <data key="d11">Fener</data>
+  <data key="d12">Balat</data>
+  <data key="d13">route</data>
+  <data key="d14">2974.2109589041097</data>
+  <data key="d15">0.0003362236283227415</data>
+</edge>
+<edge source="T5:balat" target="T5:ayvansaray">
+  <data key="d10">T5</data>
+  <data key="d11">Balat</data>
+  <data key="d12">Ayvansaray</data>
+  <data key="d13">route</data>
+  <data key="d14">2300.515068493151</data>
+  <data key="d15">0.00043468526405045677</data>
+</edge>
+<edge source="T5:ayvansaray" target="T5:feshane">
+  <data key="d10">T5</data>
+  <data key="d11">Ayvansaray</data>
+  <data key="d12">Feshane</data>
+  <data key="d13">route</data>
+  <data key="d14">2479.2630136986304</data>
+  <data key="d15">0.00040334566944883084</data>
+</edge>
+<edge source="T5:feshane" target="X:Eyüp Teleferik">
+  <data key="d10">T5</data>
+  <data key="d11">Feshane</data>
+  <data key="d12">Eyüp Teleferik</data>
+  <data key="d13">route</data>
+  <data key="d14">3742.119178082192</data>
+  <data key="d15">0.0002672282608894601</data>
+</edge>
+<edge source="X:Eyüp Teleferik" target="T5:eyüp devlet hastanesi">
+  <data key="d10">T5</data>
+  <data key="d11">Eyüp Teleferik</data>
+  <data key="d12">Eyüp Devlet Hastanesi</data>
+  <data key="d13">route</data>
+  <data key="d14">3446.4383561643835</data>
+  <data key="d15">0.00029015461663818115</data>
+</edge>
+<edge source="X:Eyüp Teleferik" target="TF2:pierloti">
+  <data key="d10">TF2</data>
+  <data key="d11">Eyüp Teleferik</data>
+  <data key="d12">Pierloti</data>
+  <data key="d13">route</data>
+  <data key="d14">2621.0489782789678</data>
+  <data key="d15">0.0003815266362006786</data>
+</edge>
+<edge source="T5:eyüp devlet hastanesi" target="T5:silahtarağa">
+  <data key="d10">T5</data>
+  <data key="d11">Eyüp Devlet Hastanesi</data>
+  <data key="d12">Silahtarağa</data>
+  <data key="d13">route</data>
+  <data key="d14">2688.3150684931506</data>
+  <data key="d15">0.000371980208614654</data>
+</edge>
+<edge source="T5:silahtarağa" target="T5:üniversite">
+  <data key="d10">T5</data>
+  <data key="d11">Silahtarağa</data>
+  <data key="d12">Üniversite</data>
+  <data key="d13">route</data>
+  <data key="d14">2679.8109589041096</data>
+  <data key="d15">0.0003731606502605479</data>
+</edge>
+<edge source="T5:üniversite" target="T5:alibeyköy">
+  <data key="d10">T5</data>
+  <data key="d11">Üniversite</data>
+  <data key="d12">Alibeyköy</data>
+  <data key="d13">route</data>
+  <data key="d14">2794.6972602739725</data>
+  <data key="d15">0.00035782051036968744</data>
+</edge>
+<edge source="M11:hasdal" target="M11:kemerburgaz">
+  <data key="d10">M11</data>
+  <data key="d11">Hasdal</data>
+  <data key="d12">Kemerburgaz</data>
+  <data key="d13">route</data>
+  <data key="d14">952.8876712328768</data>
+  <data key="d15">0.001049441639544111</data>
+</edge>
+<edge source="M11:kemerburgaz" target="M11:göktürk">
+  <data key="d10">M11</data>
+  <data key="d11">Kemerburgaz</data>
+  <data key="d12">Göktürk</data>
+  <data key="d13">route</data>
+  <data key="d14">2484.202739726027</data>
+  <data key="d15">0.00040254363462713437</data>
+</edge>
+<edge source="M11:göktürk" target="M11:ihsaniye">
+  <data key="d10">M11</data>
+  <data key="d11">Göktürk</data>
+  <data key="d12">İhsaniye</data>
+  <data key="d13">route</data>
+  <data key="d14">1984.6342465753423</data>
+  <data key="d15">0.0005038711801560344</data>
+</edge>
+<edge source="M11:ihsaniye" target="M11:istanbul havalimanı">
+  <data key="d10">M11</data>
+  <data key="d11">İhsaniye</data>
+  <data key="d12">İstanbul Havalimanı</data>
+  <data key="d13">route</data>
+  <data key="d14">3173.376712328767</data>
+  <data key="d15">0.0003151217427527395</data>
+</edge>
+<edge source="M11:istanbul havalimanı" target="M11:kargo terminali">
+  <data key="d10">M11</data>
+  <data key="d11">İstanbul Havalimanı</data>
+  <data key="d12">Kargo Terminali</data>
+  <data key="d13">route</data>
+  <data key="d14">3252.2164383561644</data>
+  <data key="d15">0.0003074826103841511</data>
+</edge>
+<edge source="M11:kargo terminali" target="M11:taşoluk">
+  <data key="d10">M11</data>
+  <data key="d11">Kargo Terminali</data>
+  <data key="d12">Taşoluk</data>
+  <data key="d13">route</data>
+  <data key="d14">1035.4698630136986</data>
+  <data key="d15">0.0009657451517608974</data>
+</edge>
+<edge source="M11:taşoluk" target="M11:arnavutköy">
+  <data key="d10">M11</data>
+  <data key="d11">Taşoluk</data>
+  <data key="d12">Arnavutköy</data>
+  <data key="d13">route</data>
+  <data key="d14">2185.3547945205482</data>
+  <data key="d15">0.000457591601376285</data>
+</edge>
+<edge source="MAR:gebze" target="MAR:darıca">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Gebze</data>
+  <data key="d12">Darıca</data>
+  <data key="d13">route</data>
+  <data key="d14">6242.721917808219</data>
+  <data key="d15">0.00016018653612414854</data>
+</edge>
+<edge source="MAR:darıca" target="MAR:osmangazi">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Darıca</data>
+  <data key="d12">Osmangazi</data>
+  <data key="d13">route</data>
+  <data key="d14">2570.258904109589</data>
+  <data key="d15">0.0003890658635210248</data>
+</edge>
+<edge source="MAR:osmangazi" target="MAR:çayırova">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Osmangazi</data>
+  <data key="d12">Çayırova</data>
+  <data key="d13">route</data>
+  <data key="d14">2251.898630136986</data>
+  <data key="d15">0.0004440697225963358</data>
+</edge>
+<edge source="MAR:çayırova" target="MAR:fatih">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Çayırova</data>
+  <data key="d12">Fatih</data>
+  <data key="d13">route</data>
+  <data key="d14">3389.428767123288</data>
+  <data key="d15">0.00029503496568500853</data>
+</edge>
+<edge source="MAR:fatih" target="MAR:tuzla">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Fatih</data>
+  <data key="d12">Tuzla</data>
+  <data key="d13">route</data>
+  <data key="d14">5665.745205479452</data>
+  <data key="d15">0.0001764992889254675</data>
+</edge>
+<edge source="MAR:tuzla" target="MAR:içmeler">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Tuzla</data>
+  <data key="d12">İçmeler</data>
+  <data key="d13">route</data>
+  <data key="d14">6320.82602739726</data>
+  <data key="d15">0.00015820717033905964</data>
+</edge>
+<edge source="MAR:içmeler" target="MAR:aydıntepe">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">İçmeler</data>
+  <data key="d12">Aydıntepe</data>
+  <data key="d13">route</data>
+  <data key="d14">5345.273972602739</data>
+  <data key="d15">0.00018708114965210597</data>
+</edge>
+<edge source="MAR:aydıntepe" target="MAR:güzelyalı">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Aydıntepe</data>
+  <data key="d12">Güzelyalı</data>
+  <data key="d13">route</data>
+  <data key="d14">3161.0315068493146</data>
+  <data key="d15">0.00031635243047505306</data>
+</edge>
+<edge source="MAR:güzelyalı" target="MAR:tersane">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Güzelyalı</data>
+  <data key="d12">Tersane</data>
+  <data key="d13">route</data>
+  <data key="d14">3236.113698630137</data>
+  <data key="d15">0.00030901262845718457</data>
+</edge>
+<edge source="MAR:tersane" target="MAR:kaynarca">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Tersane</data>
+  <data key="d12">Kaynarca</data>
+  <data key="d13">route</data>
+  <data key="d14">4103.146575342465</data>
+  <data key="d15">0.00024371539783867846</data>
+</edge>
+<edge source="MAR:kaynarca" target="MAR:pendik (marmaray)">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Kaynarca</data>
+  <data key="d12">Pendik (Marmaray)</data>
+  <data key="d13">route</data>
+  <data key="d14">10858.098630136987</data>
+  <data key="d15">9.209715568658303e-05</data>
+</edge>
+<edge source="MAR:pendik (marmaray)" target="MAR:yunus">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Pendik (Marmaray)</data>
+  <data key="d12">Yunus</data>
+  <data key="d13">route</data>
+  <data key="d14">10775.745205479452</data>
+  <data key="d15">9.28010064205584e-05</data>
+</edge>
+<edge source="MAR:yunus" target="MAR:kartal (marmaray)">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Yunus</data>
+  <data key="d12">Kartal (Marmaray)</data>
+  <data key="d13">route</data>
+  <data key="d14">7720.654794520548</data>
+  <data key="d15">0.00012952269290808253</data>
+</edge>
+<edge source="MAR:kartal (marmaray)" target="MAR:atalar">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Kartal (Marmaray)</data>
+  <data key="d12">Atalar</data>
+  <data key="d13">route</data>
+  <data key="d14">9697.24794520548</data>
+  <data key="d15">0.00010312204098013403</data>
+</edge>
+<edge source="MAR:atalar" target="MAR:başak">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Atalar</data>
+  <data key="d12">Başak</data>
+  <data key="d13">route</data>
+  <data key="d14">5850.8328767123285</data>
+  <data key="d15">0.0001709158372956151</data>
+</edge>
+<edge source="MAR:başak" target="MAR:cevizli (marmaray)">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Başak</data>
+  <data key="d12">Cevizli (Marmaray)</data>
+  <data key="d13">route</data>
+  <data key="d14">6243.178082191781</data>
+  <data key="d15">0.00016017483192613526</data>
+</edge>
+<edge source="MAR:cevizli (marmaray)" target="MAR:maltepe">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Cevizli (Marmaray)</data>
+  <data key="d12">Maltepe</data>
+  <data key="d13">route</data>
+  <data key="d14">10036.524657534246</data>
+  <data key="d15">9.963608262042352e-05</data>
+</edge>
+<edge source="MAR:maltepe" target="MAR:idealtepe">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Maltepe</data>
+  <data key="d12">İdealtepe</data>
+  <data key="d13">route</data>
+  <data key="d14">8421.887671232877</data>
+  <data key="d15">0.00011873822580367074</data>
+</edge>
+<edge source="MAR:idealtepe" target="MAR:süreyya plajı">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">İdealtepe</data>
+  <data key="d12">Süreyya Plajı</data>
+  <data key="d13">route</data>
+  <data key="d14">6639.250684931507</data>
+  <data key="d15">0.00015061940683601654</data>
+</edge>
+<edge source="MAR:süreyya plajı" target="MAR:küçükyalı (marmaray)">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Süreyya Plajı</data>
+  <data key="d12">Küçükyalı (Marmaray)</data>
+  <data key="d13">route</data>
+  <data key="d14">8608.9301369863</data>
+  <data key="d15">0.0001161584522220396</data>
+</edge>
+<edge source="MAR:suadiye" target="MAR:erenköy">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Suadiye</data>
+  <data key="d12">Erenköy</data>
+  <data key="d13">route</data>
+  <data key="d14">12789.824657534245</data>
+  <data key="d15">7.818715477157998e-05</data>
+</edge>
+<edge source="MAR:erenköy" target="MAR:göztepe (marmaray)">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Erenköy</data>
+  <data key="d12">Göztepe (Marmaray)</data>
+  <data key="d13">route</data>
+  <data key="d14">11125.201369863014</data>
+  <data key="d15">8.988601345310418e-05</data>
+</edge>
+<edge source="MAR:göztepe (marmaray)" target="MAR:feneryolu">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Göztepe (Marmaray)</data>
+  <data key="d12">Feneryolu</data>
+  <data key="d13">route</data>
+  <data key="d14">10048.917808219177</data>
+  <data key="d15">9.951320322095613e-05</data>
+</edge>
+<edge source="MAR:feneryolu" target="MAR:söğütlüçeşme">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Feneryolu</data>
+  <data key="d12">Söğütlüçeşme</data>
+  <data key="d13">route</data>
+  <data key="d14">18917.34109589041</data>
+  <data key="d15">5.286155146915648e-05</data>
+</edge>
+<edge source="MAR:yenimahalle (marmaray)" target="MAR:ataköy">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Yenimahalle (Marmaray)</data>
+  <data key="d12">Ataköy</data>
+  <data key="d13">route</data>
+  <data key="d14">10605.738356164384</data>
+  <data key="d15">9.428857910856994e-05</data>
+</edge>
+<edge source="MAR:ataköy" target="MAR:bakırköy (marmaray)">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Ataköy</data>
+  <data key="d12">Bakırköy (Marmaray)</data>
+  <data key="d13">route</data>
+  <data key="d14">23320.253424657534</data>
+  <data key="d15">4.2881180654008495e-05</data>
+</edge>
+<edge source="MAR:bakırköy (marmaray)" target="MAR:yeşilyurt">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Bakırköy (Marmaray)</data>
+  <data key="d12">Yeşilyurt</data>
+  <data key="d13">route</data>
+  <data key="d14">17717.95479452055</data>
+  <data key="d15">5.643992275616708e-05</data>
+</edge>
+<edge source="MAR:yeşilyurt" target="MAR:yeşilköy">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Yeşilyurt</data>
+  <data key="d12">Yeşilköy</data>
+  <data key="d13">route</data>
+  <data key="d14">5064.334246575342</data>
+  <data key="d15">0.00019745932067501875</data>
+</edge>
+<edge source="MAR:yeşilköy" target="MAR:florya akvaryum">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Yeşilköy</data>
+  <data key="d12">Florya Akvaryum</data>
+  <data key="d13">route</data>
+  <data key="d14">6972.016438356164</data>
+  <data key="d15">0.00014343052814657107</data>
+</edge>
+<edge source="MAR:florya akvaryum" target="MAR:florya">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Florya Akvaryum</data>
+  <data key="d12">Florya</data>
+  <data key="d13">route</data>
+  <data key="d14">5337.731506849315</data>
+  <data key="d15">0.00018734550411852143</data>
+</edge>
+<edge source="MAR:florya" target="MAR:küçükçekmece">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Florya</data>
+  <data key="d12">Küçükçekmece</data>
+  <data key="d13">route</data>
+  <data key="d14">8971.931506849316</data>
+  <data key="d15">0.00011145871981262719</data>
+</edge>
+<edge source="MAR:küçükçekmece" target="MAR:mustafa kemal">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Küçükçekmece</data>
+  <data key="d12">Mustafa Kemal</data>
+  <data key="d13">route</data>
+  <data key="d14">10823.395890410959</data>
+  <data key="d15">9.239244412060682e-05</data>
+</edge>
+<edge source="MAR:mustafa kemal" target="X:Halkalı">
+  <data key="d10">MARMARAY</data>
+  <data key="d11">Mustafa Kemal</data>
+  <data key="d12">Halkalı (Marmaray)</data>
+  <data key="d13">route</data>
+  <data key="d14">8883.664383561643</data>
+  <data key="d15">0.00011256616153244181</data>
+</edge>
+<edge source="X:Halkalı" target="HB:ıspartakule">
+  <data key="d10">HALKALI_BAHCESEHIR</data>
+  <data key="d11">Halkalı (Bahçeşehir treni)</data>
+  <data key="d12">Ispartakule</data>
+  <data key="d13">route</data>
+  <data key="d14">5599.628428420894</data>
+  <data key="d15">0.00017858327794117616</data>
+</edge>
+<edge source="SIRKECI:cankurtaran" target="SIRKECI:kumkapı">
+  <data key="d10">SIRKECI_KAZLICESME</data>
+  <data key="d11">Cankurtaran</data>
+  <data key="d12">Kumkapı</data>
+  <data key="d13">route</data>
+  <data key="d14">1082.8007150383862</data>
+  <data key="d15">0.0009235309749167917</data>
+</edge>
+<edge source="SIRKECI:cerrahpaşa" target="SIRKECI:kocamustafapaşa">
+  <data key="d10">SIRKECI_KAZLICESME</data>
+  <data key="d11">Cerrahpaşa</data>
+  <data key="d12">Kocamustafapaşa</data>
+  <data key="d13">route</data>
+  <data key="d14">1571.3896432334789</data>
+  <data key="d15">0.0006363794010645766</data>
+</edge>
+<edge source="SIRKECI:kocamustafapaşa" target="SIRKECI:yedikule">
+  <data key="d10">SIRKECI_KAZLICESME</data>
+  <data key="d11">Kocamustafapaşa</data>
+  <data key="d12">Yedikule</data>
+  <data key="d13">route</data>
+  <data key="d14">1204.9233065398694</data>
+  <data key="d15">0.0008299283403120988</data>
+</edge>
+<edge source="SIRKECI:yedikule" target="SIRKECI:kazlıçeşme">
+  <data key="d10">SIRKECI_KAZLICESME</data>
+  <data key="d11">Yedikule</data>
+  <data key="d12">Kazlıçeşme</data>
+  <data key="d13">route</data>
+  <data key="d14">1090.5698818823353</data>
+  <data key="d15">0.0009169517851290641</data>
+</edge>
+<edge source="HB:ıspartakule" target="HB:bahçeşehir">
+  <data key="d10">HALKALI_BAHCESEHIR</data>
+  <data key="d11">Ispartakule</data>
+  <data key="d12">Bahçeşehir</data>
+  <data key="d13">route</data>
+  <data key="d14">70.1717032967033</data>
+  <data key="d15">0.014250758539688754</data>
+</edge>
+<edge source="TF1:maçka" target="TF1:taşkışla">
+  <data key="d10">TF1</data>
+  <data key="d11">Maçka</data>
+  <data key="d12">Taşkışla</data>
+  <data key="d13">route</data>
+  <data key="d14">613.5429362880886</data>
+  <data key="d15">0.001629877781740854</data>
+</edge>
+</graph></graphml>

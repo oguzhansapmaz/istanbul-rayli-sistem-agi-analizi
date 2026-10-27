@@ -1,0 +1,33 @@
+SCIENTIFIC / FILE QUALITY CHECK
+Overall: PASS_WITH_WARNINGS
+
+[PASS] Raw CSV exists: 2025-yl-rayl-sistemler-istasyon-bazl-yolcu-ve-yolculuk-saylar.csv
+[PASS] Required deliverable files exist: 16/16 files present
+[PASS] GraphML node count matches summary: 269
+[PASS] GraphML edge count matches summary: 289
+[PASS] GraphML matches node/edge CSVs: nodes=269, edges=289
+[PASS] Graph has no self-loops: 0
+[PASS] Every edge endpoint exists: GraphML consistency
+[PASS] Topology order is numeric, sorted and unique per route: problem routes: 
+[PASS] Transfer edge endpoints are in graph: 3 explicit transfer edges
+[PASS] Transfer edges exist in GraphML: 3 transfer links
+[PASS] Centrality rows match nodes: 269
+[PASS] Core centrality values contain no missing cells: degree, betweenness_unweighted, betweenness_weighted, current_flow_betweenness_lcc
+[PASS] 100 null model samples completed: rows=100, status=calculated
+[PASS] All null graphs connected: 100
+[PASS] Degree sequence preserved in every null graph: 100
+[PASS] Null graphs are unique: unique=100
+[PASS] Notebook parses and code cells compile: 13 cells; 6 code cells; stdlib JSON validation
+[PASS] PowerPoint has 8–10 slides: 9
+[PASS] Report PDF has 6–10 pages: 7 pages; standart kütüphane PDF işaretleri (pypdf yok)
+[PASS] Presentation PDF has 8–10 pages: 9 pages; standart kütüphane PDF işaretleri (pypdf yok)
+[PASS] Poster PDF is A3: 1190.9 x 841.7 pt; standart kütüphane PDF işaretleri (pypdf yok)
+
+WARNINGS / NOT FULLY AUTOMATABLE
+[!] Leiden: not calculated: ModuleNotFoundError: No module named 'igraph'
+[!] Power-law comparisons: ModuleNotFoundError: No module named 'powerlaw'
+[!] 500-node rubric: Current real station graph has 269 nodes; assignment card does not state an exception. Do not fabricate nodes; clarify scope with instructor.
+[!] OD matrix limitation: Source contains station-level counts but no origin-destination trips. Edge strength is a passenger-activity proxy, not observed inter-station flow.
+[!] Topology review: Official route pages were spot-checked and explicit transfer links added, but the full line/alias/transfer list still needs human review.
+[!] License review: The dataset licence/attribution URL is recorded in the fetch script, but the exact terms were not independently confirmed in this run.
+[!] Portfolio deployment: Interactive HTML must still be tested in a browser and embedded/published in the student portfolio.

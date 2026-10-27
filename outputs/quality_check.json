@@ -1,0 +1,154 @@
+{
+  "audit_timestamp": "2026-10-27",
+  "status": "PASS_WITH_WARNINGS",
+  "checks": [
+    {
+      "check": "Raw CSV exists",
+      "status": "PASS",
+      "detail": "2025-yl-rayl-sistemler-istasyon-bazl-yolcu-ve-yolculuk-saylar.csv"
+    },
+    {
+      "check": "Required deliverable files exist",
+      "status": "PASS",
+      "detail": "16/16 files present"
+    },
+    {
+      "check": "GraphML node count matches summary",
+      "status": "PASS",
+      "detail": "269"
+    },
+    {
+      "check": "GraphML edge count matches summary",
+      "status": "PASS",
+      "detail": "289"
+    },
+    {
+      "check": "GraphML matches node/edge CSVs",
+      "status": "PASS",
+      "detail": "nodes=269, edges=289"
+    },
+    {
+      "check": "Graph has no self-loops",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "check": "Every edge endpoint exists",
+      "status": "PASS",
+      "detail": "GraphML consistency"
+    },
+    {
+      "check": "Topology order is numeric, sorted and unique per route",
+      "status": "PASS",
+      "detail": "problem routes: "
+    },
+    {
+      "check": "Transfer edge endpoints are in graph",
+      "status": "PASS",
+      "detail": "3 explicit transfer edges"
+    },
+    {
+      "check": "Transfer edges exist in GraphML",
+      "status": "PASS",
+      "detail": "3 transfer links"
+    },
+    {
+      "check": "Centrality rows match nodes",
+      "status": "PASS",
+      "detail": "269"
+    },
+    {
+      "check": "Core centrality values contain no missing cells",
+      "status": "PASS",
+      "detail": "degree, betweenness_unweighted, betweenness_weighted, current_flow_betweenness_lcc"
+    },
+    {
+      "check": "100 null model samples completed",
+      "status": "PASS",
+      "detail": "rows=100, status=calculated"
+    },
+    {
+      "check": "All null graphs connected",
+      "status": "PASS",
+      "detail": "100"
+    },
+    {
+      "check": "Degree sequence preserved in every null graph",
+      "status": "PASS",
+      "detail": "100"
+    },
+    {
+      "check": "Null graphs are unique",
+      "status": "PASS",
+      "detail": "unique=100"
+    },
+    {
+      "check": "Notebook parses and code cells compile",
+      "status": "PASS",
+      "detail": "13 cells; 6 code cells; stdlib JSON validation"
+    },
+    {
+      "check": "PowerPoint has 8–10 slides",
+      "status": "PASS",
+      "detail": "9"
+    },
+    {
+      "check": "Report PDF has 6–10 pages",
+      "status": "PASS",
+      "detail": "7 pages; standart kütüphane PDF işaretleri (pypdf yok)"
+    },
+    {
+      "check": "Presentation PDF has 8–10 pages",
+      "status": "PASS",
+      "detail": "9 pages; standart kütüphane PDF işaretleri (pypdf yok)"
+    },
+    {
+      "check": "Poster PDF is A3",
+      "status": "PASS",
+      "detail": "1190.9 x 841.7 pt; standart kütüphane PDF işaretleri (pypdf yok)"
+    }
+  ],
+  "warnings": [
+    {
+      "item": "Leiden",
+      "detail": "not calculated: ModuleNotFoundError: No module named 'igraph'"
+    },
+    {
+      "item": "Power-law comparisons",
+      "detail": "ModuleNotFoundError: No module named 'powerlaw'"
+    },
+    {
+      "item": "500-node rubric",
+      "detail": "Current real station graph has 269 nodes; assignment card does not state an exception. Do not fabricate nodes; clarify scope with instructor."
+    },
+    {
+      "item": "OD matrix limitation",
+      "detail": "Source contains station-level counts but no origin-destination trips. Edge strength is a passenger-activity proxy, not observed inter-station flow."
+    },
+    {
+      "item": "Topology review",
+      "detail": "Official route pages were spot-checked and explicit transfer links added, but the full line/alias/transfer list still needs human review."
+    },
+    {
+      "item": "License review",
+      "detail": "The dataset licence/attribution URL is recorded in the fetch script, but the exact terms were not independently confirmed in this run."
+    },
+    {
+      "item": "Portfolio deployment",
+      "detail": "Interactive HTML must still be tested in a browser and embedded/published in the student portfolio."
+    }
+  ],
+  "graph": {
+    "nodes": 269,
+    "edges": 289,
+    "components": [
+      267,
+      2
+    ]
+  },
+  "analysis_status": {
+    "leiden": "not calculated: ModuleNotFoundError: No module named 'igraph'",
+    "powerlaw": "not calculated",
+    "null_model": "calculated"
+  }
+}

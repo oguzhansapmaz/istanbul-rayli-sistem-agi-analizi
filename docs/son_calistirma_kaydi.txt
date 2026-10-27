@@ -1,0 +1,241 @@
+
+==============================================================================
+BAŞLIYOR: Hat sıraları CSV taslağı
+==============================================================================
+Wrote 311 topology station rows to /mnt/data/rayli-sistem-agi-proje/topology/line_stations.csv
+Wrote 3 explicit transfer edges to /mnt/data/rayli-sistem-agi-proje/topology/transfer_edges.csv
+
+==============================================================================
+BAŞLIYOR: Ham veriyi doğrula ve hazırla
+==============================================================================
+{
+  "source_file": "2025-yl-rayl-sistemler-istasyon-bazl-yolcu-ve-yolculuk-saylar.csv",
+  "rows": 135783,
+  "columns": 11,
+  "source_columns": [
+    "transaction_year",
+    "transaction_month",
+    "transaction_day",
+    "line",
+    "station_name",
+    "station_number",
+    "town",
+    "longitude",
+    "latitude",
+    "passage_cnt",
+    "passanger_cnt"
+  ],
+  "years": [
+    "2025"
+  ],
+  "months_covered": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "distinct_lines": 23,
+  "distinct_source_station_names_including_blank": 345,
+  "distinct_station_numbers": 358,
+  "missing_station_name_records": 728,
+  "missing_longitude_source_records": 23858,
+  "missing_latitude_source_records": 23858,
+  "normalized_valid_coordinate_records": 111560,
+  "coordinate_min_max": {
+    "longitude_min": 28.699323,
+    "longitude_max": 29.4115555555556,
+    "latitude_min": 40.7838055555556,
+    "latitude_max": 41.255878
+  },
+  "passenger_numeric_invalid": 0,
+  "passage_numeric_invalid": 0,
+  "duplicate_full_source_rows": 0,
+  "station_day_rows_after_canonicalization": 93492,
+  "canonical_station_labels": 257,
+  "method_note": "station-level sums aggregate source rows after manually curated alias canonicalization; possible double counting across entrances/directions/interchanges must be checked against source metadata."
+}
+
+Created: data/processed/clean_station_daily.csv, station_day_2025.csv, station_summary_2025.csv, line_data_summary.csv, station_alias_review.csv
+
+==============================================================================
+BAŞLIYOR: GraphML ağı oluştur
+==============================================================================
+Graph created: 269 nodes, 289 edges, 2 components
+Source records matched to topology: 134,323/135,783 (98.9%)
+Outputs: /mnt/data/rayli-sistem-agi-proje/outputs/istanbul_rail_2025.graphml, nodes.csv, edges.csv, unmatched_source_stations.csv
+
+==============================================================================
+BAŞLIYOR: Ağ analizleri, 100 null ağ ve Louvain kararlılığı
+==============================================================================
+{
+  "graph": {
+    "nodes": 269,
+    "edges": 289,
+    "density": 0.008017533152083449,
+    "connected_components": 2,
+    "component_sizes": [
+      267,
+      2
+    ],
+    "largest_component_nodes": 267,
+    "largest_component_edges": 288,
+    "average_clustering_all_graph": 0.0,
+    "transitivity_all_graph": 0.0,
+    "degree_assortativity": 0.08757331686919363,
+    "average_shortest_path_largest_component": 16.18211258483287,
+    "diameter_largest_component": 51
+  },
+  "current_flow": "calculated on largest connected component only",
+  "louvain": {
+    "community_count": 20,
+    "modularity": 0.813081576007777,
+    "sizes": [
+      29,
+      20,
+      19,
+      19,
+      19,
+      19,
+      18,
+      18,
+      17,
+      14,
+      13,
+      12,
+      11,
+      10,
+      8,
+      7,
+      6,
+      5,
+      3,
+      2
+    ]
+  },
+  "leiden": "not calculated: ModuleNotFoundError: No module named 'igraph'",
+  "powerlaw": {
+    "status": "not calculated",
+    "reason": "ModuleNotFoundError: No module named 'powerlaw'",
+    "install_hint": "pip install powerlaw"
+  },
+  "null_model": "calculated",
+  "closure": "Sirkeci"
+}
+Centralities: /mnt/data/rayli-sistem-agi-proje/outputs/centrality_and_communities.csv
+
+==============================================================================
+BAŞLIYOR: Grafikler ve A3 poster taslağı
+==============================================================================
+Visuals created in /mnt/data/rayli-sistem-agi-proje/outputs
+
+==============================================================================
+BAŞLIYOR: Etkileşimli HTML
+==============================================================================
+Interactive network created: /mnt/data/rayli-sistem-agi-proje/web/interactive_network.html
+
+==============================================================================
+BAŞLIYOR: Rapor PDF taslağı
+==============================================================================
+Report created: /mnt/data/rayli-sistem-agi-proje/outputs/rapor_TASLAK.pdf
+
+==============================================================================
+BAŞLIYOR: Sunum PPTX taslağı
+==============================================================================
+Presentation created: /mnt/data/rayli-sistem-agi-proje/outputs/sunum_TASLAK.pptx
+
+==============================================================================
+BAŞLIYOR: Sunumu PDF biçiminde dışa aktar
+==============================================================================
+Presentation PDF created: /mnt/data/rayli-sistem-agi-proje/outputs/sunum_TASLAK.pdf
+
+==============================================================================
+BAŞLIYOR: Teslim ön kontrol listesi
+==============================================================================
+SOSYAL AG ANALIZI — TESLIM ON KONTROLU
+Bu rapor otomatik dosya/mevcut yöntem kontrolüdür; öğretim elemanı onayı yerine geçmez.
+
+DOSYA KONTROLLERİ
+[OK] Rapor PDF (6-10 sayfa): outputs/rapor_TASLAK.pdf
+[OK] A3 poster PDF: outputs/ag_posteri_A3_TASLAK.pdf
+[OK] Sunum PowerPoint (8-10 slayt): outputs/sunum_TASLAK.pptx
+[OK] Sunum PDF (yönergede isteniyor): outputs/sunum_TASLAK.pdf
+[OK] GraphML ağ: outputs/istanbul_rail_2025.graphml
+[OK] Düğüm CSV: outputs/nodes.csv
+[OK] Kenar CSV: outputs/edges.csv
+[OK] Merkeziyet CSV: outputs/centrality_and_communities.csv
+[OK] Null model sonuçları: outputs/null_model_results.csv
+[OK] Analiz özeti: outputs/analysis_summary.json
+[OK] Etkileşimli ağ HTML: web/interactive_network.html
+[OK] Jupyter defteri: notebooks/01_network_analysis.ipynb
+[OK] Veri sözlüğü: docs/data_dictionary.csv
+[OK] Topoloji doğrulama listesi: docs/topology_validation.csv
+[OK] Açık aktarma kenarları: topology/transfer_edges.csv
+
+ANALIZ DURUMU
+Düğüm sayısı: 269
+Kenar sayısı: 289
+Kaynak kayıt eşleşme oranı (%): 98.92
+Louvain: 20 topluluk; modülerlik=0.813081576007777
+Leiden durumu: not calculated: ModuleNotFoundError: No module named 'igraph'
+Power-law durumu: not calculated
+Sunum PDF güncelliği: dosya mevcut ve PPTX ile güncellik açısından çelişki tespit edilmedi
+
+TESLIM ONCESI INSAN / HOCAYA BAGLI KONTROLLER
+[!] Yönergedeki en az 500 düğüm şartı için öğretim elemanından kapsam açıklaması alınmalı. Fiziksel istasyon olmayan düğümler uydurulmamalı.
+[!] Kaynak istasyon adları, aliaslar ve aktarma kenarları docs/topology_validation.csv, topology/transfer_edges.csv, data/processed/station_alias_review.csv üzerinden insan tarafından gözden geçirilmeli.
+[!] Bu veri setinde başlangıç-varış (OD) matrisi yoktur. Kenar ağırlığı yolcu aktivitesi vekilidir; gerçek yolcu akışının kaydığı iddia edilmemeli.
+[!] Veri setinin resmî lisans/atıf metaverisi portal kaydından doğrulanmalı.
+[!] HTML etkileşimi tarayıcıda test edilmeli; CDN kullanıyorsa internet bağlantısı gerekir.
+[!] Slaytlar 8–10 adet olmalı ve öğrenci tüm ölçüleri kendi cümleleriyle açıklayabilmeli.
+
+SONUC: Dosyalar mevcutsa bile bu çalışma otomatik olarak “teslime hazır / %100” demez.
+
+Kontrol raporu yazıldı: /mnt/data/rayli-sistem-agi-proje/outputs/submission_preflight.txt
+
+==============================================================================
+BAŞLIYOR: Bilimsel ve dosya bütünlüğü kontrolü
+==============================================================================
+SCIENTIFIC / FILE QUALITY CHECK
+Overall: PASS_WITH_WARNINGS
+
+[PASS] Raw CSV exists: 2025-yl-rayl-sistemler-istasyon-bazl-yolcu-ve-yolculuk-saylar.csv
+[PASS] Required deliverable files exist: 16/16 files present
+[PASS] GraphML node count matches summary: 269
+[PASS] GraphML edge count matches summary: 289
+[PASS] GraphML matches node/edge CSVs: nodes=269, edges=289
+[PASS] Graph has no self-loops: 0
+[PASS] Every edge endpoint exists: GraphML consistency
+[PASS] Topology order is numeric, sorted and unique per route: problem routes: 
+[PASS] Transfer edge endpoints are in graph: 3 explicit transfer edges
+[PASS] Transfer edges exist in GraphML: 3 transfer links
+[PASS] Centrality rows match nodes: 269
+[PASS] Core centrality values contain no missing cells: degree, betweenness_unweighted, betweenness_weighted, current_flow_betweenness_lcc
+[PASS] 100 null model samples completed: rows=100, status=calculated
+[PASS] All null graphs connected: 100
+[PASS] Degree sequence preserved in every null graph: 100
+[PASS] Null graphs are unique: unique=100
+[PASS] Notebook parses and code cells compile: 13 cells
+[PASS] PowerPoint has 8–10 slides: 9
+[PASS] Report PDF has 6–10 pages: 7
+[PASS] Presentation PDF has 8–10 pages: 9
+[PASS] Poster PDF is A3: 1190.9 x 841.7 pt
+
+WARNINGS / NOT FULLY AUTOMATABLE
+[!] Leiden: not calculated: ModuleNotFoundError: No module named 'igraph'
+[!] Power-law comparisons: ModuleNotFoundError: No module named 'powerlaw'
+[!] 500-node rubric: Current real station graph has 269 nodes; assignment card does not state an exception. Do not fabricate nodes; clarify scope with instructor.
+[!] OD matrix limitation: Source contains station-level counts but no origin-destination trips. Edge strength is a passenger-activity proxy, not observed inter-station flow.
+[!] Topology review: Official route pages were spot-checked and explicit transfer links added, but the full line/alias/transfer list still needs human review.
+[!] License review: The dataset licence/attribution URL is recorded in the fetch script, but the exact terms were not independently confirmed in this run.
+[!] Portfolio deployment: Interactive HTML must still be tested in a browser and embedded/published in the student portfolio.
+
+Tamamlandı: çıktı taslakları outputs/ klasöründe üretildi.
+UYARI: README.md içindeki topoloji, 500 düğüm şartı, Leiden ve powerlaw notlarını okuyun.

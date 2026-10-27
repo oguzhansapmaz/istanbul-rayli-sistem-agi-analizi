@@ -1,0 +1,14 @@
+{
+  "node_count": 269,
+  "edge_count": 289,
+  "connected_components": 2,
+  "matched_source_records": 134323,
+  "unmatched_source_records": 1460,
+  "match_rate_percent": 98.92,
+  "topology_station_rows": 311,
+  "route_count": 26,
+  "explicit_transfer_edges": 3,
+  "topology_ambiguous_mappings": [],
+  "topology_note": "Route order was corrected to numeric order; selected routes were cross-checked against official Metro Istanbul/IETT route lists. Remaining routes, name aliases, and transfer edges require review against docs/topology_validation.csv before submission.",
+  "weight_note": "Edge strength is the mean of endpoint average daily passenger counts when available; edge distance is 1/strength. This is a passenger-activity proxy, not observed OD flow."
+}

@@ -1,0 +1,4 @@
+﻿node_u,station_u,route_u,node_v,station_v,route_v,edge_type,reason,source_url
+M2:vezneciler-istanbul üniversitesi,Vezneciler-İstanbul Üniversitesi,M2_MAIN,T1:laleli-istanbul ü.,Laleli-İstanbul Ü.,T1,transfer,M2–T1 walking interchange referenced by Metro Istanbul route information,https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=T1
+M3:özgürlük meydanı,Özgürlük Meydanı,M3,MAR:bakırköy (marmaray),Bakırköy (Marmaray),MARMARAY,transfer,M3 official route information lists Marmaray transfer at Özgürlük Meydanı; represented as an explicit inter-station transfer edge,https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=M3
+M9:ataköy (m9),Ataköy (M9),M9,MAR:ataköy,Ataköy,MARMARAY,transfer,M9 Ataköy and Marmaray Ataköy interchange represented as an explicit transfer edge,https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=M9

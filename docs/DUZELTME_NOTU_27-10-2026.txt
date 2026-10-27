@@ -1,0 +1,15 @@
+DÜZELTME NOTU — 27.10.2026
+
+Windows üzerinde run_project.py çalıştırılırken src/make_report.py dosyasında görülen SyntaxError düzeltildi. Metin içindeki tek tırnak çakışması giderildi.
+
+İkinci düzeltme: src/quality_check.py artık Jupyter defterini doğrulamak için nbformat paketini zorunlu istemiyor. Notebook dosyasını standart Python JSON kütüphanesiyle okuyor ve kod hücrelerini compile() ile denetliyor. PDF sayfa/dimensions kontrolünde de pypdf yoksa sınırlı bir standart-kütüphane yedeği var. Sunum PDF'si PPTX dosyasından eskiyse bu durum kontrol raporunda uyarı olarak gösterilir; PowerShell güvenlik ayarları değiştirilmez.
+
+Doğrulama:
+- Paketteki 15 Python dosyasının tamamı compile() ile sözdizimi kontrolünden geçti.
+- `python -m src.make_report` başarıyla çalıştı ve outputs/rapor_TASLAK.pdf oluşturdu.
+- `python -m src.quality_check` başarıyla çalıştı ve PASS_WITH_WARNINGS sonucunu üretti.
+- Otomatik kontrol: 269 düğüm, 289 kenar; 100/100 bağlı, derece dizisini koruyan ve benzersiz null ağ örneği; 9 slayt; A3 poster boyutu.
+
+Önemli: Yerel doğrulama ortamında igraph/leidenalg ve powerlaw bulunmadığından yerel paket içindeki mevcut analiz özeti Leiden/power-law için eksik görünebilir. Kullanıcının Windows ortamında çalıştırma kaydında iki analiz de hesaplanmıştı. Yeni pakette `python run_project.py` çalıştırıldığında sonuçlar aktif rayli-agi ortamındaki kurulu paketlere göre yeniden üretilir.
+
+Bu düzeltmeler mevcut hataları giderir ancak öğretim elemanının 500 düğüm koşulu, tam topoloji/alias doğrulaması, veri lisansı ve sunum PDF'sinin güncelliği gibi teslim koşullarını otomatik olarak çözmez. Windows Güvenliği'ni kapatmayın.

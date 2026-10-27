@@ -1,0 +1,1217 @@
+{
+  "data_file": "data/raw/2025-yl-rayl-sistemler-istasyon-bazl-yolcu-ve-yolculuk-saylar.csv",
+  "graph": {
+    "nodes": 269,
+    "edges": 289,
+    "density": 0.008017533152083449,
+    "connected_components": 2,
+    "component_sizes": [
+      267,
+      2
+    ],
+    "largest_component_nodes": 267,
+    "largest_component_edges": 288,
+    "average_clustering_all_graph": 0.0,
+    "transitivity_all_graph": 0.0,
+    "degree_assortativity": 0.08757331686919363,
+    "average_shortest_path_largest_component": 16.18211258483287,
+    "diameter_largest_component": 51
+  },
+  "current_flow_status": "calculated on largest connected component only",
+  "community_detection": {
+    "louvain": {
+      "community_count": 20,
+      "modularity": 0.813081576007777,
+      "sizes": [
+        29,
+        20,
+        19,
+        19,
+        19,
+        19,
+        18,
+        18,
+        17,
+        14,
+        13,
+        12,
+        11,
+        10,
+        8,
+        7,
+        6,
+        5,
+        3,
+        2
+      ]
+    },
+    "louvain_stability": {
+      "n_seeds": 10,
+      "mean_ARI_vs_seed42": 0.9437571393272386,
+      "min_ARI_vs_seed42": 0.8907629621348669,
+      "mean_NMI_vs_seed42": 0.9798533362171264,
+      "seed42_baseline": "Louvain, random seed 42"
+    },
+    "leiden": {
+      "status": "not calculated: ModuleNotFoundError: No module named 'igraph'",
+      "metrics": null,
+      "stability": {
+        "status": "not calculated"
+      }
+    }
+  },
+  "louvain_community_details": [
+    {
+      "community": 11,
+      "rank_by_size": 1,
+      "size": 29,
+      "candidate_name": "Kuzeybatı metro-tramvay koridoru (M7–T4)",
+      "dominant_lines": [
+        "T5",
+        "T4",
+        "M7"
+      ],
+      "top_passenger_stations": [
+        "Karadeniz Mahallesi / Kiptaş Venezia",
+        "Alibeyköy Metro",
+        "Kazım Karabekir",
+        "Ali Fuat Başgil",
+        "Veysel Karani-Akşemsettin"
+      ],
+      "top_betweenness_stations": [
+        "Karadeniz Mahallesi / Kiptaş Venezia",
+        "Alibeyköy Metro",
+        "Tekstilkent-Giyimkent"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 5,
+      "rank_by_size": 2,
+      "size": 20,
+      "candidate_name": "Batı raylı sistem aktarma koridoru (M1–M3)",
+      "dominant_lines": [
+        "M1",
+        "MAR",
+        "M3"
+      ],
+      "top_passenger_stations": [
+        "Zeytinburnu",
+        "Bakırköy (Marmaray)",
+        "Bakırköy-İncirli / İncirli",
+        "Yenibosna",
+        "Özgürlük Meydanı"
+      ],
+      "top_betweenness_stations": [
+        "Zeytinburnu",
+        "Bakırköy-İncirli / İncirli",
+        "Haznedar"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 1,
+      "rank_by_size": 3,
+      "size": 19,
+      "candidate_name": "M1–T1 merkez-batı aktarma çevresi",
+      "dominant_lines": [
+        "M1",
+        "T1",
+        "T4"
+      ],
+      "top_passenger_stations": [
+        "Topkapı",
+        "Cevizlibağ-AÖY",
+        "Kartaltepe-Kocatepe",
+        "Topkapı-Ulubatlı / Vatan",
+        "Emniyet-Fatih"
+      ],
+      "top_betweenness_stations": [
+        "Topkapı-Ulubatlı / Vatan",
+        "Emniyet-Fatih",
+        "Edirnekapı"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 6,
+      "rank_by_size": 4,
+      "size": 19,
+      "candidate_name": "M9 / M3 ağırlıklı istasyon topluluğu",
+      "dominant_lines": [
+        "M9",
+        "M3"
+      ],
+      "top_passenger_stations": [
+        "Şehir Hastanesi",
+        "Olimpiyat",
+        "İkitelli Sanayi",
+        "Masko",
+        "Başak Konutları"
+      ],
+      "top_betweenness_stations": [
+        "İkitelli Sanayi",
+        "Turgut Özal",
+        "Siteler"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 14,
+      "rank_by_size": 5,
+      "size": 19,
+      "candidate_name": "Anadolu yakası metro–Marmaray koridoru (M4/M8)",
+      "dominant_lines": [
+        "T3",
+        "M4",
+        "MAR"
+      ],
+      "top_passenger_stations": [
+        "Üsküdar",
+        "Ayrılık Çeşmesi",
+        "Kadıköy / Kadıköy İDO",
+        "Söğütlüçeşme",
+        "Ünalan"
+      ],
+      "top_betweenness_stations": [
+        "Üsküdar",
+        "Ayrılık Çeşmesi",
+        "Acıbadem"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 17,
+      "rank_by_size": 6,
+      "size": 19,
+      "candidate_name": "MAR ağırlıklı istasyon topluluğu",
+      "dominant_lines": [
+        "MAR"
+      ],
+      "top_passenger_stations": [
+        "Pendik (Marmaray)",
+        "Kartal (Marmaray)",
+        "Maltepe",
+        "Gebze",
+        "Cevizli (Marmaray)"
+      ],
+      "top_betweenness_stations": [
+        "İdealtepe",
+        "Maltepe",
+        "Cevizli (Marmaray)"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 4,
+      "rank_by_size": 7,
+      "size": 18,
+      "candidate_name": "Kuzey-merkez metro omurgası (M2/M6/M11)",
+      "dominant_lines": [
+        "M2",
+        "M7",
+        "M11"
+      ],
+      "top_passenger_stations": [
+        "Şişli-Mecidiyeköy",
+        "Levent",
+        "Osmanbey",
+        "Gayrettepe",
+        "İTÜ-Ayazağa"
+      ],
+      "top_betweenness_stations": [
+        "Şişli-Mecidiyeköy",
+        "Osmanbey",
+        "Gayrettepe"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 7,
+      "rank_by_size": 8,
+      "size": 18,
+      "candidate_name": "Anadolu yakası metro–Marmaray koridoru (M4/M8)",
+      "dominant_lines": [
+        "M8",
+        "M4",
+        "MAR"
+      ],
+      "top_passenger_stations": [
+        "Bostancı / Bostancı (Marmaray)",
+        "Kozyatağı",
+        "Maltepe",
+        "Küçükyalı",
+        "Suadiye"
+      ],
+      "top_betweenness_stations": [
+        "Bostancı / Bostancı (Marmaray)",
+        "Kozyatağı",
+        "Yenisahra"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 0,
+      "rank_by_size": 9,
+      "size": 17,
+      "candidate_name": "Merkez ve tarihî yarımada aktarma koridoru (T1–Marmaray)",
+      "dominant_lines": [
+        "T1",
+        "SIRKECI",
+        "MAR"
+      ],
+      "top_passenger_stations": [
+        "Yenikapı",
+        "Sirkeci",
+        "Aksaray",
+        "Beyazıt-Kapalıçarşı",
+        "Vezneciler-İstanbul Üniversitesi"
+      ],
+      "top_betweenness_stations": [
+        "Sirkeci",
+        "Yenikapı",
+        "Kazlıçeşme"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 2,
+      "rank_by_size": 10,
+      "size": 14,
+      "candidate_name": "Batı raylı sistem aktarma koridoru (M1–M3)",
+      "dominant_lines": [
+        "M3",
+        "M1",
+        "M7"
+      ],
+      "top_passenger_stations": [
+        "Mahmutbey",
+        "Bağcılar Meydan / Bağcılar",
+        "Kirazlı / Kirazlı-Bağcılar",
+        "Menderes",
+        "Üçyüzlü"
+      ],
+      "top_betweenness_stations": [
+        "Mahmutbey",
+        "Kirazlı / Kirazlı-Bağcılar",
+        "Yenimahalle"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 12,
+      "rank_by_size": 11,
+      "size": 13,
+      "candidate_name": "T1 / T2 ağırlıklı istasyon topluluğu",
+      "dominant_lines": [
+        "T1",
+        "T2",
+        "M2"
+      ],
+      "top_passenger_stations": [
+        "Taksim / Taksim Meydan",
+        "Eminönü",
+        "Şişhane / Beyoğlu Tünel / Beyoğlu",
+        "Karaköy",
+        "Kabataş"
+      ],
+      "top_betweenness_stations": [
+        "Şişhane / Beyoğlu Tünel / Beyoğlu",
+        "Taksim / Taksim Meydan",
+        "Eminönü"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 8,
+      "rank_by_size": 12,
+      "size": 12,
+      "candidate_name": "M4 ağırlıklı istasyon topluluğu",
+      "dominant_lines": [
+        "M4"
+      ],
+      "top_passenger_stations": [
+        "Sabiha Gökçen Havalimanı",
+        "Hastane-Adliye",
+        "Tavşantepe",
+        "Esenkent",
+        "Kurtköy"
+      ],
+      "top_betweenness_stations": [
+        "Gülsuyu",
+        "Esenkent",
+        "Hastane-Adliye"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 10,
+      "rank_by_size": 13,
+      "size": 11,
+      "candidate_name": "M5 / M8 ağırlıklı istasyon topluluğu",
+      "dominant_lines": [
+        "M5",
+        "M8"
+      ],
+      "top_passenger_stations": [
+        "Dudullu",
+        "Çekmeköy",
+        "Samandıra Merkez",
+        "Sarıgazi",
+        "Necip Fazıl"
+      ],
+      "top_betweenness_stations": [
+        "Dudullu",
+        "MODOKO-KEYAP",
+        "Necip Fazıl"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 9,
+      "rank_by_size": 14,
+      "size": 10,
+      "candidate_name": "M5 ağırlıklı istasyon topluluğu",
+      "dominant_lines": [
+        "M5"
+      ],
+      "top_passenger_stations": [
+        "Altunizade",
+        "Çarşı",
+        "Ümraniye",
+        "Bulgurlu",
+        "Çakmak"
+      ],
+      "top_betweenness_stations": [
+        "Bağlarbaşı",
+        "Altunizade",
+        "Kısıklı"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 18,
+      "rank_by_size": 15,
+      "size": 8,
+      "candidate_name": "MAR / HB ağırlıklı istasyon topluluğu",
+      "dominant_lines": [
+        "MAR",
+        "HB"
+      ],
+      "top_passenger_stations": [
+        "Küçükçekmece",
+        "Halkalı (Marmaray) / Halkalı (Bahçeşehir treni)",
+        "Florya Akvaryum",
+        "Mustafa Kemal",
+        "Yeşilköy"
+      ],
+      "top_betweenness_stations": [
+        "Yeşilköy",
+        "Florya Akvaryum",
+        "Florya"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 16,
+      "rank_by_size": 16,
+      "size": 7,
+      "candidate_name": "M11 ağırlıklı istasyon topluluğu",
+      "dominant_lines": [
+        "M11"
+      ],
+      "top_passenger_stations": [
+        "İstanbul Havalimanı",
+        "Göktürk",
+        "Arnavutköy",
+        "Kemerburgaz",
+        "Taşoluk"
+      ],
+      "top_betweenness_stations": [
+        "Kemerburgaz",
+        "Göktürk",
+        "İhsaniye"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 15,
+      "rank_by_size": 17,
+      "size": 6,
+      "candidate_name": "T4 ağırlıklı istasyon topluluğu",
+      "dominant_lines": [
+        "T4"
+      ],
+      "top_passenger_stations": [
+        "Sultançiftliği",
+        "Yenimahalle",
+        "Mescidi Selam",
+        "Hacı Şükrü",
+        "Cebeci"
+      ],
+      "top_betweenness_stations": [
+        "Baştabya",
+        "Hacı Şükrü",
+        "Yenimahalle"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 13,
+      "rank_by_size": 18,
+      "size": 5,
+      "candidate_name": "T1 ağırlıklı istasyon topluluğu",
+      "dominant_lines": [
+        "T1"
+      ],
+      "top_passenger_stations": [
+        "Güngören",
+        "Soğanlı",
+        "Akıncılar",
+        "Merter Tekstil Merkezi",
+        "Yavuzselim"
+      ],
+      "top_betweenness_stations": [
+        "Merter Tekstil Merkezi",
+        "Güngören",
+        "Akıncılar"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 3,
+      "rank_by_size": 19,
+      "size": 3,
+      "candidate_name": "F4 / M6 ağırlıklı istasyon topluluğu",
+      "dominant_lines": [
+        "F4",
+        "M6"
+      ],
+      "top_passenger_stations": [
+        "Boğaziçi Üniversitesi/Hisarüstü",
+        "Aşiyan",
+        "Etiler"
+      ],
+      "top_betweenness_stations": [
+        "Etiler",
+        "Boğaziçi Üniversitesi/Hisarüstü",
+        "Aşiyan"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    },
+    {
+      "community": 19,
+      "rank_by_size": 20,
+      "size": 2,
+      "candidate_name": "TF1 ağırlıklı istasyon topluluğu",
+      "dominant_lines": [
+        "TF1"
+      ],
+      "top_passenger_stations": [
+        "Maçka",
+        "Taşkışla"
+      ],
+      "top_betweenness_stations": [
+        "Maçka",
+        "Taşkışla"
+      ],
+      "name_note": "Hat üyeliklerinden türetilmiş önerilen isim; öğrenci bağlamla kontrol edip sunumda kendi cümlesiyle açıklamalıdır."
+    }
+  ],
+  "centrality_spearman_correlations": {
+    "degree_centrality__weighted_degree_strength": {
+      "rho": 0.6285291553209228,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "degree_centrality__betweenness_unweighted": {
+      "rho": 0.577703342187069,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "degree_centrality__betweenness_weighted": {
+      "rho": 0.558439760494781,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "degree_centrality__closeness_unweighted": {
+      "rho": 0.40624938060611493,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "degree_centrality__closeness_weighted": {
+      "rho": 0.4369391919925938,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "degree_centrality__eigenvector_lcc": {
+      "rho": 0.3575377566340471,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "degree_centrality__pagerank_strength": {
+      "rho": 0.613914396519141,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "degree_centrality__current_flow_betweenness_lcc": {
+      "rho": 0.6174624691468509,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "weighted_degree_strength__betweenness_unweighted": {
+      "rho": 0.4977430030133507,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "weighted_degree_strength__betweenness_weighted": {
+      "rho": 0.49597554659300924,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "weighted_degree_strength__closeness_unweighted": {
+      "rho": 0.5605105437712883,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "weighted_degree_strength__closeness_weighted": {
+      "rho": 0.7659210204684217,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "weighted_degree_strength__eigenvector_lcc": {
+      "rho": 0.5578471668656309,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "weighted_degree_strength__pagerank_strength": {
+      "rho": 0.5293125069432532,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "weighted_degree_strength__current_flow_betweenness_lcc": {
+      "rho": 0.584459217183275,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "betweenness_unweighted__betweenness_weighted": {
+      "rho": 0.835713353384067,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "betweenness_unweighted__closeness_unweighted": {
+      "rho": 0.29867049480712693,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "betweenness_unweighted__closeness_weighted": {
+      "rho": 0.37119815721228,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "betweenness_unweighted__eigenvector_lcc": {
+      "rho": 0.2424785031058662,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "betweenness_unweighted__pagerank_strength": {
+      "rho": 0.39659341513736185,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "betweenness_unweighted__current_flow_betweenness_lcc": {
+      "rho": 0.8075936773412169,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "betweenness_weighted__closeness_unweighted": {
+      "rho": 0.18617511262288775,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "betweenness_weighted__closeness_weighted": {
+      "rho": 0.3172046429788987,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "betweenness_weighted__eigenvector_lcc": {
+      "rho": 0.15858523319894718,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "betweenness_weighted__pagerank_strength": {
+      "rho": 0.4683397293636903,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "betweenness_weighted__current_flow_betweenness_lcc": {
+      "rho": 0.6544053496044954,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "closeness_unweighted__closeness_weighted": {
+      "rho": 0.8846312831590263,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "closeness_unweighted__eigenvector_lcc": {
+      "rho": 0.9654371285530099,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "closeness_unweighted__pagerank_strength": {
+      "rho": -0.0885775503996116,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "closeness_unweighted__current_flow_betweenness_lcc": {
+      "rho": 0.48461838597315426,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "closeness_weighted__eigenvector_lcc": {
+      "rho": 0.906025994899065,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "closeness_weighted__pagerank_strength": {
+      "rho": 0.0196033825976362,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "closeness_weighted__current_flow_betweenness_lcc": {
+      "rho": 0.5031268888006722,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "eigenvector_lcc__pagerank_strength": {
+      "rho": -0.09793299387991063,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "eigenvector_lcc__current_flow_betweenness_lcc": {
+      "rho": 0.39908989783412363,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    },
+    "pagerank_strength__current_flow_betweenness_lcc": {
+      "rho": 0.31868675949109,
+      "p_value": null,
+      "method_note": "Spearman rho computed from average ranks; p-value omitted to avoid SciPy dependency."
+    }
+  },
+  "top_centrality_tables": {
+    "degree": [
+      {
+        "node_key": "X:Yenikapı",
+        "label": "Yenikapı",
+        "lines": "M1, M2, MAR, SIRKECI",
+        "degree": 6
+      },
+      {
+        "node_key": "X:Zeytinburnu",
+        "label": "Zeytinburnu",
+        "lines": "M1, T1, MAR",
+        "degree": 6
+      },
+      {
+        "node_key": "X:Bostancı",
+        "label": "Bostancı / Bostancı (Marmaray)",
+        "lines": "M4, M8, MAR",
+        "degree": 5
+      },
+      {
+        "node_key": "X:Sirkeci",
+        "label": "Sirkeci",
+        "lines": "T1, MAR, SIRKECI",
+        "degree": 5
+      },
+      {
+        "node_key": "X:Vatan-M1",
+        "label": "Topkapı-Ulubatlı / Vatan",
+        "lines": "M1, T4",
+        "degree": 4
+      },
+      {
+        "node_key": "X:Kozyatağı",
+        "label": "Kozyatağı",
+        "lines": "M4, M8",
+        "degree": 4
+      },
+      {
+        "node_key": "X:Kiptaş-Venezia",
+        "label": "Karadeniz Mahallesi / Kiptaş Venezia",
+        "lines": "M7, T4",
+        "degree": 4
+      },
+      {
+        "node_key": "X:Ayrılık Çeşmesi",
+        "label": "Ayrılık Çeşmesi",
+        "lines": "M4, MAR",
+        "degree": 4
+      },
+      {
+        "node_key": "X:Aksaray",
+        "label": "Aksaray",
+        "lines": "M1, T1",
+        "degree": 4
+      },
+      {
+        "node_key": "X:Şişhane-Tünel",
+        "label": "Şişhane / Beyoğlu Tünel / Beyoğlu",
+        "lines": "M2, T2, TUNEL",
+        "degree": 4
+      }
+    ],
+    "betweenness_unweighted": [
+      {
+        "node_key": "X:Sirkeci",
+        "label": "Sirkeci",
+        "lines": "T1, MAR, SIRKECI",
+        "betweenness_unweighted": 0.49040664787352645
+      },
+      {
+        "node_key": "X:Üsküdar",
+        "label": "Üsküdar",
+        "lines": "M5, MAR",
+        "betweenness_unweighted": 0.4519425345184195
+      },
+      {
+        "node_key": "X:Yenikapı",
+        "label": "Yenikapı",
+        "lines": "M1, M2, MAR, SIRKECI",
+        "betweenness_unweighted": 0.4509680729578435
+      },
+      {
+        "node_key": "X:Ayrılık Çeşmesi",
+        "label": "Ayrılık Çeşmesi",
+        "lines": "M4, MAR",
+        "betweenness_unweighted": 0.3869351743156879
+      },
+      {
+        "node_key": "X:Zeytinburnu",
+        "label": "Zeytinburnu",
+        "lines": "M1, T1, MAR",
+        "betweenness_unweighted": 0.356842359896611
+      },
+      {
+        "node_key": "MAR:kazlıçeşme",
+        "label": "Kazlıçeşme",
+        "lines": "MAR",
+        "betweenness_unweighted": 0.3311740188836446
+      },
+      {
+        "node_key": "X:Bostancı",
+        "label": "Bostancı / Bostancı (Marmaray)",
+        "lines": "M4, M8, MAR",
+        "betweenness_unweighted": 0.24711927255110194
+      },
+      {
+        "node_key": "X:İncirli",
+        "label": "Bakırköy-İncirli / İncirli",
+        "lines": "M1, M3",
+        "betweenness_unweighted": 0.2196591946633872
+      },
+      {
+        "node_key": "X:Şişhane-Tünel",
+        "label": "Şişhane / Beyoğlu Tünel / Beyoğlu",
+        "lines": "M2, T2, TUNEL",
+        "betweenness_unweighted": 0.20867073141515538
+      },
+      {
+        "node_key": "X:Kozyatağı",
+        "label": "Kozyatağı",
+        "lines": "M4, M8",
+        "betweenness_unweighted": 0.2014543387929257
+      }
+    ],
+    "betweenness_weighted": [
+      {
+        "node_key": "X:Sirkeci",
+        "label": "Sirkeci",
+        "lines": "T1, MAR, SIRKECI",
+        "betweenness_weighted": 0.6199060875398289
+      },
+      {
+        "node_key": "X:Üsküdar",
+        "label": "Üsküdar",
+        "lines": "M5, MAR",
+        "betweenness_weighted": 0.4765218849572363
+      },
+      {
+        "node_key": "X:Yenikapı",
+        "label": "Yenikapı",
+        "lines": "M1, M2, MAR, SIRKECI",
+        "betweenness_weighted": 0.4739504723573146
+      },
+      {
+        "node_key": "X:Ayrılık Çeşmesi",
+        "label": "Ayrılık Çeşmesi",
+        "lines": "M4, MAR",
+        "betweenness_weighted": 0.3814914193079546
+      },
+      {
+        "node_key": "X:Eminönü",
+        "label": "Eminönü",
+        "lines": "T1, T5",
+        "betweenness_weighted": 0.35273072838056907
+      },
+      {
+        "node_key": "X:Zeytinburnu",
+        "label": "Zeytinburnu",
+        "lines": "M1, T1, MAR",
+        "betweenness_weighted": 0.3215942758119515
+      },
+      {
+        "node_key": "X:Karaköy",
+        "label": "Karaköy",
+        "lines": "T1, TUNEL",
+        "betweenness_weighted": 0.31843591033596064
+      },
+      {
+        "node_key": "X:Şişhane-Tünel",
+        "label": "Şişhane / Beyoğlu Tünel / Beyoğlu",
+        "lines": "M2, T2, TUNEL",
+        "betweenness_weighted": 0.3142154396556543
+      },
+      {
+        "node_key": "MAR:kazlıçeşme",
+        "label": "Kazlıçeşme",
+        "lines": "MAR",
+        "betweenness_weighted": 0.30692045391022416
+      },
+      {
+        "node_key": "X:Taksim",
+        "label": "Taksim / Taksim Meydan",
+        "lines": "M2, T2, F1",
+        "betweenness_weighted": 0.30549499692548493
+      }
+    ],
+    "current_flow_betweenness_lcc": [
+      {
+        "node_key": "X:Sirkeci",
+        "label": "Sirkeci",
+        "lines": "T1, MAR, SIRKECI",
+        "current_flow_betweenness_lcc": 0.5433255165067207
+      },
+      {
+        "node_key": "X:Üsküdar",
+        "label": "Üsküdar",
+        "lines": "M5, MAR",
+        "current_flow_betweenness_lcc": 0.46872293740101206
+      },
+      {
+        "node_key": "X:Yenikapı",
+        "label": "Yenikapı",
+        "lines": "M1, M2, MAR, SIRKECI",
+        "current_flow_betweenness_lcc": 0.4227546662699583
+      },
+      {
+        "node_key": "X:Ayrılık Çeşmesi",
+        "label": "Ayrılık Çeşmesi",
+        "lines": "M4, MAR",
+        "current_flow_betweenness_lcc": 0.3776932746557104
+      },
+      {
+        "node_key": "X:Zeytinburnu",
+        "label": "Zeytinburnu",
+        "lines": "M1, T1, MAR",
+        "current_flow_betweenness_lcc": 0.3444482765087861
+      },
+      {
+        "node_key": "X:Bostancı",
+        "label": "Bostancı / Bostancı (Marmaray)",
+        "lines": "M4, M8, MAR",
+        "current_flow_betweenness_lcc": 0.29716982396460984
+      },
+      {
+        "node_key": "MAR:kazlıçeşme",
+        "label": "Kazlıçeşme",
+        "lines": "MAR",
+        "current_flow_betweenness_lcc": 0.2553895628225589
+      },
+      {
+        "node_key": "X:Kozyatağı",
+        "label": "Kozyatağı",
+        "lines": "M4, M8",
+        "current_flow_betweenness_lcc": 0.24064140777733592
+      },
+      {
+        "node_key": "X:Eminönü",
+        "label": "Eminönü",
+        "lines": "T1, T5",
+        "current_flow_betweenness_lcc": 0.2341977515071768
+      },
+      {
+        "node_key": "X:Kiptaş-Venezia",
+        "label": "Karadeniz Mahallesi / Kiptaş Venezia",
+        "lines": "M7, T4",
+        "current_flow_betweenness_lcc": 0.22101952370066158
+      }
+    ],
+    "pagerank_strength": [
+      {
+        "node_key": "X:Yenikapı",
+        "label": "Yenikapı",
+        "lines": "M1, M2, MAR, SIRKECI",
+        "pagerank_strength": 0.022029362280615052
+      },
+      {
+        "node_key": "X:Zeytinburnu",
+        "label": "Zeytinburnu",
+        "lines": "M1, T1, MAR",
+        "pagerank_strength": 0.012345791321322672
+      },
+      {
+        "node_key": "X:Sirkeci",
+        "label": "Sirkeci",
+        "lines": "T1, MAR, SIRKECI",
+        "pagerank_strength": 0.012284361631109478
+      },
+      {
+        "node_key": "X:Mecidiyeköy",
+        "label": "Şişli-Mecidiyeköy",
+        "lines": "M2, M7",
+        "pagerank_strength": 0.01225722153405723
+      },
+      {
+        "node_key": "X:Bostancı",
+        "label": "Bostancı / Bostancı (Marmaray)",
+        "lines": "M4, M8, MAR",
+        "pagerank_strength": 0.012046259914464763
+      },
+      {
+        "node_key": "X:Dudullu",
+        "label": "Dudullu",
+        "lines": "M5, M8",
+        "pagerank_strength": 0.010714931103295296
+      },
+      {
+        "node_key": "X:Ayrılık Çeşmesi",
+        "label": "Ayrılık Çeşmesi",
+        "lines": "M4, MAR",
+        "pagerank_strength": 0.010044064887705938
+      },
+      {
+        "node_key": "X:Kiptaş-Venezia",
+        "label": "Karadeniz Mahallesi / Kiptaş Venezia",
+        "lines": "M7, T4",
+        "pagerank_strength": 0.009692997920816968
+      },
+      {
+        "node_key": "X:Üsküdar",
+        "label": "Üsküdar",
+        "lines": "M5, MAR",
+        "pagerank_strength": 0.009339963076641498
+      },
+      {
+        "node_key": "X:Kozyatağı",
+        "label": "Kozyatağı",
+        "lines": "M4, M8",
+        "pagerank_strength": 0.008882603407147555
+      }
+    ],
+    "passenger_mean_daily": [
+      {
+        "node_key": "X:Yenikapı",
+        "label": "Yenikapı",
+        "lines": "M1, M2, MAR, SIRKECI",
+        "passenger_mean_daily": 186373.14520547946
+      },
+      {
+        "node_key": "X:Üsküdar",
+        "label": "Üsküdar",
+        "lines": "M5, MAR",
+        "passenger_mean_daily": 114264.38904109588
+      },
+      {
+        "node_key": "X:Mecidiyeköy",
+        "label": "Şişli-Mecidiyeköy",
+        "lines": "M2, M7",
+        "passenger_mean_daily": 103855.4301369863
+      },
+      {
+        "node_key": "X:Ayrılık Çeşmesi",
+        "label": "Ayrılık Çeşmesi",
+        "lines": "M4, MAR",
+        "passenger_mean_daily": 62484.2301369863
+      },
+      {
+        "node_key": "X:Sirkeci",
+        "label": "Sirkeci",
+        "lines": "T1, MAR, SIRKECI",
+        "passenger_mean_daily": 57854.983561643836
+      },
+      {
+        "node_key": "X:Zeytinburnu",
+        "label": "Zeytinburnu",
+        "lines": "M1, T1, MAR",
+        "passenger_mean_daily": 51708.38082191781
+      },
+      {
+        "node_key": "X:Mahmutbey",
+        "label": "Mahmutbey",
+        "lines": "M3, M7",
+        "passenger_mean_daily": 45576.54520547945
+      },
+      {
+        "node_key": "X:Levent",
+        "label": "Levent",
+        "lines": "M2, M6",
+        "passenger_mean_daily": 42262.797260273976
+      },
+      {
+        "node_key": "X:Bostancı",
+        "label": "Bostancı / Bostancı (Marmaray)",
+        "lines": "M4, M8, MAR",
+        "passenger_mean_daily": 41638.364383561646
+      },
+      {
+        "node_key": "M2:osmanbey",
+        "label": "Osmanbey",
+        "lines": "M2",
+        "passenger_mean_daily": 39574.67123287671
+      }
+    ]
+  },
+  "powerlaw": {
+    "status": "not calculated",
+    "reason": "ModuleNotFoundError: No module named 'powerlaw'",
+    "install_hint": "pip install powerlaw"
+  },
+  "null_model": {
+    "status": "calculated",
+    "replicates_requested": 100,
+    "replicates_completed": 100,
+    "attempts": 100,
+    "unique_random_networks": 100,
+    "degree_sequence_preserved_count": 100,
+    "all_null_graphs_connected": true,
+    "base_graph_scope": "largest connected component; observed and null graph metrics use the same node set; connected degree-preserving swaps.",
+    "modularity_comparison": "unweighted Louvain modularity on observed LCC and each null LCC; same definition on both sides.",
+    "metrics": {
+      "average_clustering_lcc": {
+        "observed": 0.0,
+        "null_mean": 0.0014956304619225965,
+        "null_std": 0.0032912176544988734,
+        "z_score": -0.45443073625901653,
+        "empirical_upper_tail_p": 1.0,
+        "n_valid": 100
+      },
+      "average_shortest_path_lcc": {
+        "observed": 16.18211258483287,
+        "null_mean": 13.36546112472192,
+        "null_std": 0.8729591956592981,
+        "z_score": 3.226555690250432,
+        "empirical_upper_tail_p": 0.019801980198019802,
+        "n_valid": 100
+      },
+      "modularity_unweighted_lcc": {
+        "observed": 0.8436234085648149,
+        "null_mean": 0.8204038266782409,
+        "null_std": 0.005415968560564876,
+        "z_score": 4.287244585509977,
+        "empirical_upper_tail_p": 0.009900990099009901,
+        "n_valid": 100
+      }
+    },
+    "seconds": 5.8
+  },
+  "closure_scenario": {
+    "node_key": "X:Sirkeci",
+    "station": "Sirkeci",
+    "components_before": 2,
+    "components_after": 3,
+    "largest_component_nodes_before": 267,
+    "largest_component_nodes_after": 177,
+    "largest_component_fraction_before": 0.9925650557620818,
+    "largest_component_fraction_after": 0.6604477611940298,
+    "connected_pair_fraction_before": 0.9851855961826554,
+    "connected_pair_fraction_after": 0.5448320196768964,
+    "global_efficiency_before": 0.09253049451830601,
+    "global_efficiency_after": 0.06542986976711822,
+    "average_shortest_path_lcc_before": 16.18211258483287,
+    "average_shortest_path_lcc_after": 12.302709296353363,
+    "top_betweenness_increases_after_closure": [
+      {
+        "node_key": "M2:haliç",
+        "label": "Haliç",
+        "betweenness_before": 0.09211213861138393,
+        "betweenness_after": 0.13271005228426852,
+        "delta": 0.040597913672884595
+      },
+      {
+        "node_key": "M2:vezneciler-istanbul üniversitesi",
+        "label": "Vezneciler-İstanbul Üniversitesi",
+        "betweenness_before": 0.1012546284095839,
+        "betweenness_after": 0.1391822252259862,
+        "delta": 0.0379275968164023
+      },
+      {
+        "node_key": "T1:laleli-istanbul ü.",
+        "label": "Laleli-İstanbul Ü.",
+        "betweenness_before": 0.02179831181172794,
+        "betweenness_after": 0.034812217810443725,
+        "delta": 0.013013905998715786
+      },
+      {
+        "node_key": "T1:beyazıt-kapalıçarşı",
+        "label": "Beyazıt-Kapalıçarşı",
+        "betweenness_before": 0.004127303557120767,
+        "betweenness_after": 0.014615189659542114,
+        "delta": 0.010487886102421348
+      },
+      {
+        "node_key": "T1:çemberlitaş",
+        "label": "Çemberlitaş",
+        "betweenness_before": 0.0014086869025658193,
+        "betweenness_after": 0.009799780349750781,
+        "delta": 0.008391093447184961
+      },
+      {
+        "node_key": "T5:alibeyköy",
+        "label": "Alibeyköy",
+        "betweenness_before": 0.018014728391216758,
+        "betweenness_after": 0.022537617451869378,
+        "delta": 0.0045228890606526205
+      },
+      {
+        "node_key": "T5:üniversite",
+        "label": "Üniversite",
+        "betweenness_before": 0.014314662641846944,
+        "betweenness_after": 0.01820093304422104,
+        "delta": 0.003886270402374095
+      },
+      {
+        "node_key": "SIRKECI:kumkapı",
+        "label": "Kumkapı",
+        "betweenness_before": 0.0015903627927776848,
+        "betweenness_after": 0.004928050463236743,
+        "delta": 0.0033376876704590583
+      },
+      {
+        "node_key": "M7:yenimahalle",
+        "label": "Yenimahalle",
+        "betweenness_before": 0.05498004892604923,
+        "betweenness_after": 0.05756901617339226,
+        "delta": 0.0025889672473430325
+      },
+      {
+        "node_key": "X:Kabataş",
+        "label": "Kabataş",
+        "betweenness_before": 0.002321724709784411,
+        "betweenness_after": 0.0038058629720368335,
+        "delta": 0.0014841382622524223
+      }
+    ],
+    "interpretation_note": "Idealized node deletion: it removes the station and all incident edges. Global efficiency and connected-pair fraction are unweighted topological measures. This is not a measured passenger redistribution because origin-destination trips are absent; a real station closure may allow trains to pass through the station."
+  },
+  "critical_limitations": [
+    "The topology CSV is a manually transcribed draft based on the official network map and must be checked line-by-line before final submission.",
+    "Source line has 345 distinct nonblank station labels but many are directional entrances/platform variants; canonical station aliases are manual and need review.",
+    "No origin-destination matrix is included, so edge weights and closure load shifts are passenger-activity/topological proxies, not observed interstation passenger flows.",
+    "The graph has fewer than 500 nodes despite the generic assignment threshold; do not fabricate nodes. Ask the instructor whether the station-level case is exempt or whether scope must be expanded with valid data.",
+    "The supplied source contains 728 records with blank station name and 23,858 records with blank coordinates per axis; coordinate cleaning only fixes malformed numeric formatting and does not impute missing locations.",
+    "Power-law and Leiden results are only valid when their optional dependencies report calculated status; never describe a skipped calculation as a finding."
+  ]
+}

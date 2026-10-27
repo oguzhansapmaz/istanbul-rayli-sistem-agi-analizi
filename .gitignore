@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+# Preserve the supplied open data; remove this rule only if instructor asks you not to commit it.
